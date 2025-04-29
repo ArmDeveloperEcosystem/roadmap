@@ -215,12 +215,12 @@ def generate_report(month_filter=None, month_range=None):
 
     # Fetch and print Done items for the given month or range
     done_items = fetch_done_items(month_filter=month_filter, month_range=month_range)
-    print("\n\n## Published Learning Paths\n| Title | Start Date | Publish Date | Time to Publish (days) | Program |")
-    print("|-------|--------------|-------------|----------------------|-----|")
+    print("\n\n## Published Learning Paths\n| Title | Start Date | Publish Date | Time to Publish (days) | Program | Category |")
+    print("|-------|--------------|-------------|----------------------|-----|----------|")
     published_count = 0
     time_to_publish_values = []
     for item in done_items:
-        html_title = get_html_title(item['published_url']) if item['published_url'] else ''
+        html_title, category = get_html_title(item['published_url']) if item['published_url'] else ('', None)
         if html_title and html_title.endswith(' | Arm Learning Paths'):
             html_title = html_title[:-len(' | Arm Learning Paths')]
         title_link = f"[{html_title}]({item['published_url']})" if item['published_url'] else html_title
@@ -248,8 +248,18 @@ def generate_report(month_filter=None, month_range=None):
             except Exception:
                 time_to_publish = ''
         acm_col = "ACM" if item.get('acm_label') else ""
-        print(f"| {title_link} | {formatted_start_date} | {formatted_publish_date} | {time_to_publish} | {acm_col} |")
+        print(f"| {title_link} | {formatted_start_date} | {formatted_publish_date} | {time_to_publish} | {acm_col} | {category or ''} |")
         published_count += 1
+
+    # Count published Learning Paths by category
+    from collections import Counter
+    category_counts = Counter()
+    for item in done_items:
+        _, category = get_html_title(item['published_url']) if item['published_url'] else ('', None)
+        if category:
+            category_counts[category] += 1
+        else:
+            category_counts['(uncategorized)'] += 1
 
     print("\n| Statistic | Value |\n|-----------|-------|")
     print(f"| Number of Learning Paths published | {published_count} |")
@@ -263,6 +273,9 @@ def generate_report(month_filter=None, month_range=None):
     else:
         print(f"| Average time to publish (days) | N/A |")
         print(f"| Longest time to publish (days) | N/A |")
+    # Add category counts
+    for cat, count in category_counts.items():
+        print(f"| Number in '{cat}' | {count} |")
     print("")
 
     print(f"\n_Report generated on {datetime.datetime.now().astimezone().strftime('%B %d, %Y at %H:%M:%S %Z')}_\n")
@@ -282,18 +295,30 @@ def fetch_open_issues():
     return open_issues
 
 def get_html_title(url):
+    category = None
+    if url:
+        if url.startswith("https://learn.arm.com/install-guides"):
+            category = "install-guides"
+        elif url.startswith("https://learn.arm.com/learning-paths"):
+            # Extract the first directory after /learning-paths/
+            path = url[len("https://learn.arm.com/learning-paths/"):]
+            parts = path.split("/")
+            if len(parts) > 1 and parts[0]:
+                category = parts[0]
+            elif len(parts) == 1 and parts[0]:
+                category = parts[0]
     try:
         response = requests.get(url)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         title_tag = soup.find('title')
         if title_tag is not None and title_tag.string:
-            return title_tag.string.strip()
+            return title_tag.string.strip(), category
         else:
-            return None
+            return None, category
     except Exception as e:
         print(f"Error: {e}")
-        return None
+        return None, category
 
 if __name__ == "__main__":
     # Ensure the reports directory exists in the current working directory
