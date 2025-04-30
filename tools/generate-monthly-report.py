@@ -128,13 +128,21 @@ def fetch_done_items(month_filter=None, month_range=None):
         start_date = None
         publish_date = None
         acm_label = False
-        # Check for ACM label in content labels
+        cca_label = False
+        sme_label = False
+        
+        # Check for ACM, CCA and SME labels in content labels
         content = item.get("content", {})
         labels = []
         if content and "labels" in content and content["labels"] and "nodes" in content["labels"]:
             labels = [label["name"] for label in content["labels"]["nodes"] if "name" in label]
             if "ACM" in labels:
                 acm_label = True
+            if "CCA" in labels:
+                cca_label = True
+            if "SME" in labels:
+                sme_label = True
+                
         # Check for ACM label in each node's fieldValues
         for field in item["fieldValues"]["nodes"]:
             if (
@@ -174,7 +182,10 @@ def fetch_done_items(month_filter=None, month_range=None):
                     "published_url": published_url,
                     "start_date": start_date,
                     "publish_date": publish_date,
-                    "acm_label": acm_label
+                    "acm_label": acm_label,
+                    "cca_label": cca_label,
+                    "sme_label": sme_label,
+                    "content": item.get("content", {})
                 })
 
     return done_items
@@ -208,8 +219,11 @@ def generate_report(month_filter=None, month_range=None):
     planned_count = 0
     for issue in open_issues:
         acm_label = "ACM" if "ACM" in [label["name"] for label in issue.get("labels", [])] else ""
+        cca_label = "CCA" if "CCA" in [label["name"] for label in issue.get("labels", [])] else ""
+        sme_label = "SME" if "SME" in [label["name"] for label in issue.get("labels", [])] else ""
+        program_col = " ".join(filter(None, [acm_label, cca_label, sme_label]))
         created_date = datetime.datetime.strptime(issue.get("created_at", ""), "%Y-%m-%dT%H:%M:%SZ").strftime("%B %d, %Y")
-        print(f"| [{issue['title']}]({issue['html_url']}) | {acm_label} | {created_date} |")
+        print(f"| [{issue['title']}]({issue['html_url']}) | {program_col} | {created_date} |")
         planned_count += 1
     print(f"\nTotal planned learning paths: {planned_count}\n")
 
@@ -247,8 +261,14 @@ def generate_report(month_filter=None, month_range=None):
                 time_to_publish_values.append(time_to_publish)
             except Exception:
                 time_to_publish = ''
-        acm_col = "ACM" if item.get('acm_label') else ""
-        print(f"| {title_link} | {formatted_start_date} | {formatted_publish_date} | {time_to_publish} | {acm_col} | {category or ''} |")
+        
+        # Check for ACM, CCA, and SME labels
+        acm_label = "ACM" if item.get('acm_label') else ""
+        cca_label = "CCA" if item.get('cca_label') else ""
+        sme_label = "SME" if item.get('sme_label') else ""
+        program_col = " ".join(filter(None, [acm_label, cca_label, sme_label]))
+        
+        print(f"| {title_link} | {formatted_start_date} | {formatted_publish_date} | {time_to_publish} | {program_col} | {category or ''} |")
         published_count += 1
 
     # Count published Learning Paths by category

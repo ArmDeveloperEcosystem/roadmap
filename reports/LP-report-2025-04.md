@@ -18,7 +18,7 @@ Total planned learning paths: 6
 | Title | Start Date | Publish Date | Time to Publish (days) | Program | Category |
 |-------|--------------|-------------|----------------------|-----|----------|
 | [Boost C++ performance by optimizing loops with boundary information](https://learn.arm.com/learning-paths/cross-platform/cpp-loop-size-context/) | March 26, 2025 | April 21, 2025 | 26 | ACM | cross-platform |
-| [Build a CCA Attestation Service on AWS with Veraison](https://learn.arm.com/learning-paths/servers-and-cloud-computing/cca-veraison-aws/) | March 20, 2025 | April 25, 2025 | 36 |  | servers-and-cloud-computing |
+| [Build a CCA Attestation Service on AWS with Veraison](https://learn.arm.com/learning-paths/servers-and-cloud-computing/cca-veraison-aws/) | March 20, 2025 | April 25, 2025 | 36 | CCA | servers-and-cloud-computing |
 | [Building and Benchmarking DLRM on Arm Neoverse V2 with MLPerf](https://learn.arm.com/learning-paths/servers-and-cloud-computing/dlrm/) | February 28, 2025 | April 04, 2025 | 35 | ACM | servers-and-cloud-computing |
 | [Optimizing graphics using Frame Advisorâs render graphs](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/render-graph-optimization/) | March 19, 2025 | April 13, 2025 | 25 |  | mobile-graphics-and-gaming |
 | [Explore floating-point differences between x86 and Arm](https://learn.arm.com/learning-paths/cross-platform/floating-point-rounding-errors/) | March 17, 2025 | April 04, 2025 | 18 | ACM | cross-platform |
@@ -45,5 +45,5 @@ Total planned learning paths: 6
 | Number in 'laptops-and-desktops' | 1 |
 
 
-_Report generated on April 29, 2025 at 17:00:10 CDT_
+_Report generated on April 30, 2025 at 12:56:16 CDT_
 
