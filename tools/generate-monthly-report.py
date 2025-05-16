@@ -210,26 +210,12 @@ def generate_report(month_filter=None, month_range=None):
         report_date = today.strftime("%B %Y")
         month_filter = today.strftime("%Y-%m")
 
-    print(f"## Learning Path Monthly Report for {report_date}\n")
+    print(f"## Learning Path Report for {report_date}\n")
 
-    # Planned Learning Paths Table
-    print("## Planned Learning Paths\n| Title | Program | Created Date |")
-    print("|-------|-----|--------------|")
-    open_issues = fetch_open_issues()
-    planned_count = 0
-    for issue in open_issues:
-        acm_label = "ACM" if "ACM" in [label["name"] for label in issue.get("labels", [])] else ""
-        cca_label = "CCA" if "CCA" in [label["name"] for label in issue.get("labels", [])] else ""
-        sme_label = "SME" if "SME" in [label["name"] for label in issue.get("labels", [])] else ""
-        program_col = " ".join(filter(None, [acm_label, cca_label, sme_label]))
-        created_date = datetime.datetime.strptime(issue.get("created_at", ""), "%Y-%m-%dT%H:%M:%SZ").strftime("%B %d, %Y")
-        print(f"| [{issue['title']}]({issue['html_url']}) | {program_col} | {created_date} |")
-        planned_count += 1
-    print(f"\nTotal planned learning paths: {planned_count}\n")
-
+ 
     # Fetch and print Done items for the given month or range
     done_items = fetch_done_items(month_filter=month_filter, month_range=month_range)
-    print("\n\n## Published Learning Paths\n| Title | Start Date | Publish Date | Time to Publish (days) | Program | Category |")
+    print("\n## Published Learning Paths\n| Title | Start Date | Publish Date | Time to Publish (days) | Program | Category |")
     print("|-------|--------------|-------------|----------------------|-----|----------|")
     published_count = 0
     time_to_publish_values = []
@@ -297,6 +283,21 @@ def generate_report(month_filter=None, month_range=None):
     for cat, count in category_counts.items():
         print(f"| Number in '{cat}' | {count} |")
     print("")
+
+    # Planned Learning Paths Table
+    print("## Planned Learning Paths\n| Title | Program | Created Date |")
+    print("|-------|-----|--------------|")
+    open_issues = fetch_open_issues()
+    planned_count = 0
+    for issue in open_issues:
+        acm_label = "ACM" if "ACM" in [label["name"] for label in issue.get("labels", [])] else ""
+        cca_label = "CCA" if "CCA" in [label["name"] for label in issue.get("labels", [])] else ""
+        sme_label = "SME" if "SME" in [label["name"] for label in issue.get("labels", [])] else ""
+        program_col = " ".join(filter(None, [acm_label, cca_label, sme_label]))
+        created_date = datetime.datetime.strptime(issue.get("created_at", ""), "%Y-%m-%dT%H:%M:%SZ").strftime("%B %d, %Y")
+        print(f"| [{issue['title']}]({issue['html_url']}) | {program_col} | {created_date} |")
+        planned_count += 1
+    print(f"\nTotal planned Learning Paths: {planned_count}\n")
 
     print(f"\n_Report generated on {datetime.datetime.now().astimezone().strftime('%B %d, %Y at %H:%M:%S %Z')}_\n")
 
