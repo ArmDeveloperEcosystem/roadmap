@@ -4,30 +4,31 @@
 ## Published Learning Paths
 | Title | Start Date | Publish Date | Time to Publish (days) | Program | Category |
 |-------|--------------|-------------|----------------------|-----|----------|
-| [Generate audio with Stable Audio Open Small on LiteRT](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-open-small-with-lite-rt/) | May 14, 2025 | May 15, 2025 | 1 |  | mobile-graphics-and-gaming |
 | [Deploy DeepSeek-R1 on Arm Servers with llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/deepseek-cpu/) | March 20, 2025 | May 02, 2025 | 43 | ACM | servers-and-cloud-computing |
 | [Run Phi-3 on Windows on Arm using ONNX Runtime](https://learn.arm.com/learning-paths/laptops-and-desktops/win_on_arm_build_onnxruntime/) | April 08, 2025 | May 02, 2025 | 24 |  | laptops-and-desktops |
 | [Deploy a LLM-based Vision Chatbot with PyTorch and Hugging Face Transformers on Google Axion processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/llama-vision/) | March 27, 2025 | May 02, 2025 | 36 | ACM | servers-and-cloud-computing |
 | [Get started with Arm Performance Studio](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/ams/) | April 11, 2025 | May 02, 2025 | 21 |  | mobile-graphics-and-gaming |
-| [Getting started with CMSIS-DSP using Python](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/cmsisdsp-dev-with-python/) | April 22, 2025 | May 10, 2025 | 18 |  | embedded-and-microcontrollers |
-| [Microbenchmark storage performance with fio on Arm](https://learn.arm.com/learning-paths/servers-and-cloud-computing/disk-io-benchmark/) | April 22, 2025 | May 12, 2025 | 20 | ACM | servers-and-cloud-computing |
 | [PyTorch for Windows on Arm](https://learn.arm.com/install-guides/pytorch-woa/) | April 24, 2025 | May 02, 2025 | 8 |  | install-guides |
+| [Getting started with CMSIS-DSP using Python](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/cmsisdsp-dev-with-python/) | April 22, 2025 | May 10, 2025 | 18 |  | embedded-and-microcontrollers |
 | [Accelerate Voice Assistant performance with KleidiAI and SME2](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/voice-assistant/) | April 28, 2025 | May 10, 2025 | 12 |  | mobile-graphics-and-gaming |
 | [Optimize C++ performance with Profile-Guided Optimization and Google Benchmark](https://learn.arm.com/learning-paths/servers-and-cloud-computing/cpp-profile-guided-optimisation/) | April 29, 2025 | May 10, 2025 | 11 | ACM | servers-and-cloud-computing |
-| [Deploy Phi-3.5 Vision with ONNX Runtime on Azure Cobalt 100](https://learn.arm.com/learning-paths/servers-and-cloud-computing/onnx/) | April 29, 2025 | May 10, 2025 | 11 | ACM | servers-and-cloud-computing |
+| [Deploy Phi-4-mini model with ONNX Runtime on Azure Cobalt 100](https://learn.arm.com/learning-paths/servers-and-cloud-computing/onnx/) | April 29, 2025 | May 10, 2025 | 11 | ACM | servers-and-cloud-computing |
 | [Accelerate Voice Assistant performance with KleidiAI and SME2](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/voice-assistant/) | May 07, 2025 | May 10, 2025 | 3 |  | mobile-graphics-and-gaming |
+| [Microbenchmark storage performance with fio on Arm](https://learn.arm.com/learning-paths/servers-and-cloud-computing/disk-io-benchmark/) | April 22, 2025 | May 12, 2025 | 20 | ACM | servers-and-cloud-computing |
+| [Generate audio with Stable Audio Open Small on LiteRT](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-open-small-with-lite-rt/) | May 14, 2025 | May 15, 2025 | 1 |  | mobile-graphics-and-gaming |
+| [Migrate applications to Arm servers using migrate-ease](https://learn.arm.com/learning-paths/servers-and-cloud-computing/migrate-ease/) | May 09, 2025 | May 19, 2025 | 10 | ACM | servers-and-cloud-computing |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 12 |
-| Number of ACM Learning Paths published | 5 |
-| Average time to publish (days) | 17.3 |
+| Number of Learning Paths published | 13 |
+| Number of ACM Learning Paths published | 6 |
+| Average time to publish (days) | 16.8 |
 | Longest time to publish (days) | 43 |
-| Number in 'mobile-graphics-and-gaming' | 4 |
-| Number in 'servers-and-cloud-computing' | 5 |
+| Number in 'servers-and-cloud-computing' | 6 |
 | Number in 'laptops-and-desktops' | 1 |
-| Number in 'embedded-and-microcontrollers' | 1 |
+| Number in 'mobile-graphics-and-gaming' | 4 |
 | Number in 'install-guides' | 1 |
+| Number in 'embedded-and-microcontrollers' | 1 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -43,5 +44,5 @@
 Total planned Learning Paths: 7
 
 
-_Report generated on May 16, 2025 at 09:02:15 CDT_
+_Report generated on May 19, 2025 at 10:11:52 CDT_
 

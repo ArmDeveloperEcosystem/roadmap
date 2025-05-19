@@ -215,6 +215,12 @@ def generate_report(month_filter=None, month_range=None):
  
     # Fetch and print Done items for the given month or range
     done_items = fetch_done_items(month_filter=month_filter, month_range=month_range)
+    # Sort done_items by publish_date (ascending), handling None as last
+    def sort_key(item):
+        pd = item.get('publish_date')
+        return (pd is None, pd)
+    done_items = sorted(done_items, key=sort_key)
+
     print("\n## Published Learning Paths\n| Title | Start Date | Publish Date | Time to Publish (days) | Program | Category |")
     print("|-------|--------------|-------------|----------------------|-----|----------|")
     published_count = 0
