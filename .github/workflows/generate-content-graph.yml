@@ -1,0 +1,47 @@
+name: Generate Content Graph
+
+on:
+  # Manual trigger
+  workflow_dispatch:
+  
+  # Run on the first day of every month at 10:15 PM UTC
+  schedule:
+    - cron: '15 22 1 * *'
+
+jobs:
+  generate-graph:
+    runs-on: ubuntu-24.04-arm
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install matplotlib
+          
+      - name: Generate content graph
+        run: |
+          python tools/plot-content-counts.py
+          
+      - name: Check if graph was updated
+        id: check_changes
+        run: |
+          git diff --quiet reports/content-count/content_over_time.png || echo "changes=true" >> $GITHUB_OUTPUT
+          
+      - name: Commit and push if graph changed
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add reports/content-count/content_over_time.png
+          git commit -m "Update content graph [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
