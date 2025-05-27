@@ -1,16 +1,16 @@
-# Arm Learning Paths Roadmap
+# Arm Learning Path Roadmap
 
 Arm Learning Paths are maintained at: https://github.com/ArmDeveloperEcosystem/arm-learning-paths 
 
-## Learning Paths project
+## Learning Path Project
 
 There is a project which tracks the Todo, In Progress, and Published Learning Paths at https://github.com/orgs/ArmDeveloperEcosystem/projects/4 
 
-## Learning Paths roadmap (Todo)
+## Learning Path Roadmap (Todo)
 
-Put roadmap items for new Learning Paths on the project Todo list by creating an [issue in this repository](https://github.com/ArmDeveloperEcosystem/roadmap/issues) with the title of the proposed Learning Path and some information in the description about it. 
+Put roadmap items for new Learning Paths on the project Todo list by creating an [issue in this repository](https://github.com/ArmDeveloperEcosystem/roadmap/issues) with the title of the proposed Learning Path and a short summary of the concept.
 
-## Learning Path reports
+## Learning Path Reports
 
 Use the Python script `tools/generate-monthly-report.py` to generate reports of the current Todo items and the published Learning Paths.
 
@@ -55,7 +55,7 @@ python3 tools/generate-monthly-report.py --month-range 2025-03 2025-04
 
 The report is generated in the `reports/` directory.
 
-## Total content count
+## Learning Path Content Count 
 
 The total number of Learning Path contents over time is tracked using the scripts `tools/count-content.py` and `tools/plot-content-counts.py`.
 
