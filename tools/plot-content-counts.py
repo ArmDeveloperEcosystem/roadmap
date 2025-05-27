@@ -52,10 +52,9 @@ plt.tight_layout()
 
 # Annotate numbers at the start of each quarter
 for i, dt in enumerate(dates):
-    if dt.month in [1, 4, 7, 10]:  # Start of each quarter
+    if dt.month in [1, 4, 7, 10] or i == 0 or i == len(dates) - 1:  # Start of each quarter, first point, and last point
         plt.annotate(str(install_guides[i]), (dt, install_guides[i]), textcoords="offset points", xytext=(0,10), ha='center', fontsize=8, color='tab:blue')
         plt.annotate(str(unique_paths[i]), (dt, unique_paths[i]), textcoords="offset points", xytext=(0,10), ha='center', fontsize=8, color='tab:orange')
         plt.annotate(str(published_content[i]), (dt, published_content[i]), textcoords="offset points", xytext=(0,10), ha='center', fontsize=8, color='tab:green')
 
 plt.savefig('reports/content-count/content_over_time.png')
-plt.show()
