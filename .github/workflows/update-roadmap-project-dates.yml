@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate monthly report
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT: ${{ secrets.PAT }}
         run: |
           if [ -n "${{ github.event.inputs.month_range }}" ]; then
             RANGE=(${{ github.event.inputs.month_range }})
@@ -51,4 +51,4 @@ jobs:
           git commit -m "Add monthly learning path report [skip ci]" || echo "No changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
