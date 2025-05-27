@@ -54,3 +54,33 @@ python3 tools/generate-monthly-report.py --month-range 2025-03 2025-04
 ```
 
 The report is generated in the `reports/` directory.
+
+## Total content count
+
+The total number of Learning Path contents over time is tracked using the scripts `tools/count-content.py` and `tools/plot-content-counts.py`.
+
+- **`tools/count-content.py`**: This script counts the number of unique Learning Paths, shared Learning Paths, drafts, and Install Guides in the repository. It generates a Markdown summary report (e.g., `content_summary_MM-DD-YYYY.md`) in the `reports/content-count/` directory. You can run it directly from the root of a checked-out Learning Paths repository:
+
+  ```console
+  python3 tools/count-content.py
+  ```
+  
+  The script will output a summary to the console and write a detailed report to `content_summary.md`.
+
+- **`count-content.sh`**: This shell script automates running `count-content.py` for a specific date (to analyze the repository at a point in time). It clones or updates the Learning Paths repository, sets up a Python environment, and runs the content count script. The resulting report is saved in `reports/content-count/` with a date-stamped filename:
+
+  ```console
+  ./count-content.sh MM-DD-YYYY
+  ```
+  
+  If no date is provided, it uses the current date.
+
+- **`tools/plot-content-counts.py`**: This script reads all the date-stamped summary reports in `reports/content-count/` and generates a plot (`content_over_time.png`) showing the growth of Install Guides, unique Learning Paths, and total published content over time. Run it as follows:
+
+  ```console
+  python3 tools/plot-content-counts.py
+  ```
+
+The generated plot can be found at `reports/content-count/content_over_time.png`.
+
+These tools help track the evolution of Learning Path content and visualize growth trends over time.
