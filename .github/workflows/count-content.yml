@@ -7,18 +7,6 @@ on:
         description: 'Date to count content for (MM-DD-YYYY format)'
         required: false
         default: ''
-      month:
-        description: 'Month (1-12)'
-        required: false
-        default: ''
-      day:
-        description: 'Day (1-31)'
-        required: false
-        default: ''
-      year:
-        description: 'Year (YYYY)'
-        required: false
-        default: ''
   schedule:
     # Run at 10 PM UTC on the first day of each month
     - cron: '0 22 1 * *'
@@ -47,11 +35,6 @@ jobs:
             # Use the provided date directly
             echo "DATE_STAMP=${{ github.event.inputs.date }}" >> $GITHUB_ENV
             echo "GIT_DATE=$(date -d "${{ github.event.inputs.date }}" +"%Y-%m-%d")" >> $GITHUB_ENV
-          elif [ -n "${{ github.event.inputs.month }}" ] && [ -n "${{ github.event.inputs.day }}" ] && [ -n "${{ github.event.inputs.year }}" ]; then
-            # Construct date from individual components
-            DATE_STAMP="${{ github.event.inputs.month }}-${{ github.event.inputs.day }}-${{ github.event.inputs.year }}"
-            echo "DATE_STAMP=$DATE_STAMP" >> $GITHUB_ENV
-            echo "GIT_DATE=$(date -d "$DATE_STAMP" +"%Y-%m-%d")" >> $GITHUB_ENV
           else
             # Default to today's date
             echo "DATE_STAMP=$(date +"%m-%-d-%Y")" >> $GITHUB_ENV
