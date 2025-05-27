@@ -1,0 +1,118 @@
+name: Count Learning Path Content
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date to count content for (MM-DD-YYYY format)'
+        required: false
+        default: ''
+      month:
+        description: 'Month (1-12)'
+        required: false
+        default: ''
+      day:
+        description: 'Day (1-31)'
+        required: false
+        default: ''
+      year:
+        description: 'Year (YYYY)'
+        required: false
+        default: ''
+  schedule:
+    # Run at 10 PM UTC on the first day of each month
+    - cron: '0 22 1 * *'
+
+jobs:
+  count-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Determine date to use
+        id: get-date
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            # Use the provided date directly
+            echo "DATE_STAMP=${{ github.event.inputs.date }}" >> $GITHUB_ENV
+            echo "GIT_DATE=$(date -d "${{ github.event.inputs.date }}" +"%Y-%m-%d")" >> $GITHUB_ENV
+          elif [ -n "${{ github.event.inputs.month }}" ] && [ -n "${{ github.event.inputs.day }}" ] && [ -n "${{ github.event.inputs.year }}" ]; then
+            # Construct date from individual components
+            DATE_STAMP="${{ github.event.inputs.month }}-${{ github.event.inputs.day }}-${{ github.event.inputs.year }}"
+            echo "DATE_STAMP=$DATE_STAMP" >> $GITHUB_ENV
+            echo "GIT_DATE=$(date -d "$DATE_STAMP" +"%Y-%m-%d")" >> $GITHUB_ENV
+          else
+            # Default to today's date
+            echo "DATE_STAMP=$(date +"%m-%-d-%Y")" >> $GITHUB_ENV
+            echo "GIT_DATE=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
+          fi
+
+      - name: Create reports directory
+        run: mkdir -p reports/content-count
+
+      - name: Clone Arm Learning Paths repository
+        run: |
+          git clone https://github.com/ArmDeveloperEcosystem/arm-learning-paths.git
+
+      - name: Checkout specific date if provided
+        if: env.GIT_DATE != ''
+        run: |
+          cd arm-learning-paths
+          # Detect default branch
+          if git show-ref --verify --quiet refs/heads/main; then
+            DEFAULT_BRANCH="main"
+          else
+            DEFAULT_BRANCH="master"
+          fi
+          
+          # Check if date is in the future
+          CURRENT_DATE=$(date +"%Y-%m-%d")
+          if [[ "${{ env.GIT_DATE }}" > "$CURRENT_DATE" ]]; then
+            echo "Date ${{ env.GIT_DATE }} is in the future. Using current $DEFAULT_BRANCH branch instead."
+            git checkout "$DEFAULT_BRANCH"
+          else
+            # Find the latest commit on or before the date
+            COMMIT_HASH=$(git rev-list -1 --before="${{ env.GIT_DATE }} 23:59:59" "$DEFAULT_BRANCH")
+            if [ -z "$COMMIT_HASH" ]; then
+              echo "No commit found on or before ${{ env.GIT_DATE }}. Using current $DEFAULT_BRANCH branch instead."
+              git checkout "$DEFAULT_BRANCH"
+            else
+              git checkout "$COMMIT_HASH"
+            fi
+          fi
+
+      - name: Copy count-content.py to repo if needed
+        run: |
+          if [ ! -f "arm-learning-paths/tools/count-content.py" ]; then
+            cp tools/count-content.py arm-learning-paths/tools/count-content.py
+          fi
+
+      - name: Run content count script
+        run: |
+          cd arm-learning-paths
+          python tools/count-content.py
+
+      - name: Copy report to reports directory
+        run: |
+          cp arm-learning-paths/content_summary.md reports/content-count/content_summary_${{ env.DATE_STAMP }}.md
+
+      - name: Commit and push report to repository
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add reports/content-count/
+          git commit -m "Add content count report for ${{ env.DATE_STAMP }} [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
