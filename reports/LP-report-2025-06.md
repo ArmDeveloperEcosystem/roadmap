@@ -4,13 +4,16 @@
 ## Published Learning Paths
 | Title | Start Date | Publish Date | Time to Publish (days) | Program | Category |
 |-------|--------------|-------------|----------------------|-----|----------|
+| [Analyze cache behavior with Perf C2C on Arm](https://learn.arm.com/learning-paths/servers-and-cloud-computing/false-sharing-arm-spe/) | May 13, 2025 | June 02, 2025 | 20 | ACM | servers-and-cloud-computing |
+| [Explore performance gains by increasing the Linux kernel page size on Arm](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arm_linux_page_size/) | May 20, 2025 | June 02, 2025 | 13 | ACM | servers-and-cloud-computing |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 0 |
-| Number of ACM Learning Paths published | 0 |
-| Average time to publish (days) | N/A |
-| Longest time to publish (days) | N/A |
+| Number of Learning Paths published | 2 |
+| Number of ACM Learning Paths published | 2 |
+| Average time to publish (days) | 16.5 |
+| Longest time to publish (days) | 20 |
+| Number in 'servers-and-cloud-computing' | 2 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -28,5 +31,5 @@
 Total planned Learning Paths: 9
 
 
-_Report generated on June 02, 2025 at 23:06:30 UTC_
+_Report generated on June 02, 2025 at 23:11:37 UTC_
 
