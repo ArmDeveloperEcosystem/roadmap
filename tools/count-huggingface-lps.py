@@ -70,11 +70,12 @@ def find_huggingface_learning_paths(repo_dir):
 
 def write_markdown_table(learning_paths, output_file):
     with open(output_file, 'w') as f:
-        f.write("# Learning Paths with 'Hugging Face' Tag\n\n")
-        f.write("| Title | Category | Path |\n")
-        f.write("|-------|----------|------|\n")
+        f.write("# Hugging Face Learning Paths\n\n")
+        f.write("| Title | Category |\n")
+        f.write("|-------|----------|\n")
         for lp in learning_paths:
-            f.write(f"| {lp.title} | {lp.category} | {lp.path} |\n")
+            url = f"https://learn.arm.com/learning-paths/{lp.path}"
+            f.write(f"| [{lp.title}]({url}) | {lp.category} |\n")
     print(f"Markdown report written to {output_file}")
 
 def main():
