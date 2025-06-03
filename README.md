@@ -84,3 +84,33 @@ The total number of Learning Path contents over time is tracked using the script
 The generated plot can be found at `reports/content-count/content_over_time.png`.
 
 These tools help track the evolution of Learning Path content and visualize growth trends over time.
+
+## Hugging Face Learning Paths
+
+To list all Learning Paths that use the "Hugging Face" tag, use the script `tools/count-huggingface-lps.py`. This script clones the main branch of the Arm Learning Paths repository, scans all `_index.md` files for the "Hugging Face" tag in the `tools_software_languages` section, and generates a markdown table with the Learning Path title, category, and a direct link.
+
+**How to run:**
+
+First, ensure your Python environment is set up and dependencies are installed:
+
+```console
+python3 -m venv venv
+source venv/bin/activate
+pip install -r tools/requirements.txt
+```
+
+Then run the script:
+
+```console
+python3 tools/count-huggingface-lps.py
+```
+
+**Output:**
+
+The results will be written to:
+
+```
+reports/hugging-face/huggingface-learning-paths.md
+```
+
+This file contains a table listing all Learning Paths with the "Hugging Face" tag, including their category and a direct link to each Learning Path on learn.arm.com.

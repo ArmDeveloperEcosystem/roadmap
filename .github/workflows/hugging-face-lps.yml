@@ -1,0 +1,39 @@
+name: Update Hugging Face Learning Paths
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 23 * * 0'  # Every Sunday at 11 PM
+
+jobs:
+  update-huggingface-lps:
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Python dependencies
+        run: |
+          python3 -m venv venv
+          source venv/bin/activate
+          pip install -r tools/requirements.txt
+
+      - name: Run Hugging Face Learning Paths script
+        run: |
+          source venv/bin/activate
+          python3 tools/count-huggingface-lps.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/hugging-face/huggingface-learning-paths.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Hugging Face Learning Paths report [auto]"
+            git push
+          fi
