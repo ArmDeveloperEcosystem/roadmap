@@ -71,6 +71,7 @@ def find_huggingface_learning_paths(repo_dir):
 def write_markdown_table(learning_paths, output_file):
     with open(output_file, 'w') as f:
         f.write("# Hugging Face Learning Paths\n\n")
+        f.write(f"Total Hugging Face Learning Paths: {len(learning_paths)}\n\n")
         f.write("| Title | Category |\n")
         f.write("|-------|----------|\n")
         for lp in learning_paths:

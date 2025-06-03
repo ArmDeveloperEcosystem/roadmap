@@ -1,5 +1,7 @@
 # Hugging Face Learning Paths
 
+Total Hugging Face Learning Paths: 17
+
 | Title | Category |
 |-------|----------|
 | [Run Llama 3 on a Raspberry Pi 5 using ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/rpi-llama3) | embedded-and-microcontrollers |
