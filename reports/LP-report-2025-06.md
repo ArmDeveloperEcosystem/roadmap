@@ -11,16 +11,20 @@
 | [Run AI models with Docker Model Runner](https://learn.arm.com/learning-paths/laptops-and-desktops/docker-models/) | June 02, 2025 | June 14, 2025 | 12 |  | laptops-and-desktops |
 | [Accelerate Bitmap Scanning with NEON and SVE Instructions on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/bitmap_scan_sve2/) | June 02, 2025 | June 14, 2025 | 12 | ACM | servers-and-cloud-computing |
 | [Accelerate search performance with SVE2 MATCH on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/sve2-match/) | June 04, 2025 | June 14, 2025 | 10 | ACM | servers-and-cloud-computing |
+|  | June 12, 2025 | June 20, 2025 | 8 | ACM |  |
+|  | June 12, 2025 | June 20, 2025 | 8 | ACM |  |
+|  | June 20, 2025 | June 20, 2025 | 0 | ACM |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 7 |
-| Number of ACM Learning Paths published | 5 |
-| Average time to publish (days) | 13.0 |
+| Number of Learning Paths published | 10 |
+| Number of ACM Learning Paths published | 8 |
+| Average time to publish (days) | 10.7 |
 | Longest time to publish (days) | 20 |
 | Number in 'servers-and-cloud-computing' | 5 |
 | Number in 'mobile-graphics-and-gaming' | 1 |
 | Number in 'laptops-and-desktops' | 1 |
+| Number in '(uncategorized)' | 3 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -36,5 +40,5 @@
 Total planned Learning Paths: 7
 
 
-_Report generated on June 14, 2025 at 02:30:54 UTC_
+_Report generated on June 22, 2025 at 03:06:00 UTC_
 
