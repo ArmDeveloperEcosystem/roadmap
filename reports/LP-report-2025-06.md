@@ -14,17 +14,20 @@
 | [Migrate a .NET application to Azure Cobalt 100](https://learn.arm.com/learning-paths/servers-and-cloud-computing/dotnet-migration/) | June 12, 2025 | June 20, 2025 | 8 | ACM | servers-and-cloud-computing |
 | [Deploy a Cobalt 100 Virtual Machine on Azure](https://learn.arm.com/learning-paths/servers-and-cloud-computing/cobalt/) | June 12, 2025 | June 20, 2025 | 8 | ACM | servers-and-cloud-computing |
 | [DCPerf](https://learn.arm.com/install-guides/dcperf/) | June 20, 2025 | June 20, 2025 | 0 | ACM | install-guides |
+| [Debug Trusted Firmware-A and the Linux kernel on Arm FVP with Arm Development Studio](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/linux-on-fvp/) | May 02, 2025 | June 30, 2025 | 59 |  | embedded-and-microcontrollers |
+| [Benchmark Go performance with Sweet and Benchstat](https://learn.arm.com/learning-paths/servers-and-cloud-computing/go-benchmarking-with-sweet/) | June 12, 2025 | June 30, 2025 | 18 | ACM | servers-and-cloud-computing |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 10 |
-| Number of ACM Learning Paths published | 8 |
-| Average time to publish (days) | 10.7 |
-| Longest time to publish (days) | 20 |
-| Number in 'servers-and-cloud-computing' | 7 |
+| Number of Learning Paths published | 12 |
+| Number of ACM Learning Paths published | 9 |
+| Average time to publish (days) | 15.3 |
+| Longest time to publish (days) | 59 |
+| Number in 'servers-and-cloud-computing' | 8 |
 | Number in 'mobile-graphics-and-gaming' | 1 |
 | Number in 'laptops-and-desktops' | 1 |
 | Number in 'install-guides' | 1 |
+| Number in 'embedded-and-microcontrollers' | 1 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -40,5 +43,5 @@
 Total planned Learning Paths: 7
 
 
-_Report generated on June 22, 2025 at 03:13:41 UTC_
+_Report generated on July 01, 2025 at 03:07:35 UTC_
 
