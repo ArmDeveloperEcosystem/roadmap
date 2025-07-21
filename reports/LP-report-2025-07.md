@@ -10,16 +10,18 @@
 | [Optimize Arm applications and shared libraries with BOLT](https://learn.arm.com/learning-paths/servers-and-cloud-computing/bolt-merge/) | June 09, 2025 | July 10, 2025 | 31 | ACM | servers-and-cloud-computing |
 | [Build multi-architecture applications with Red Hat OpenShift Pipelines on AWS](https://learn.arm.com/learning-paths/servers-and-cloud-computing/openshift/) | July 01, 2025 | July 11, 2025 | 10 | ACM | servers-and-cloud-computing |
 | [Container CLI for macOS](https://learn.arm.com/install-guides/container/) | July 07, 2025 | July 12, 2025 | 5 |  | install-guides |
+| [Learn how to run AI on Edge devices using Arduino Nano RP2040](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/edge/) | May 30, 2025 | July 21, 2025 | 52 |  | embedded-and-microcontrollers |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 6 |
+| Number of Learning Paths published | 7 |
 | Number of ACM Learning Paths published | 4 |
-| Average time to publish (days) | 13.5 |
-| Longest time to publish (days) | 31 |
+| Average time to publish (days) | 19.0 |
+| Longest time to publish (days) | 52 |
 | Number in 'servers-and-cloud-computing' | 4 |
 | Number in 'cross-platform' | 1 |
 | Number in 'install-guides' | 1 |
+| Number in 'embedded-and-microcontrollers' | 1 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -35,5 +37,5 @@
 Total planned Learning Paths: 7
 
 
-_Report generated on July 21, 2025 at 22:22:08 UTC_
+_Report generated on July 21, 2025 at 22:28:15 UTC_
 
