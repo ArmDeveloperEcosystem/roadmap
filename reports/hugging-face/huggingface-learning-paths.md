@@ -1,6 +1,6 @@
 # Hugging Face Learning Paths
 
-Total Hugging Face Learning Paths: 17
+Total Hugging Face Learning Paths: 18
 
 | Title | Category |
 |-------|----------|
@@ -19,5 +19,6 @@ Total Hugging Face Learning Paths: 17
 | [Run a Large Language Model (LLM) chatbot with PyTorch using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pytorch-llama) | servers-and-cloud-computing |
 | [Build a RAG application using Zilliz Cloud on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/milvus-rag) | servers-and-cloud-computing |
 | [Deploy a RAG-based Chatbot with llama-cpp-python using KleidiAI on Google Axion processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rag) | servers-and-cloud-computing |
+| [Deploy Arcee AFM-4.5B on Arm-based AWS Graviton4 with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-aws) | servers-and-cloud-computing |
 | [Build and Run vLLM on Arm Servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing |
 | [Run a Natural Language Processing (NLP) model from Hugging Face on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/nlp-hugging-face) | servers-and-cloud-computing |
