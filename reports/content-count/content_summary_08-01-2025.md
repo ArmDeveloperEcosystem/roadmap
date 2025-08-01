@@ -1,6 +1,6 @@
 # Arm Learning Paths Content Summary
 
-This document provides a summary of the content available in the Arm Learning Paths repository as of July 25, 2025.
+This document provides a summary of the content available in the Arm Learning Paths repository as of August 01, 2025.
 
 ## Learning Paths by Category
 
@@ -13,8 +13,8 @@ The table below shows the breakdown of Learning Paths by category, including bot
 | Embedded And Microcontrollers | 58 | 56 | 43 | 15 | 2 |
 | IoT | 13 | 13 | 6 | 7 | 0 |
 | Laptops And Desktops | 65 | 64 | 38 | 27 | 1 |
-| Mobile Graphics And Gaming | 51 | 49 | 34 | 17 | 2 |
-| Servers And Cloud Computing | 154 | 151 | 128 | 26 | 3 |
+| Mobile Graphics And Gaming | 52 | 51 | 35 | 17 | 1 |
+| Servers And Cloud Computing | 155 | 150 | 129 | 26 | 5 |
 
 ## Install Guides
 
@@ -26,10 +26,10 @@ The table below shows the breakdown of Learning Paths by category, including bot
 
 | Metric | Count |
 |--------|-------|
-| Total Learning Paths (unique) | 287 |
-| Total Learning Paths (including shared) | 380 |
-| Total Learning Paths (drafts) | 11 |
-| Total Published Content (unique Learning Paths + Install Guides) | 377 |
+| Total Learning Paths (unique) | 289 |
+| Total Learning Paths (including shared) | 382 |
+| Total Learning Paths (drafts) | 12 |
+| Total Published Content (unique Learning Paths + Install Guides) | 379 |
 
 ## Notes
 
