@@ -15,18 +15,21 @@
 | [Build and deploy multi-node Zenoh systems on Raspberry Pi](https://learn.arm.com/learning-paths/cross-platform/zenoh-multinode-ros2/) | July 02, 2025 | July 25, 2025 | 23 |  | cross-platform |
 | [Tekton CLI (tkn)](https://learn.arm.com/install-guides/tkn/) | July 23, 2025 | July 25, 2025 | 2 | ACM | install-guides |
 | [OpenShift CLI (oc)](https://learn.arm.com/install-guides/oc/) | July 23, 2025 | July 25, 2025 | 2 | ACM | install-guides |
+| [Deploy Arcee AFM-4.5B on Arm-based AWS Graviton4 with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-aws/) | July 01, 2025 | July 31, 2025 | 30 | ACM | servers-and-cloud-computing |
+| [Profile Android game performance in Godot with Arm Performance Studio](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/godot_packages/) | July 24, 2025 | July 31, 2025 | 7 |  | mobile-graphics-and-gaming |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 11 |
-| Number of ACM Learning Paths published | 6 |
-| Average time to publish (days) | 17.9 |
+| Number of Learning Paths published | 13 |
+| Number of ACM Learning Paths published | 7 |
+| Average time to publish (days) | 18.0 |
 | Longest time to publish (days) | 52 |
-| Number in 'servers-and-cloud-computing' | 4 |
+| Number in 'servers-and-cloud-computing' | 5 |
 | Number in 'cross-platform' | 2 |
 | Number in 'install-guides' | 3 |
 | Number in 'embedded-and-microcontrollers' | 1 |
 | Number in 'automotive' | 1 |
+| Number in 'mobile-graphics-and-gaming' | 1 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -42,5 +45,5 @@
 Total planned Learning Paths: 7
 
 
-_Report generated on July 25, 2025 at 21:23:19 UTC_
+_Report generated on August 01, 2025 at 03:14:07 UTC_
 
