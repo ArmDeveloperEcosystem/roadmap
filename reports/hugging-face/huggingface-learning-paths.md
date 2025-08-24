@@ -1,6 +1,6 @@
 # Hugging Face Learning Paths
 
-Total Hugging Face Learning Paths: 18
+Total Hugging Face Learning Paths: 19
 
 | Title | Category |
 |-------|----------|
@@ -12,6 +12,7 @@ Total Hugging Face Learning Paths: 18
 | [Run Llama 3 on a Raspberry Pi 5 using ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/rpi-llama3) | embedded-and-microcontrollers |
 | [Run a Computer Vision Model on a Himax Microcontroller](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/yolo-on-himax) | embedded-and-microcontrollers |
 | [Run a local LLM chatbot on a Raspberry Pi 5](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/llama-python-cpu) | embedded-and-microcontrollers |
+| [Deploy Arcee AFM-4.5B on Arm-based Google Cloud Axion with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-gcp) | servers-and-cloud-computing |
 | [Accelerate Natural Language Processing (NLP) models from Hugging Face on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/benchmark-nlp) | servers-and-cloud-computing |
 | [Run an LLM chatbot with rtp-llm on Arm-based servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rtp-llm) | servers-and-cloud-computing |
 | [Deploy a Large Language Model (LLM) chatbot with llama.cpp using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/llama-cpu) | servers-and-cloud-computing |
