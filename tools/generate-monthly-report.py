@@ -18,13 +18,17 @@ if not GITHUB_TOKEN:
 ORGANIZATION = "ArmDeveloperEcosystem"
 PROJECT_NUMBER = 4
 
-# Update the GraphQL query to handle all possible types of ProjectV2ItemFieldValue
+# Update the GraphQL query to handle all possible types of ProjectV2ItemFieldValue and support pagination
 GRAPHQL_QUERY = """
-query ($org: String!, $projectNumber: Int!) {
+query ($org: String!, $projectNumber: Int!, $cursor: String) {
   organization(login: $org) {
     projectV2(number: $projectNumber) {
       title
-      items(first: 100) {
+      items(first: 100, after: $cursor) {
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
         nodes {
           content {
             ... on Issue {
@@ -104,15 +108,12 @@ def run_graphql_query(query, variables):
     
     return response.json()
 
-# Add a function to fetch items in the Done column
+# Add a function to fetch items in the Done column with pagination
 def fetch_done_items(month_filter=None, month_range=None):
-    variables = {
-        "org": ORGANIZATION,
-        "projectNumber": PROJECT_NUMBER,
-    }
-    data = run_graphql_query(GRAPHQL_QUERY, variables)
-    project = data["data"]["organization"]["projectV2"]
     done_items = []
+    has_next_page = True
+    cursor = None
+    processed_count = 0
 
     def in_month_range(publish_date):
         if not publish_date or not month_range:
@@ -123,81 +124,96 @@ def fetch_done_items(month_filter=None, month_range=None):
         except Exception:
             return False
 
-    for item in project["items"]["nodes"]:
-        published_url = None
-        start_date = None
-        publish_date = None
-        acm_label = False
-        cca_label = False
-        sme_label = False
+    # Use pagination to get all items
+    while has_next_page:
+        variables = {
+            "org": ORGANIZATION,
+            "projectNumber": PROJECT_NUMBER,
+            "cursor": cursor
+        }
         
-        # Check for ACM, CCA and SME labels in content labels
-        content = item.get("content", {})
-        labels = []
-        if content and "labels" in content and content["labels"] and "nodes" in content["labels"]:
-            labels = [label["name"] for label in content["labels"]["nodes"] if "name" in label]
-            if "ACM" in labels:
-                acm_label = True
-            if "CCA" in labels:
-                cca_label = True
-            if "SME" in labels:
-                sme_label = True
-                
-        # Check for ACM label in each node's fieldValues
-        for field in item["fieldValues"]["nodes"]:
-            if (
-                "field" in field and field["field"]
-                and field["field"].get("name") == "Status"
-                and (field.get("name") == "Done" or field.get("value") == "Done")
-            ):
-                # Find the Published URL, Start Date, Publish Date, and ACM fields
-                for f in item["fieldValues"]["nodes"]:
-                    if (
-                        "field" in f and f["field"]
-                        and f["field"].get("name") == "Published URL"
-                        and f.get("text")
-                    ):
-                        published_url = f["text"]
-                    if (
-                        "field" in f and f["field"]
-                        and f["field"].get("name") == "Start Date"
-                        and f.get("date")
-                    ):
-                        start_date = f["date"]
-                    if (
-                        "field" in f and f["field"]
-                        and f["field"].get("name") == "Publish Date"
-                        and f.get("date")
-                    ):
-                        publish_date = f["date"]
-                # Filter by month or month_range if set
-                if month_range:
-                    if not in_month_range(publish_date):
-                        continue
-                elif month_filter:
-                    if not publish_date or not publish_date.startswith(month_filter):
-                        continue
-                done_items.append({
-                    "title": item["content"]["title"],
-                    "published_url": published_url,
-                    "start_date": start_date,
-                    "publish_date": publish_date,
-                    "acm_label": acm_label,
-                    "cca_label": cca_label,
-                    "sme_label": sme_label,
-                    "content": item.get("content", {})
-                })
+        data = run_graphql_query(GRAPHQL_QUERY, variables)
+        project = data["data"]["organization"]["projectV2"]
+        page_info = project["items"]["pageInfo"]
+        
+        for item in project["items"]["nodes"]:
+            processed_count += 1
+            published_url = None
+            start_date = None
+            publish_date = None
+            acm_label = False
+            cca_label = False
+            sme_label = False
+            
+            # Check for ACM, CCA and SME labels in content labels
+            content = item.get("content", {})
+            labels = []
+            if content and "labels" in content and content["labels"] and "nodes" in content["labels"]:
+                labels = [label["name"] for label in content["labels"]["nodes"] if "name" in label]
+                if "ACM" in labels:
+                    acm_label = True
+                if "CCA" in labels:
+                    cca_label = True
+                if "SME" in labels:
+                    sme_label = True
+                    
+            # Check for ACM label in each node's fieldValues
+            for field in item["fieldValues"]["nodes"]:
+                if (
+                    "field" in field and field["field"]
+                    and field["field"].get("name") == "Status"
+                    and (field.get("name") == "Done" or field.get("value") == "Done")
+                ):
+                    # Find the Published URL, Start Date, Publish Date, and ACM fields
+                    for f in item["fieldValues"]["nodes"]:
+                        if (
+                            "field" in f and f["field"]
+                            and f["field"].get("name") == "Published URL"
+                            and f.get("text")
+                        ):
+                            published_url = f["text"]
+                        if (
+                            "field" in f and f["field"]
+                            and f["field"].get("name") == "Start Date"
+                            and f.get("date")
+                        ):
+                            start_date = f["date"]
+                        if (
+                            "field" in f and f["field"]
+                            and f["field"].get("name") == "Publish Date"
+                            and f.get("date")
+                        ):
+                            publish_date = f["date"]
+                    # Filter by month or month_range if set
+                    if month_range:
+                        if not in_month_range(publish_date):
+                            continue
+                    elif month_filter:
+                        if not publish_date or not publish_date.startswith(month_filter):
+                            continue
+                    done_items.append({
+                        "title": item["content"]["title"],
+                        "published_url": published_url,
+                        "start_date": start_date,
+                        "publish_date": publish_date,
+                        "acm_label": acm_label,
+                        "cca_label": cca_label,
+                        "sme_label": sme_label,
+                        "content": item.get("content", {})
+                    })
+        
+        # Update cursor for pagination
+        has_next_page = page_info["hasNextPage"]
+        if has_next_page:
+            cursor = page_info["endCursor"]
+            print(f"Fetched {processed_count} items, continuing to next page...", file=sys.stderr)
 
+    print(f"Total items processed: {processed_count}", file=sys.stderr)
     return done_items
 
 # Update the generate_report function to print Done items
 def generate_report(month_filter=None, month_range=None):
-    variables = {
-        "org": ORGANIZATION,
-        "projectNumber": PROJECT_NUMBER,
-    }
-    data = run_graphql_query(GRAPHQL_QUERY, variables)
-    project = data["data"]["organization"]["projectV2"]
+    # We'll fetch data directly through fetch_done_items which handles pagination
 
     # Generate the report
     if month_range:
