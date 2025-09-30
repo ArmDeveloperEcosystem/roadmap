@@ -18,23 +18,26 @@
 | [Migrating Projects to CMSIS v6](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/project-migration-cmsis-v6) | December 19, 2023 | September 26, 2025 | 647 |  | embedded-and-microcontrollers |
 | [Run the Zephyr RTOS on Arm Corstone-300](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/zephyr) | September 18, 2025 | September 26, 2025 | 8 |  | embedded-and-microcontrollers |
 | [Deploy IoT apps using AWS IoT Greengrass and Arm Virtual Hardware](https://learn.arm.com/learning-paths/iot/avh_greengrass) | June 25, 2024 | September 26, 2025 | 458 |  | iot |
-| [Run Phi-3 on Windows on Arm using ONNX Runtime](https://learn.arm.com/learning-paths/laptops-and-desktops/win_on_arm_build_onnxruntime) | May 01, 2025 | September 26, 2025 | 148 |  | laptops-and-desktops |
 | [Accelerate Denoising, Background Blur and Low-Light Camera Effects with KleidiAI and KleidiCV](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/ai-camera-pipelines) | September 15, 2025 | September 29, 2025 | 14 |  | mobile-graphics-and-gaming |
 | [Run the Zephyr RTOS on Arm Corstone-300](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/zephyr) | March 13, 2024 | September 29, 2025 | 565 |  | embedded-and-microcontrollers |
+| [Deploy NGINX on Azure Cobalt 100 Arm-based virtual machines](https://learn.arm.com/learning-paths/servers-and-cloud-computing/nginx-on-azure/) | September 16, 2025 | September 30, 2025 | 14 | ACM | servers-and-cloud-computing |
+| [Deploy Golang on Azure Cobalt 100 on Arm](https://learn.arm.com/learning-paths/servers-and-cloud-computing/golang-on-azure/) | September 18, 2025 | September 30, 2025 | 12 | ACM | servers-and-cloud-computing |
+| [Migrate x86-64 SIMD to Arm64](https://learn.arm.com/learning-paths/cross-platform/vectorization-comparison/) | September 19, 2025 | September 30, 2025 | 11 | ACM | cross-platform |
+| [Edge AI on Arm: PyTorch and ExecuTorch rock-paper-scissors](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/training-inference-pytorch/) | September 24, 2025 | September 30, 2025 | 6 |  | embedded-and-microcontrollers |
+| [Best Practices for hardware ray tracing with Lumen on Android Devices](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/best-practices-for-hwrt-lumen-performance) | August 05, 2024 | September 30, 2025 | 421 |  | mobile-graphics-and-gaming |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 17 |
-| Number of ACM Learning Paths published | 7 |
-| Average time to publish (days) | 121.2 |
+| Number of Learning Paths published | 21 |
+| Number of ACM Learning Paths published | 10 |
+| Average time to publish (days) | 113.2 |
 | Longest time to publish (days) | 647 |
-| Number in 'servers-and-cloud-computing' | 9 |
-| Number in 'cross-platform' | 1 |
+| Number in 'servers-and-cloud-computing' | 11 |
+| Number in 'cross-platform' | 2 |
 | Number in 'automotive' | 1 |
-| Number in 'embedded-and-microcontrollers' | 3 |
+| Number in 'embedded-and-microcontrollers' | 4 |
 | Number in 'iot' | 1 |
-| Number in 'laptops-and-desktops' | 1 |
-| Number in 'mobile-graphics-and-gaming' | 1 |
+| Number in 'mobile-graphics-and-gaming' | 2 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -58,5 +61,5 @@
 Total planned Learning Paths: 15
 
 
-_Report generated on September 29, 2025 at 21:44:40 UTC_
+_Report generated on September 30, 2025 at 21:43:45 UTC_
 
