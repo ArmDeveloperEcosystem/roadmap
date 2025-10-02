@@ -8,14 +8,13 @@
 | [Tune network workloads on Arm-based bare-metal instances](https://learn.arm.com/learning-paths/servers-and-cloud-computing/tune-network-workloads-on-bare-metal/) | August 20, 2025 | September 08, 2025 | 19 | ACM | servers-and-cloud-computing |
 | [Deploy MongoDB on an Arm-based Google Axion C4A VM](https://learn.arm.com/learning-paths/servers-and-cloud-computing/mongodb-on-gcp/) | August 26, 2025 | September 08, 2025 | 13 | ACM | servers-and-cloud-computing |
 | [Develop and Validate Firmware Pre-Silicon on Arm Neoverse CSS V3](https://learn.arm.com/learning-paths/servers-and-cloud-computing/neoverse-rdv3-swstack/) | August 26, 2025 | September 12, 2025 | 17 |  | servers-and-cloud-computing |
-| [Run an end-to-end attestation flow with Arm CCA and Trustee](https://learn.arm.com/learning-paths/servers-and-cloud-computing/cca-trustee/) | July 29, 2025 | September 12, 2025 | 45 | CCA | servers-and-cloud-computing |
+| [Run an end-to-end attestation flow with Arm CCA and Trustee](https://learn.arm.com/learning-paths/servers-and-cloud-computing/cca-trustee/) | July 29, 2025 | September 12, 2025 | 45 | ACM CCA | servers-and-cloud-computing |
 | [Deploy Envoy Proxy on Google Cloud C4A (Arm-based Axion VMs)](https://learn.arm.com/learning-paths/servers-and-cloud-computing/envoy-gcp/) | August 26, 2025 | September 12, 2025 | 17 | ACM | servers-and-cloud-computing |
 | [Code kata: perfect your SVE and SME skills with SIMD Loops](https://learn.arm.com/learning-paths/cross-platform/simd-loops/) | September 10, 2025 | September 18, 2025 | 8 | ACM SME | cross-platform |
 | [Deploy Java applications on Azure Cobalt 100 processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/java-on-azure/) | August 26, 2025 | September 26, 2025 | 31 | ACM | servers-and-cloud-computing |
 | [Run MongoDB on Arm-based Azure Cobalt 100 instances](https://learn.arm.com/learning-paths/servers-and-cloud-computing/mongodb-on-azure/) | September 08, 2025 | September 26, 2025 | 18 | ACM | servers-and-cloud-computing |
 | [Simulate OpenBMC and UEFI pre-silicon on Neoverse RD-V3](https://learn.arm.com/learning-paths/servers-and-cloud-computing/openbmc-rdv3/) | September 09, 2025 | September 26, 2025 | 17 |  | servers-and-cloud-computing |
 | [Debug Arm Zena CSS Reference Software Stack with Arm Development Studio](https://learn.arm.com/learning-paths/automotive/zenacssdebug/) | September 09, 2025 | September 26, 2025 | 17 |  | automotive |
-| [Migrating Projects to CMSIS v6](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/project-migration-cmsis-v6) | December 19, 2023 | September 26, 2025 | 647 |  | embedded-and-microcontrollers |
 | [Run the Zephyr RTOS on Arm Corstone-300](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/zephyr) | September 18, 2025 | September 26, 2025 | 8 |  | embedded-and-microcontrollers |
 | [Deploy IoT apps using AWS IoT Greengrass and Arm Virtual Hardware](https://learn.arm.com/learning-paths/iot/avh_greengrass) | June 25, 2024 | September 26, 2025 | 458 |  | iot |
 | [Accelerate Denoising, Background Blur and Low-Light Camera Effects with KleidiAI and KleidiCV](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/ai-camera-pipelines) | September 15, 2025 | September 29, 2025 | 14 |  | mobile-graphics-and-gaming |
@@ -24,20 +23,19 @@
 | [Deploy Golang on Azure Cobalt 100 on Arm](https://learn.arm.com/learning-paths/servers-and-cloud-computing/golang-on-azure/) | September 18, 2025 | September 30, 2025 | 12 | ACM | servers-and-cloud-computing |
 | [Migrate x86-64 SIMD to Arm64](https://learn.arm.com/learning-paths/cross-platform/vectorization-comparison/) | September 19, 2025 | September 30, 2025 | 11 | ACM | cross-platform |
 | [Edge AI on Arm: PyTorch and ExecuTorch rock-paper-scissors](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/training-inference-pytorch/) | September 24, 2025 | September 30, 2025 | 6 |  | embedded-and-microcontrollers |
-| [Best Practices for hardware ray tracing with Lumen on Android Devices](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/best-practices-for-hwrt-lumen-performance) | August 05, 2024 | September 30, 2025 | 421 |  | mobile-graphics-and-gaming |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 21 |
-| Number of ACM Learning Paths published | 10 |
-| Average time to publish (days) | 113.2 |
-| Longest time to publish (days) | 647 |
+| Number of Learning Paths published | 19 |
+| Number of ACM Learning Paths published | 11 |
+| Average time to publish (days) | 68.9 |
+| Longest time to publish (days) | 565 |
 | Number in 'servers-and-cloud-computing' | 11 |
 | Number in 'cross-platform' | 2 |
 | Number in 'automotive' | 1 |
-| Number in 'embedded-and-microcontrollers' | 4 |
+| Number in 'embedded-and-microcontrollers' | 3 |
 | Number in 'iot' | 1 |
-| Number in 'mobile-graphics-and-gaming' | 2 |
+| Number in 'mobile-graphics-and-gaming' | 1 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -61,5 +59,5 @@
 Total planned Learning Paths: 15
 
 
-_Report generated on September 30, 2025 at 21:43:45 UTC_
+_Report generated on October 02, 2025 at 16:42:40 UTC_
 
