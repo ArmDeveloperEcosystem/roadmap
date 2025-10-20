@@ -8,15 +8,21 @@
 | [Optimize network interrupt handling on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/irq-tuning-guide/) | September 09, 2025 | October 13, 2025 | 34 | ACM | servers-and-cloud-computing |
 | [Profile llama.cpp performance with Arm Streamline and KleidiAI LLM kernels](https://learn.arm.com/learning-paths/servers-and-cloud-computing/llama_cpp_streamline/) | September 24, 2025 | October 13, 2025 | 19 |  | servers-and-cloud-computing |
 | [Compare Arm Neoverse and Intel x86 top-down performance analysis with PMU counters](https://learn.arm.com/learning-paths/cross-platform/topdown-compare/) | September 25, 2025 | October 13, 2025 | 18 | ACM | cross-platform |
+| [Deploy SqueezeNet 1.0 INT8 model with ONNX Runtime on Azure Cobalt 100](https://learn.arm.com/learning-paths/servers-and-cloud-computing/onnx-on-azure/) | September 29, 2025 | October 20, 2025 | 21 | ACM | servers-and-cloud-computing |
+| [Deploy MySQL on Microsoft Azure Cobalt 100 processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/mysql-azure/) | September 30, 2025 | October 20, 2025 | 20 | ACM | servers-and-cloud-computing |
+| [Fine-tuning neural graphics models with Model Gym](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/model-training-gym/) | September 09, 2025 | October 20, 2025 | 41 |  | mobile-graphics-and-gaming |
+| [Automate Windows on Arm virtual machine deployment with QEMU and KVM on Arm Linux](https://learn.arm.com/learning-paths/laptops-and-desktops/win11-vm-automation/) | September 25, 2025 | October 20, 2025 | 25 |  | laptops-and-desktops |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 4 |
-| Number of ACM Learning Paths published | 3 |
-| Average time to publish (days) | 26.0 |
-| Longest time to publish (days) | 34 |
-| Number in 'servers-and-cloud-computing' | 3 |
+| Number of Learning Paths published | 8 |
+| Number of ACM Learning Paths published | 5 |
+| Average time to publish (days) | 26.4 |
+| Longest time to publish (days) | 41 |
+| Number in 'servers-and-cloud-computing' | 5 |
 | Number in 'cross-platform' | 1 |
+| Number in 'mobile-graphics-and-gaming' | 1 |
+| Number in 'laptops-and-desktops' | 1 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -32,13 +38,12 @@
 | [Neural Graphics for Unreal LP](https://github.com/ArmDeveloperEcosystem/roadmap/issues/18) |  | August 12, 2025 |
 | [stress-ng - System stress tester](https://github.com/ArmDeveloperEcosystem/roadmap/issues/15) | ACM | May 29, 2025 |
 | [Java application profiling tool - async-profiler](https://github.com/ArmDeveloperEcosystem/roadmap/issues/14) | ACM | May 29, 2025 |
-| [Buildkite runners on Arm LP](https://github.com/ArmDeveloperEcosystem/roadmap/issues/12) | ACM | April 17, 2025 |
 | [OLAP workload benchmarking for Axion/Graviton](https://github.com/ArmDeveloperEcosystem/roadmap/issues/11) | ACM | April 15, 2025 |
 | [vLLM batch inferencing with Arm optimizations](https://github.com/ArmDeveloperEcosystem/roadmap/issues/5) | ACM | April 08, 2025 |
 | [Llama multi-modal vision chatbot LP with demo](https://github.com/ArmDeveloperEcosystem/roadmap/issues/4) | ACM | April 08, 2025 |
 
-Total planned Learning Paths: 15
+Total planned Learning Paths: 14
 
 
-_Report generated on October 13, 2025 at 13:12:16 UTC_
+_Report generated on October 20, 2025 at 03:23:14 UTC_
 
