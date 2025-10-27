@@ -12,17 +12,20 @@
 | [Deploy MySQL on Microsoft Azure Cobalt 100 processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/mysql-azure/) | September 30, 2025 | October 20, 2025 | 20 | ACM | servers-and-cloud-computing |
 | [Fine-tuning neural graphics models with Model Gym](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/model-training-gym/) | September 09, 2025 | October 20, 2025 | 41 |  | mobile-graphics-and-gaming |
 | [Automate Windows on Arm virtual machine deployment with QEMU and KVM on Arm Linux](https://learn.arm.com/learning-paths/laptops-and-desktops/win11-vm-automation/) | September 25, 2025 | October 20, 2025 | 25 |  | laptops-and-desktops |
+| [Deploy PHP on Google Cloud C4A Arm-based Axion VMs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/php-on-gcp/) | October 09, 2025 | October 27, 2025 | 18 | ACM | servers-and-cloud-computing |
+| [Measure application resource and power usage on Windows on Arm with FFmpeg and PowerShell](https://learn.arm.com/learning-paths/laptops-and-desktops/win-resource-ps1/) | October 10, 2025 | October 27, 2025 | 17 |  | laptops-and-desktops |
+| [Deploy Node.js on Google Cloud C4A Arm-based Axion VMs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/node-js-gcp/) | October 14, 2025 | October 27, 2025 | 13 | ACM | servers-and-cloud-computing |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 8 |
-| Number of ACM Learning Paths published | 5 |
-| Average time to publish (days) | 26.4 |
+| Number of Learning Paths published | 11 |
+| Number of ACM Learning Paths published | 7 |
+| Average time to publish (days) | 23.5 |
 | Longest time to publish (days) | 41 |
-| Number in 'servers-and-cloud-computing' | 5 |
+| Number in 'servers-and-cloud-computing' | 7 |
 | Number in 'cross-platform' | 1 |
 | Number in 'mobile-graphics-and-gaming' | 1 |
-| Number in 'laptops-and-desktops' | 1 |
+| Number in 'laptops-and-desktops' | 2 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -45,5 +48,5 @@
 Total planned Learning Paths: 14
 
 
-_Report generated on October 20, 2025 at 03:23:14 UTC_
+_Report generated on October 27, 2025 at 12:56:12 UTC_
 
