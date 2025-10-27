@@ -15,14 +15,15 @@
 | [Deploy PHP on Google Cloud C4A Arm-based Axion VMs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/php-on-gcp/) | October 09, 2025 | October 27, 2025 | 18 | ACM | servers-and-cloud-computing |
 | [Measure application resource and power usage on Windows on Arm with FFmpeg and PowerShell](https://learn.arm.com/learning-paths/laptops-and-desktops/win-resource-ps1/) | October 10, 2025 | October 27, 2025 | 17 |  | laptops-and-desktops |
 | [Deploy Node.js on Google Cloud C4A Arm-based Axion VMs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/node-js-gcp/) | October 14, 2025 | October 27, 2025 | 13 | ACM | servers-and-cloud-computing |
+| [Create multi-architecture Docker images with Buildkite on Google Axion](https://learn.arm.com/learning-paths/servers-and-cloud-computing/buildkite-gcp/) | October 14, 2025 | October 27, 2025 | 13 | ACM | servers-and-cloud-computing |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 11 |
-| Number of ACM Learning Paths published | 7 |
-| Average time to publish (days) | 23.5 |
+| Number of Learning Paths published | 12 |
+| Number of ACM Learning Paths published | 8 |
+| Average time to publish (days) | 22.7 |
 | Longest time to publish (days) | 41 |
-| Number in 'servers-and-cloud-computing' | 7 |
+| Number in 'servers-and-cloud-computing' | 8 |
 | Number in 'cross-platform' | 1 |
 | Number in 'mobile-graphics-and-gaming' | 1 |
 | Number in 'laptops-and-desktops' | 2 |
@@ -48,5 +49,5 @@
 Total planned Learning Paths: 14
 
 
-_Report generated on October 27, 2025 at 12:56:12 UTC_
+_Report generated on October 27, 2025 at 20:13:19 UTC_
 
