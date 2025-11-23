@@ -1,6 +1,6 @@
 # Hugging Face Learning Paths
 
-Total Hugging Face Learning Paths: 19
+Total Hugging Face Learning Paths: 21
 
 | Title | Category |
 |-------|----------|
@@ -10,6 +10,7 @@ Total Hugging Face Learning Paths: 19
 | [Run an LLM chatbot with rtp-llm on Arm-based servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rtp-llm) | servers-and-cloud-computing |
 | [Run a Large Language Model (LLM) chatbot with PyTorch using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pytorch-llama) | servers-and-cloud-computing |
 | [Deploy a Large Language Model (LLM) chatbot with llama.cpp using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/llama-cpu) | servers-and-cloud-computing |
+| [Accelerate vLLM inference on Azure Cobalt 100 virtual machines](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-acceleration) | servers-and-cloud-computing |
 | [Deploy Arcee AFM-4.5B on Arm-based AWS Graviton4 with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-aws) | servers-and-cloud-computing |
 | [Build a RAG application using Zilliz Cloud on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/milvus-rag) | servers-and-cloud-computing |
 | [Build and Run vLLM on Arm Servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing |
@@ -23,3 +24,4 @@ Total Hugging Face Learning Paths: 19
 | [LLM inference on Android with KleidiAI, MediaPipe, and XNNPACK](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/kleidiai-on-android-with-mediapipe-and-xnnpack) | mobile-graphics-and-gaming |
 | [Build an Android chat application with ONNX Runtime API](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/build-android-chat-app-using-onnxruntime) | mobile-graphics-and-gaming |
 | [Build an Android chat app with Llama, KleidiAI, ExecuTorch, and XNNPACK](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/build-llama3-chat-android-app-using-executorch-and-xnnpack) | mobile-graphics-and-gaming |
+| [Build a RAG pipeline on NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_rag) | laptops-and-desktops |
