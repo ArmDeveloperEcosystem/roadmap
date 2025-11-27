@@ -8,15 +8,23 @@
 | [Deploy Ruby on Rails on Arm-based Google Cloud C4A virtual machines](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ruby-on-rails/) | November 03, 2025 | November 09, 2025 | 6 | ACM | servers-and-cloud-computing |
 | [Migrate x86 workloads to Arm on Google Kubernetes Engine with Axion processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/gke-multi-arch-axion/) | November 07, 2025 | November 11, 2025 | 4 | ACM | servers-and-cloud-computing |
 | [Build a multi-architecture Kubernetes cluster running nginx on Azure AKS](https://learn.arm.com/learning-paths/servers-and-cloud-computing/multiarch_nginx_on_aks/) | November 05, 2025 | November 17, 2025 | 12 | ACM | servers-and-cloud-computing |
+| [Build high-performance image processing with Halide on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/android_halide/) | April 10, 2025 | November 27, 2025 | 231 |  | mobile-graphics-and-gaming |
+| [Deploy Apache Kafka on Arm-based Microsoft Azure Cobalt 100 virtual machines](https://learn.arm.com/learning-paths/servers-and-cloud-computing/kafka-azure/) | October 02, 2025 | November 27, 2025 | 56 | ACM | servers-and-cloud-computing |
+| [Deploy TypeScript on Google Cloud C4A virtual machines](https://learn.arm.com/learning-paths/servers-and-cloud-computing/typescript-on-gcp/) | November 03, 2025 | November 27, 2025 | 24 | ACM | servers-and-cloud-computing |
+| [Accelerate vLLM inference on Azure Cobalt 100 virtual machines](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-acceleration/) | November 10, 2025 | November 27, 2025 | 17 | ACM | servers-and-cloud-computing |
+| [Build a RAG pipeline on Arm-based NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_rag/) | November 17, 2025 | November 27, 2025 | 10 |  | laptops-and-desktops |
+| [Benchmark a KleidiAI micro-kernel in ExecuTorch](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/measure-kleidiai-kernel-performance-on-executorch/) | November 18, 2025 | November 27, 2025 | 9 |  | mobile-graphics-and-gaming |
+| [Build and test KleidiCV on macOS](https://learn.arm.com/learning-paths/laptops-and-desktops/kleidicv-on-mac/) | November 25, 2025 | November 27, 2025 | 2 |  | laptops-and-desktops |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 4 |
-| Number of ACM Learning Paths published | 3 |
-| Average time to publish (days) | 8.5 |
-| Longest time to publish (days) | 12 |
-| Number in 'laptops-and-desktops' | 1 |
-| Number in 'servers-and-cloud-computing' | 3 |
+| Number of Learning Paths published | 11 |
+| Number of ACM Learning Paths published | 6 |
+| Average time to publish (days) | 34.8 |
+| Longest time to publish (days) | 231 |
+| Number in 'laptops-and-desktops' | 3 |
+| Number in 'servers-and-cloud-computing' | 6 |
+| Number in 'mobile-graphics-and-gaming' | 2 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -39,5 +47,5 @@
 Total planned Learning Paths: 14
 
 
-_Report generated on November 17, 2025 at 16:00:48 UTC_
+_Report generated on November 27, 2025 at 04:01:55 UTC_
 
