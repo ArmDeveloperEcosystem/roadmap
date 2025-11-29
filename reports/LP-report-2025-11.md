@@ -15,15 +15,16 @@
 | [Build a RAG pipeline on Arm-based NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_rag/) | November 17, 2025 | November 27, 2025 | 10 |  | laptops-and-desktops |
 | [Benchmark a KleidiAI micro-kernel in ExecuTorch](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/measure-kleidiai-kernel-performance-on-executorch/) | November 18, 2025 | November 27, 2025 | 9 |  | mobile-graphics-and-gaming |
 | [Build and test KleidiCV on macOS](https://learn.arm.com/learning-paths/laptops-and-desktops/kleidicv-on-mac/) | November 25, 2025 | November 27, 2025 | 2 |  | laptops-and-desktops |
+| [Run CircleCI Arm Native Workflows on a SUSE Arm GCP VM](https://learn.arm.com/learning-paths/servers-and-cloud-computing/circleci-gcp/) | October 20, 2025 | November 29, 2025 | 40 | ACM | servers-and-cloud-computing |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 11 |
-| Number of ACM Learning Paths published | 6 |
-| Average time to publish (days) | 34.8 |
+| Number of Learning Paths published | 12 |
+| Number of ACM Learning Paths published | 7 |
+| Average time to publish (days) | 35.2 |
 | Longest time to publish (days) | 231 |
 | Number in 'laptops-and-desktops' | 3 |
-| Number in 'servers-and-cloud-computing' | 6 |
+| Number in 'servers-and-cloud-computing' | 7 |
 | Number in 'mobile-graphics-and-gaming' | 2 |
 
 ## Planned Learning Paths
@@ -47,5 +48,5 @@
 Total planned Learning Paths: 14
 
 
-_Report generated on November 27, 2025 at 04:33:15 UTC_
+_Report generated on November 29, 2025 at 14:46:33 UTC_
 
