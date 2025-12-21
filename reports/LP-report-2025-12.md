@@ -8,18 +8,27 @@
 | [Build Zephyr projects with Workbench for Zephyr in VS Code](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/zephyr_vsworkbench/) | November 05, 2025 | December 06, 2025 | 31 |  | embedded-and-microcontrollers |
 | [Deploy Puppet on Google Cloud C4A](https://learn.arm.com/learning-paths/servers-and-cloud-computing/puppet-on-gcp/) | November 17, 2025 | December 06, 2025 | 19 | ACM | servers-and-cloud-computing |
 | [Deploy CircleCI Arm Native Workflows on AWS EC2 Graviton](https://learn.arm.com/learning-paths/servers-and-cloud-computing/circleci-on-aws/) | November 24, 2025 | December 06, 2025 | 12 | ACM | servers-and-cloud-computing |
+| [Deploy TensorFlow on Google Cloud C4A (Arm-based Axion VMs)](https://learn.arm.com/learning-paths/servers-and-cloud-computing/tensorflow-gcp/) | November 18, 2025 | December 12, 2025 | 24 | ACM | servers-and-cloud-computing |
 | [Deploy Couchbase on Google Cloud C4A](https://learn.arm.com/learning-paths/servers-and-cloud-computing/couchbase-on-gcp/) | November 18, 2025 | December 12, 2025 | 24 | ACM | servers-and-cloud-computing |
 | [Accelerate LiteRT Models on Android with KleidiAI and SME2](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/litert-sme/) | December 08, 2025 | December 12, 2025 | 4 |  | mobile-graphics-and-gaming |
+| [Deploy Cassandra on a Google Axion C4A virtual machine](https://learn.arm.com/learning-paths/servers-and-cloud-computing/cassandra-on-gcp/) | December 19, 2025 | December 21, 2025 | 2 | ACM | servers-and-cloud-computing |
+| [Deploy Apache Flink on Google Cloud C4A (Arm-based Axion VMs)](https://learn.arm.com/learning-paths/servers-and-cloud-computing/flink-on-gcp/) | December 19, 2025 | December 21, 2025 | 2 | ACM | servers-and-cloud-computing |
+| [Deploy Rust on Google Cloud C4A (Arm-based Axion VMs)](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rust-on-gcp/) | November 18, 2025 | December 21, 2025 | 33 | ACM | servers-and-cloud-computing |
+| [Deploy Django on Google Cloud C4A (Arm-based Axion VMs)](https://learn.arm.com/learning-paths/servers-and-cloud-computing/django-on-gcp/) | November 18, 2025 | December 21, 2025 | 33 | ACM | servers-and-cloud-computing |
+| [Deploy Redis for data searching on Google Cloud C4A](https://learn.arm.com/learning-paths/servers-and-cloud-computing/redis-data-searching/) | December 01, 2025 | December 21, 2025 | 20 | ACM | servers-and-cloud-computing |
+| [Deploy Gardener on Google Cloud C4A (Arm-based Axion VMs)](https://learn.arm.com/learning-paths/servers-and-cloud-computing/gardener-gcp/) | December 02, 2025 | December 21, 2025 | 19 | ACM | servers-and-cloud-computing |
+| [GitHub Copilot](https://learn.arm.com/install-guides/github-copilot/) | December 11, 2025 | December 21, 2025 | 10 |  | install-guides |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 6 |
-| Number of ACM Learning Paths published | 4 |
-| Average time to publish (days) | 20.3 |
-| Longest time to publish (days) | 32 |
+| Number of Learning Paths published | 14 |
+| Number of ACM Learning Paths published | 11 |
+| Average time to publish (days) | 18.9 |
+| Longest time to publish (days) | 33 |
 | Number in 'embedded-and-microcontrollers' | 2 |
-| Number in 'servers-and-cloud-computing' | 3 |
+| Number in 'servers-and-cloud-computing' | 10 |
 | Number in 'mobile-graphics-and-gaming' | 1 |
+| Number in 'install-guides' | 1 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -45,5 +54,5 @@
 Total planned Learning Paths: 17
 
 
-_Report generated on December 12, 2025 at 22:20:35 UTC_
+_Report generated on December 21, 2025 at 22:33:11 UTC_
 
