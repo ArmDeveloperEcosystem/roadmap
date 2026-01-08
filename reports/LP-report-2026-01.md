@@ -7,16 +7,18 @@
 | [Deploy ClickHouse on Google Cloud C4A Arm virtual machines](https://learn.arm.com/learning-paths/servers-and-cloud-computing/clickhouse-gcp/) | December 08, 2025 | January 08, 2026 | 31 | ACM | servers-and-cloud-computing |
 | [Install and validate Helm on Google Cloud C4A Arm-based VMs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/helm-on-gcp/) | December 08, 2025 | January 08, 2026 | 31 | ACM | servers-and-cloud-computing |
 | [Gemini CLI](https://learn.arm.com/install-guides/gemini/) | December 10, 2025 | January 08, 2026 | 29 |  | install-guides |
+| [Arm Linux Migration Tools](https://learn.arm.com/install-guides/linux-migration-tools/) | December 11, 2025 | January 08, 2026 | 28 | ACM | install-guides |
 | [Automate x86-to-Arm application migration using Arm MCP Server](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arm-mcp-server/) | December 18, 2025 | January 08, 2026 | 21 | ACM | servers-and-cloud-computing |
+| [Codex CLI](https://learn.arm.com/install-guides/codex-cli/) | January 05, 2026 | January 08, 2026 | 3 | ACM | install-guides |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 4 |
-| Number of ACM Learning Paths published | 3 |
-| Average time to publish (days) | 28.0 |
+| Number of Learning Paths published | 6 |
+| Number of ACM Learning Paths published | 5 |
+| Average time to publish (days) | 23.8 |
 | Longest time to publish (days) | 31 |
 | Number in 'servers-and-cloud-computing' | 3 |
-| Number in 'install-guides' | 1 |
+| Number in 'install-guides' | 3 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -42,5 +44,5 @@
 Total planned Learning Paths: 17
 
 
-_Report generated on January 08, 2026 at 05:24:46 UTC_
+_Report generated on January 08, 2026 at 17:50:14 UTC_
 
