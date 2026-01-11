@@ -1,6 +1,6 @@
 # Hugging Face Learning Paths
 
-Total Hugging Face Learning Paths: 21
+Total Hugging Face Learning Paths: 22
 
 | Title | Category |
 |-------|----------|
@@ -13,6 +13,7 @@ Total Hugging Face Learning Paths: 21
 | [Build an Android chat app with Llama, KleidiAI, ExecuTorch, and XNNPACK](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/build-llama3-chat-android-app-using-executorch-and-xnnpack) | mobile-graphics-and-gaming |
 | [Generate audio with Stable Audio Open Small on LiteRT](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-open-small-with-lite-rt) | mobile-graphics-and-gaming |
 | [Build an Android chat application with ONNX Runtime API](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/build-android-chat-app-using-onnxruntime) | mobile-graphics-and-gaming |
+| [Generate audio with Stable Audio Open Small using ExecuTorch](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-with-executorch) | mobile-graphics-and-gaming |
 | [Deploy Arcee AFM-4.5B on Arm-based AWS Graviton4 with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-aws) | servers-and-cloud-computing |
 | [Deploy Arcee AFM-4.5B on Arm-based Google Cloud Axion with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-gcp) | servers-and-cloud-computing |
 | [Build and Run vLLM on Arm Servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing |
