@@ -18,7 +18,7 @@ Total Hugging Face Learning Paths: 22
 | [Deploy Arcee AFM-4.5B on Arm-based Google Cloud Axion with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-gcp) | servers-and-cloud-computing |
 | [Build and Run vLLM on Arm Servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing |
 | [Build a RAG application using Zilliz Cloud on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/milvus-rag) | servers-and-cloud-computing |
-| [Accelerate vLLM inference on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-acceleration) | servers-and-cloud-computing |
+| [Run vLLM inference with INT4 quantization on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-acceleration) | servers-and-cloud-computing |
 | [Run a Natural Language Processing (NLP) model from Hugging Face on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/nlp-hugging-face) | servers-and-cloud-computing |
 | [Deploy a Large Language Model (LLM) chatbot with llama.cpp using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/llama-cpu) | servers-and-cloud-computing |
 | [Run an LLM chatbot with rtp-llm on Arm-based servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rtp-llm) | servers-and-cloud-computing |
