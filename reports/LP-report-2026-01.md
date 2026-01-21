@@ -5,8 +5,7 @@
 | Title | Start Date | Publish Date | Time to Publish (days) | Program | Category |
 |-------|--------------|-------------|----------------------|-----|----------|
 | [Build a real-time analytics pipeline with ClickHouse on Google Cloud Axion](https://learn.arm.com/learning-paths/servers-and-cloud-computing/clickhouse-gcp/) | December 08, 2025 | January 08, 2026 | 31 | ACM | servers-and-cloud-computing |
-Error: 404 Client Error: Not Found for url: https://learn.arm.com/learning-paths/servers-and-cloud-computing/helm-on-gcp/
-| [None](https://learn.arm.com/learning-paths/servers-and-cloud-computing/helm-on-gcp/) | December 08, 2025 | January 08, 2026 | 31 | ACM | servers-and-cloud-computing |
+| [Install and validate Helm on Google Cloud C4A Arm-based VMs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/helm-on-gcp/) | December 08, 2025 | January 08, 2026 | 31 | ACM | servers-and-cloud-computing |
 | [Gemini CLI](https://learn.arm.com/install-guides/gemini/) | December 10, 2025 | January 08, 2026 | 29 |  | install-guides |
 | [Arm Linux Migration Tools](https://learn.arm.com/install-guides/linux-migration-tools/) | December 11, 2025 | January 08, 2026 | 28 | ACM | install-guides |
 | [Automate x86-to-Arm application migration using Arm MCP Server](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arm-mcp-server/) | December 18, 2025 | January 08, 2026 | 21 | ACM | servers-and-cloud-computing |
@@ -20,7 +19,6 @@ Error: 404 Client Error: Not Found for url: https://learn.arm.com/learning-paths
 | [Profile ONNX model performance with SME2 using KleidiAI and ONNX Runtime](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/performance_onnxruntime_kleidiai_sme2/) | January 06, 2026 | January 17, 2026 | 11 |  | mobile-graphics-and-gaming |
 | [Claude Code](https://learn.arm.com/install-guides/claude-code/) | January 14, 2026 | January 17, 2026 | 3 | ACM | install-guides |
 | [Optimize application performance with CPU affinity](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pinning-threads/) | January 14, 2026 | January 17, 2026 | 3 |  | servers-and-cloud-computing |
-Error: 404 Client Error: Not Found for url: https://learn.arm.com/learning-paths/servers-and-cloud-computing/helm-on-gcp/
 
 | Statistic | Value |
 |-----------|-------|
@@ -49,5 +47,5 @@ Error: 404 Client Error: Not Found for url: https://learn.arm.com/learning-paths
 Total planned Learning Paths: 9
 
 
-_Report generated on January 17, 2026 at 16:14:09 UTC_
+_Report generated on January 21, 2026 at 19:53:16 UTC_
 
