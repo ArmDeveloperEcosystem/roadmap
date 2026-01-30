@@ -19,21 +19,26 @@
 | [Profile ONNX model performance with SME2 using KleidiAI and ONNX Runtime](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/performance_onnxruntime_kleidiai_sme2/) | January 06, 2026 | January 17, 2026 | 11 |  | mobile-graphics-and-gaming |
 | [Claude Code](https://learn.arm.com/install-guides/claude-code/) | January 14, 2026 | January 17, 2026 | 3 | ACM | install-guides |
 | [Optimize application performance with CPU affinity](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pinning-threads/) | January 14, 2026 | January 17, 2026 | 3 |  | servers-and-cloud-computing |
+| [Deploy and validate Jenkins on Arm cloud servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/jenkins/) | January 05, 2026 | January 30, 2026 | 25 | ACM | servers-and-cloud-computing |
+| [Profile ExecuTorch models with SME2 on Arm](https://learn.arm.com/learning-paths/cross-platform/sme-executorch-profiling/) | January 22, 2026 | January 30, 2026 | 8 |  | cross-platform |
+| [Deploy applications on Arm-based GKE using GitOps with Argo CD](https://learn.arm.com/learning-paths/servers-and-cloud-computing/argo-cd-gcp/) | January 26, 2026 | January 30, 2026 | 4 | ACM | servers-and-cloud-computing |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 15 |
-| Number of ACM Learning Paths published | 10 |
-| Average time to publish (days) | 19.1 |
+| Number of Learning Paths published | 18 |
+| Number of ACM Learning Paths published | 12 |
+| Average time to publish (days) | 17.9 |
 | Longest time to publish (days) | 36 |
-| Number in 'servers-and-cloud-computing' | 8 |
+| Number in 'servers-and-cloud-computing' | 10 |
 | Number in 'install-guides' | 4 |
 | Number in 'mobile-graphics-and-gaming' | 2 |
-| Number in 'cross-platform' | 1 |
+| Number in 'cross-platform' | 2 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
 |-------|-----|--------------|
+| [Opensearch benchmarking](https://github.com/ArmDeveloperEcosystem/roadmap/issues/32) | ACM | January 29, 2026 |
+| [Create a Cobalt Linux VM using Azure Resource Manager Templates](https://github.com/ArmDeveloperEcosystem/roadmap/issues/31) | ACM | January 27, 2026 |
 | [Introduction to benchmarking and optimizing on Arm (Compiling, Code tuning, SMT)](https://github.com/ArmDeveloperEcosystem/roadmap/issues/30) | ACM | December 08, 2025 |
 | [Fastpath for Benchmarking LP](https://github.com/ArmDeveloperEcosystem/roadmap/issues/29) | ACM | December 08, 2025 |
 | [Elasticsearch benchmarking](https://github.com/ArmDeveloperEcosystem/roadmap/issues/28) | ACM | December 05, 2025 |
@@ -44,8 +49,8 @@
 | [stress-ng - System stress tester](https://github.com/ArmDeveloperEcosystem/roadmap/issues/15) | ACM | May 29, 2025 |
 | [OLAP workload benchmarking for Axion/Graviton](https://github.com/ArmDeveloperEcosystem/roadmap/issues/11) | ACM | April 15, 2025 |
 
-Total planned Learning Paths: 9
+Total planned Learning Paths: 11
 
 
-_Report generated on January 21, 2026 at 19:53:16 UTC_
+_Report generated on January 30, 2026 at 14:24:46 UTC_
 
