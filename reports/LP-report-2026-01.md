@@ -19,17 +19,18 @@
 | [Profile ONNX model performance with SME2 using KleidiAI and ONNX Runtime](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/performance_onnxruntime_kleidiai_sme2/) | January 06, 2026 | January 17, 2026 | 11 |  | mobile-graphics-and-gaming |
 | [Claude Code](https://learn.arm.com/install-guides/claude-code/) | January 14, 2026 | January 17, 2026 | 3 | ACM | install-guides |
 | [Optimize application performance with CPU affinity](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pinning-threads/) | January 14, 2026 | January 17, 2026 | 3 |  | servers-and-cloud-computing |
+| [Build Linux kernels for Arm cloud instances](https://learn.arm.com/learning-paths/servers-and-cloud-computing/kernel-build/) | January 23, 2026 | January 28, 2026 | 5 | ACM | servers-and-cloud-computing |
 | [Deploy and validate Jenkins on Arm cloud servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/jenkins/) | January 05, 2026 | January 30, 2026 | 25 | ACM | servers-and-cloud-computing |
 | [Profile ExecuTorch models with SME2 on Arm](https://learn.arm.com/learning-paths/cross-platform/sme-executorch-profiling/) | January 22, 2026 | January 30, 2026 | 8 |  | cross-platform |
 | [Deploy applications on Arm-based GKE using GitOps with Argo CD](https://learn.arm.com/learning-paths/servers-and-cloud-computing/argo-cd-gcp/) | January 26, 2026 | January 30, 2026 | 4 | ACM | servers-and-cloud-computing |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 18 |
-| Number of ACM Learning Paths published | 12 |
-| Average time to publish (days) | 17.9 |
+| Number of Learning Paths published | 19 |
+| Number of ACM Learning Paths published | 13 |
+| Average time to publish (days) | 17.3 |
 | Longest time to publish (days) | 36 |
-| Number in 'servers-and-cloud-computing' | 10 |
+| Number in 'servers-and-cloud-computing' | 11 |
 | Number in 'install-guides' | 4 |
 | Number in 'mobile-graphics-and-gaming' | 2 |
 | Number in 'cross-platform' | 2 |
@@ -52,5 +53,5 @@
 Total planned Learning Paths: 11
 
 
-_Report generated on January 30, 2026 at 14:24:46 UTC_
+_Report generated on February 03, 2026 at 03:58:26 UTC_
 
