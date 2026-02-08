@@ -5,6 +5,8 @@
 | Title | Start Date | Publish Date | Time to Publish (days) | Program | Category | CSP |
 |-------|--------------|-------------|----------------------|-----|----------|-----|
 | [Visualize Ethos-U NPU performance with ExecuTorch on Arm FVPs](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/visualizing-ethos-u-performance/) | July 02, 2025 | August 07, 2025 | 36 |  | embedded-and-microcontrollers |  |
+| [Create an Azure Linux 3.0 virtual machine with Cobalt 100 processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/azure-vm/) | July 22, 2025 | August 07, 2025 | 16 | ACM | servers-and-cloud-computing | Microsoft Azure |
+| [Analyze Java performance on Arm servers using flame graphs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/java-perf-flamegraph/) | July 28, 2025 | August 07, 2025 | 10 | ACM | servers-and-cloud-computing |  |
 | [Neural Super Sampling in Unreal Engine](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/nss-unreal) | June 16, 2025 | August 12, 2025 | 57 |  | mobile-graphics-and-gaming |  |
 | [Get started with neural graphics using ML Extensions for VulkanÂ®](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/vulkan-ml-sample/) | July 16, 2025 | August 12, 2025 | 27 |  | mobile-graphics-and-gaming |  |
 | [Explore secure device attach in Arm CCA Realms](https://learn.arm.com/learning-paths/servers-and-cloud-computing/cca-device-attach/) | July 28, 2025 | August 25, 2025 | 28 | ACM CCA | servers-and-cloud-computing |  |
@@ -17,16 +19,16 @@
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 10 |
-| Number of ACM Learning Paths published | 5 |
-| Average time to publish (days) | 23.4 |
+| Number of Learning Paths published | 12 |
+| Number of ACM Learning Paths published | 7 |
+| Average time to publish (days) | 21.7 |
 | Longest time to publish (days) | 57 |
 | Number in 'embedded-and-microcontrollers' | 2 |
+| Number in 'servers-and-cloud-computing' | 7 |
 | Number in 'mobile-graphics-and-gaming' | 2 |
-| Number in 'servers-and-cloud-computing' | 5 |
 | Number in 'laptops-and-desktops' | 1 |
 | Number with Google Cloud tag | 2 |
-| Number with Microsoft Azure tag | 1 |
+| Number with Microsoft Azure tag | 2 |
 | Number with AWS tag | 1 |
 | Number with Oracle tag | 0 |
 
@@ -47,5 +49,5 @@
 Total planned Learning Paths: 10
 
 
-_Report generated on February 08, 2026 at 03:50:58 UTC_
+_Report generated on February 08, 2026 at 04:28:06 UTC_
 
