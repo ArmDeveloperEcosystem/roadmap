@@ -237,15 +237,23 @@ def generate_report(month_filter=None, month_range=None):
         return (pd is None, pd)
     done_items = sorted(done_items, key=sort_key)
 
-    print("\n## Published Learning Paths\n| Title | Start Date | Publish Date | Time to Publish (days) | Program | Category |")
-    print("|-------|--------------|-------------|----------------------|-----|----------|")
+    print("\n## Published Learning Paths\n| Title | Start Date | Publish Date | Time to Publish (days) | Program | Category | CSP |")
+    print("|-------|--------------|-------------|----------------------|-----|----------|-----|")
     published_count = 0
     time_to_publish_values = []
+    csp_counts = {"Google Cloud": 0, "Microsoft Azure": 0, "AWS": 0, "Oracle": 0}
     for item in done_items:
         html_title, category = get_html_title(item['published_url']) if item['published_url'] else ('', None)
         if html_title and html_title.endswith(' | Arm Learning Paths'):
             html_title = html_title[:-len(' | Arm Learning Paths')]
         title_link = f"[{html_title}]({item['published_url']})" if item['published_url'] else html_title
+        
+        # Get CSP tags for servers-and-cloud-computing LPs
+        csps = get_cloud_service_providers(item['published_url'], category) if item['published_url'] else []
+        csp_str = ", ".join(csps) if csps else ""
+        for csp in csps:
+            if csp in csp_counts:
+                csp_counts[csp] += 1
         # Format start and publish dates
         formatted_start_date = ''
         formatted_publish_date = ''
@@ -276,7 +284,7 @@ def generate_report(month_filter=None, month_range=None):
         sme_label = "SME" if item.get('sme_label') else ""
         program_col = " ".join(filter(None, [acm_label, cca_label, sme_label]))
         
-        print(f"| {title_link} | {formatted_start_date} | {formatted_publish_date} | {time_to_publish} | {program_col} | {category or ''} |")
+        print(f"| {title_link} | {formatted_start_date} | {formatted_publish_date} | {time_to_publish} | {program_col} | {category or ''} | {csp_str} |")
         published_count += 1
 
     # Count published Learning Paths by category
@@ -304,6 +312,13 @@ def generate_report(month_filter=None, month_range=None):
     # Add category counts
     for cat, count in category_counts.items():
         print(f"| Number in '{cat}' | {count} |")
+    
+    # Add CSP counts for servers-and-cloud-computing
+    if any(count > 0 for count in csp_counts.values()):
+        print(f"| Number with Google Cloud tag | {csp_counts['Google Cloud']} |")
+        print(f"| Number with Microsoft Azure tag | {csp_counts['Microsoft Azure']} |")
+        print(f"| Number with AWS tag | {csp_counts['AWS']} |")
+        print(f"| Number with Oracle tag | {csp_counts['Oracle']} |")
     print("")
 
     # Planned Learning Paths Table
@@ -336,6 +351,64 @@ def fetch_open_issues():
     issues = response.json()
     open_issues = [issue for issue in issues if issue.get("state") == "open"]
     return open_issues
+
+def get_cloud_service_providers(url, category):
+    """
+    Detect which cloud service providers are tagged for a learning path.
+    Only checks for servers-and-cloud-computing category.
+    Returns a list of CSP tags (e.g., ['Google Cloud', 'Microsoft Azure']).
+    """
+    if category != "servers-and-cloud-computing":
+        return []
+    
+    # Extract the learning path slug from URL
+    if not url or not url.startswith("https://learn.arm.com/learning-paths/servers-and-cloud-computing/"):
+        return []
+    
+    path = url[len("https://learn.arm.com/learning-paths/servers-and-cloud-computing/"):]
+    parts = path.split("/")
+    if not parts or not parts[0]:
+        return []
+    
+    lp_slug = parts[0]
+    
+    # Fetch the category listing page to extract tags from the div class attribute
+    try:
+        category_url = "https://learn.arm.com/learning-paths/servers-and-cloud-computing/"
+        response = requests.get(category_url, timeout=15)
+        if response.status_code != 200:
+            return []
+        
+        # Look for the div containing this learning path's card
+        # The pattern is: <div class='...' with tags><ads-card link=.../{lp_slug}/
+        # Extract the class attribute content that precedes the ads-card link
+        import re
+        pattern = rf"<div class='([^']*)'><ads-card link=/learning-paths/servers-and-cloud-computing/{re.escape(lp_slug)}/"
+        match = re.search(pattern, response.text)
+        
+        if not match:
+            return []
+        
+        class_attr = match.group(1)
+        
+        # Map tag names to display names
+        csp_tag_map = {
+            "tag-google-cloud": "Google Cloud",
+            "tag-microsoft-azure": "Microsoft Azure",
+            "tag-aws": "AWS",
+            "tag-oracle": "Oracle"
+        }
+        
+        found_csps = []
+        for tag, display_name in csp_tag_map.items():
+            if tag in class_attr:
+                found_csps.append(display_name)
+        
+        return found_csps
+        
+    except Exception as e:
+        print(f"Warning: Failed to get CSP tags for {lp_slug}: {e}", file=sys.stderr)
+        return []
 
 def get_html_title(url):
     category = None
