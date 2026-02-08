@@ -17,11 +17,9 @@
 | [Microbenchmark storage performance with fio on Arm](https://learn.arm.com/learning-paths/servers-and-cloud-computing/disk-io-benchmark/) | April 22, 2025 | May 12, 2025 | 20 | ACM | servers-and-cloud-computing |  |
 | [Generate audio with Stable Audio Open Small on LiteRT](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-open-small-with-lite-rt/) | May 14, 2025 | May 15, 2025 | 1 |  | mobile-graphics-and-gaming |  |
 | [Migrate applications to Arm servers using migrate-ease](https://learn.arm.com/learning-paths/servers-and-cloud-computing/migrate-ease/) | May 09, 2025 | May 19, 2025 | 10 | ACM | servers-and-cloud-computing |  |
-Error: 404 Client Error: Not Found for url: https://learn.arm.com/learning-paths/iot/azure-iot/
-| [None](https://learn.arm.com/learning-paths/iot/azure-iot/) | March 27, 2025 | May 24, 2025 | 58 |  | iot |  |
+| [Build IoT Solutions in Azure for Arm Devices](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/azure-iot/) | March 27, 2025 | May 24, 2025 | 58 |  | embedded-and-microcontrollers |  |
 | [Finch on Arm Linux](https://learn.arm.com/install-guides/finch/) | May 21, 2025 | May 24, 2025 | 3 |  | install-guides |  |
 | [Deploy an MCP Server on Raspberry Pi 5 for AI Agent Interaction using OpenAI SDK](https://learn.arm.com/learning-paths/cross-platform/mcp-ai-agent/) | May 08, 2025 | May 27, 2025 | 19 |  | cross-platform |  |
-Error: 404 Client Error: Not Found for url: https://learn.arm.com/learning-paths/iot/azure-iot/
 
 | Statistic | Value |
 |-----------|-------|
@@ -33,8 +31,7 @@ Error: 404 Client Error: Not Found for url: https://learn.arm.com/learning-paths
 | Number in 'mobile-graphics-and-gaming' | 4 |
 | Number in 'servers-and-cloud-computing' | 6 |
 | Number in 'laptops-and-desktops' | 1 |
-| Number in 'embedded-and-microcontrollers' | 1 |
-| Number in 'iot' | 1 |
+| Number in 'embedded-and-microcontrollers' | 2 |
 | Number in 'cross-platform' | 1 |
 | Number with Google Cloud tag | 0 |
 | Number with Microsoft Azure tag | 1 |
@@ -58,5 +55,5 @@ Error: 404 Client Error: Not Found for url: https://learn.arm.com/learning-paths
 Total planned Learning Paths: 10
 
 
-_Report generated on February 08, 2026 at 04:28:07 UTC_
+_Report generated on February 08, 2026 at 04:35:12 UTC_
 
