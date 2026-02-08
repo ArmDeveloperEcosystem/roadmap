@@ -2,11 +2,11 @@
 
 
 ## Published Learning Paths
-| Title | Start Date | Publish Date | Time to Publish (days) | Program | Category |
-|-------|--------------|-------------|----------------------|-----|----------|
-| [Deploy Arm-based Cobalt 100 VMs using Azure Resource Manager templates](https://learn.arm.com/learning-paths/servers-and-cloud-computing/azure-arm-template/) | January 28, 2026 | February 07, 2026 | 10 | ACM | servers-and-cloud-computing |
-| [Arm Total Performance](https://learn.arm.com/install-guides/atp) | February 03, 2026 | February 07, 2026 | 4 | ACM | install-guides |
-| [Arm System Characterization Tool](https://learn.arm.com/install-guides/asct) | February 03, 2026 | February 07, 2026 | 4 | ACM | install-guides |
+| Title | Start Date | Publish Date | Time to Publish (days) | Program | Category | CSP |
+|-------|--------------|-------------|----------------------|-----|----------|-----|
+| [Deploy Arm-based Cobalt 100 VMs using Azure Resource Manager templates](https://learn.arm.com/learning-paths/servers-and-cloud-computing/azure-arm-template/) | January 28, 2026 | February 07, 2026 | 10 | ACM | servers-and-cloud-computing |  |
+| [Arm Total Performance](https://learn.arm.com/install-guides/atp) | February 03, 2026 | February 07, 2026 | 4 | ACM | install-guides |  |
+| [Arm System Characterization Tool](https://learn.arm.com/install-guides/asct) | February 03, 2026 | February 07, 2026 | 4 | ACM | install-guides |  |
 
 | Statistic | Value |
 |-----------|-------|
@@ -34,5 +34,5 @@
 Total planned Learning Paths: 10
 
 
-_Report generated on February 07, 2026 at 03:34:43 UTC_
+_Report generated on February 08, 2026 at 03:34:05 UTC_
 
