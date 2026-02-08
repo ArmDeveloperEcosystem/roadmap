@@ -1,0 +1,70 @@
+name: Generate Reports for April-December 2025
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-reports:
+    runs-on: ubuntu-24.04-arm
+    strategy:
+      matrix:
+        month: ['2025-04', '2025-05', '2025-06', '2025-07', '2025-08', '2025-09', '2025-10', '2025-11', '2025-12']
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Create reports directory if not exists
+        run: mkdir -p reports
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r tools/requirements.txt
+
+      - name: Generate monthly report for ${{ matrix.month }}
+        env:
+          PAT: ${{ secrets.PAT }}
+        run: |
+          python tools/generate-monthly-report.py --month ${{ matrix.month }}
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: report-${{ matrix.month }}
+          path: reports/LP-report-${{ matrix.month }}.md
+          retention-days: 1
+
+  commit-reports:
+    needs: generate-reports
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download all report artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Copy reports to reports directory
+        run: |
+          mkdir -p reports
+          find artifacts -name "*.md" -exec cp {} reports/ \;
+
+      - name: Commit and push reports to repository
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add reports/
+          git commit -m "Add monthly learning path reports for April-December 2025 [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
