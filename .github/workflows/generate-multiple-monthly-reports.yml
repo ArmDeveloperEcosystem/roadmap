@@ -12,6 +12,9 @@ on:
         required: true
         default: '2025-12'
 
+permissions:
+  contents: write
+
 jobs:
   generate-reports:
     runs-on: ubuntu-24.04-arm
