@@ -1,0 +1,85 @@
+name: Generate Multiple Monthly Reports
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_month:
+        description: 'Start month (YYYY-MM format)'
+        required: true
+        default: '2025-04'
+      end_month:
+        description: 'End month (YYYY-MM format)'
+        required: true
+        default: '2025-12'
+
+jobs:
+  generate-reports:
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Create reports directory if not exists
+        run: mkdir -p reports
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r tools/requirements.txt
+
+      - name: Generate monthly reports
+        env:
+          PAT: ${{ secrets.PAT }}
+        run: |
+          # Parse start and end months
+          START_MONTH="${{ github.event.inputs.start_month }}"
+          END_MONTH="${{ github.event.inputs.end_month }}"
+          
+          # Convert to comparable format (YYYYMM)
+          START_NUM=$(echo $START_MONTH | tr -d '-')
+          END_NUM=$(echo $END_MONTH | tr -d '-')
+          
+          # Extract year and month
+          YEAR=$(echo $START_MONTH | cut -d'-' -f1)
+          MONTH=$(echo $START_MONTH | cut -d'-' -f2)
+          
+          # Loop through months
+          while true; do
+            CURRENT_MONTH=$(printf "%04d-%02d" $YEAR $MONTH)
+            CURRENT_NUM=$(echo $CURRENT_MONTH | tr -d '-')
+            
+            # Check if we've passed the end month
+            if [ $CURRENT_NUM -gt $END_NUM ]; then
+              break
+            fi
+            
+            echo "Generating report for $CURRENT_MONTH..."
+            python tools/generate-monthly-report.py --month $CURRENT_MONTH
+            
+            # Increment month
+            MONTH=$((MONTH + 1))
+            if [ $MONTH -gt 12 ]; then
+              MONTH=1
+              YEAR=$((YEAR + 1))
+            fi
+            
+            # Safety check to prevent infinite loops
+            if [ $CURRENT_NUM -eq $END_NUM ]; then
+              break
+            fi
+          done
+
+      - name: Commit and push reports to repository
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add reports/
+          git commit -m "Add monthly learning path reports [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}

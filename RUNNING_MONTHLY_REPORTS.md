@@ -2,7 +2,19 @@
 
 This document explains how to generate the monthly Learning Path reports for months April 2025 through December 2025.
 
-## Option 1: Using the trigger script (Recommended)
+## Option 1: Using the new automated workflow (Recommended)
+
+A new workflow has been created that generates all 9 reports in parallel with a single trigger.
+
+### Usage
+
+1. Go to https://github.com/ArmDeveloperEcosystem/roadmap/actions/workflows/generate-april-december-2025-reports.yml
+2. Click "Run workflow"  
+3. Click "Run workflow" again to confirm
+
+This will run 9 parallel jobs, each generating one monthly report. This is the fastest and most efficient option.
+
+## Option 2: Using the trigger script
 
 A script has been created to automate the triggering of all 9 workflow runs.
 
@@ -27,7 +39,21 @@ This will trigger the "Generate Monthly Learning Path Report" workflow 9 times w
 - 2025-11 (November 2025)
 - 2025-12 (December 2025)
 
-## Option 2: Manual workflow dispatch via GitHub UI
+## Option 3: Using the flexible date range workflow
+
+A workflow has been created that can generate reports for any date range.
+
+### Usage
+
+1. Go to https://github.com/ArmDeveloperEcosystem/roadmap/actions/workflows/generate-multiple-monthly-reports.yml
+2. Click "Run workflow"
+3. Enter start month: `2025-04`
+4. Enter end month: `2025-12`
+5. Click "Run workflow" to confirm
+
+This will generate all reports sequentially in a single workflow run.
+
+## Option 4: Manual workflow dispatch via GitHub UI
 
 1. Go to https://github.com/ArmDeveloperEcosystem/roadmap/actions/workflows/update-roadmap-project-dates.yml
 2. Click the "Run workflow" button
@@ -35,7 +61,7 @@ This will trigger the "Generate Monthly Learning Path Report" workflow 9 times w
 4. Click "Run workflow"
 5. Repeat steps 2-4 for each of the 9 months
 
-## Option 3: Using GitHub CLI manually
+## Option 5: Using GitHub CLI manually
 
 Run each command individually:
 
