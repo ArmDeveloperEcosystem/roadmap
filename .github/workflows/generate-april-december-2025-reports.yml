@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,13 +32,36 @@ jobs:
         run: |
           python tools/generate-monthly-report.py --month ${{ matrix.month }}
 
-      - name: Commit and push report to repository
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: report-${{ matrix.month }}
+          path: reports/LP-report-${{ matrix.month }}.md
+          retention-days: 1
+
+  commit-reports:
+    needs: generate-reports
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download all report artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Copy reports to reports directory
+        run: |
+          mkdir -p reports
+          find artifacts -name "*.md" -exec cp {} reports/ \;
+
+      - name: Commit and push reports to repository
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git pull --rebase
           git add reports/
-          git commit -m "Add monthly learning path report for ${{ matrix.month }} [skip ci]" || echo "No changes to commit"
+          git commit -m "Add monthly learning path reports for April-December 2025 [skip ci]" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
