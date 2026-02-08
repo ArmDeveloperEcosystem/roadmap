@@ -162,7 +162,7 @@ def fetch_done_items(month_filter=None, month_range=None):
                 if (
                     "field" in field and field["field"]
                     and field["field"].get("name") == "Status"
-                    and (field.get("name") == "Done" or field.get("value") == "Done")
+                    and (field.get("name") in ["Done", "Maintenance"] or field.get("value") in ["Done", "Maintenance"])
                 ):
                     # Find the Published URL, Start Date, Publish Date, and ACM fields
                     for f in item["fieldValues"]["nodes"]:
