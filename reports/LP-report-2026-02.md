@@ -8,16 +8,29 @@
 | [Arm Total Performance](https://learn.arm.com/install-guides/atp) | February 03, 2026 | February 07, 2026 | 4 | ACM | install-guides |  |
 | [Arm System Characterization Tool](https://learn.arm.com/install-guides/asct) | February 03, 2026 | February 07, 2026 | 4 | ACM | install-guides |  |
 | [Build an offline voice chatbot with faster-whisper and vLLM on DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_voicechatbot/) | February 04, 2026 | February 13, 2026 | 9 |  | laptops-and-desktops |  |
+| [Deploy UltraEdge HPC-I for AI and mixed workloads on Arm](https://learn.arm.com/learning-paths/cross-platform/tinkerblox_ultraedge/) | December 11, 2025 | February 20, 2026 | 71 | ACM | cross-platform |  |
+| [Build a CI/CD pipeline using GitLab-hosted Arm runners](https://learn.arm.com/learning-paths/cross-platform/gitlab-managed-runners/) | December 01, 2025 | February 23, 2026 | 84 | ACM | cross-platform |  |
+| [Optimize performance using Link-Time Optimization with GCC](https://learn.arm.com/learning-paths/servers-and-cloud-computing/gcc-lto/) | January 05, 2026 | February 23, 2026 | 49 | ACM | servers-and-cloud-computing |  |
+| [Benchmark Linux kernel performance on Arm servers with Fastpath](https://learn.arm.com/learning-paths/servers-and-cloud-computing/fastpath/) | January 22, 2026 | February 23, 2026 | 32 | ACM | servers-and-cloud-computing | AWS |
+| [Quantize neural upscaling models with ExecuTorch](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/quantize-neural-upscaling-models/) | February 10, 2026 | February 23, 2026 | 13 |  | mobile-graphics-and-gaming |  |
+| [Scan multi-architecture containers with Trivy on Azure Cobalt 100](https://learn.arm.com/learning-paths/servers-and-cloud-computing/trivy-on-gcpp/) | February 11, 2026 | February 23, 2026 | 12 | ACM | servers-and-cloud-computing | Microsoft Azure |
+| [Deploy OpenTelemetry on Google Cloud C4A Axion processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/opentelemetry/) | February 18, 2026 | February 23, 2026 | 5 | ACM | servers-and-cloud-computing | Google Cloud |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 4 |
-| Number of ACM Learning Paths published | 3 |
-| Average time to publish (days) | 6.8 |
-| Longest time to publish (days) | 10 |
-| Number in 'servers-and-cloud-computing' | 1 |
+| Number of Learning Paths published | 11 |
+| Number of ACM Learning Paths published | 9 |
+| Average time to publish (days) | 26.6 |
+| Longest time to publish (days) | 84 |
+| Number in 'servers-and-cloud-computing' | 5 |
 | Number in 'install-guides' | 2 |
 | Number in 'laptops-and-desktops' | 1 |
+| Number in 'cross-platform' | 2 |
+| Number in 'mobile-graphics-and-gaming' | 1 |
+| Number with Google Cloud tag | 1 |
+| Number with Microsoft Azure tag | 1 |
+| Number with AWS tag | 1 |
+| Number with Oracle tag | 0 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -37,5 +50,5 @@
 Total planned Learning Paths: 11
 
 
-_Report generated on February 17, 2026 at 19:47:52 UTC_
+_Report generated on February 23, 2026 at 15:43:35 UTC_
 
