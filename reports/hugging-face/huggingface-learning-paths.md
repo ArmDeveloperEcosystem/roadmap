@@ -1,6 +1,6 @@
 # Hugging Face Learning Paths
 
-Total Hugging Face Learning Paths: 22
+Total Hugging Face Learning Paths: 23
 
 | Title | Category |
 |-------|----------|
@@ -26,3 +26,4 @@ Total Hugging Face Learning Paths: 22
 | [Generate audio with Stable Audio Open Small using ExecuTorch](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-with-executorch) | mobile-graphics-and-gaming |
 | [Build an Android chat application with ONNX Runtime API](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/build-android-chat-app-using-onnxruntime) | mobile-graphics-and-gaming |
 | [Build a RAG pipeline on Arm-based NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_rag) | laptops-and-desktops |
+| [Fine-tune PyTorch models on DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/pytorch-finetuning-on-spark) | laptops-and-desktops |
