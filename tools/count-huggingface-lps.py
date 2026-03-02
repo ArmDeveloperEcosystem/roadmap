@@ -17,7 +17,7 @@ REPO_URL = "https://github.com/ArmDeveloperEcosystem/arm-learning-paths.git"
 REPO_DIR = "arm-learning-paths"
 OUTPUT_MD = "huggingface_learning_paths.md"
 
-LearningPath = namedtuple('LearningPath', ['title', 'category', 'path'])
+LearningPath = namedtuple('LearningPath', ['title', 'category', 'path', 'csps'])
 
 def extract_front_matter(file_path):
     """Extract YAML front matter from a markdown file."""
@@ -64,19 +64,28 @@ def find_huggingface_learning_paths(repo_dir):
                 print(f"DEBUG: {category}/{lp} parsed tags: {tags}")
                 if any(tag.lower() == "hugging face" for tag in tags):
                     title = fm.get('title', lp)
-                    print(f"FOUND: {title} in {category}")
-                    results.append(LearningPath(title=title, category=category, path=f"{category}/{lp}"))
+                    # Extract cloud service provider tags
+                    csp_raw = fm.get('cloud_service_providers', [])
+                    if isinstance(csp_raw, str):
+                        csps = [c.strip() for c in csp_raw.split(',')]
+                    elif isinstance(csp_raw, list):
+                        csps = [str(c).strip() for c in csp_raw]
+                    else:
+                        csps = []
+                    print(f"FOUND: {title} in {category} CSPs: {csps}")
+                    results.append(LearningPath(title=title, category=category, path=f"{category}/{lp}", csps=csps))
     return results
 
 def write_markdown_table(learning_paths, output_file):
     with open(output_file, 'w') as f:
         f.write("# Hugging Face Learning Paths\n\n")
         f.write(f"Total Hugging Face Learning Paths: {len(learning_paths)}\n\n")
-        f.write("| Title | Category |\n")
-        f.write("|-------|----------|\n")
+        f.write("| Title | Category | CSP |\n")
+        f.write("|-------|----------|-----|\n")
         for lp in learning_paths:
             url = f"https://learn.arm.com/learning-paths/{lp.path}"
-            f.write(f"| [{lp.title}]({url}) | {lp.category} |\n")
+            csp_str = ", ".join(lp.csps) if lp.csps else ""
+            f.write(f"| [{lp.title}]({url}) | {lp.category} | {csp_str} |\n")
     print(f"Markdown report written to {output_file}")
 
 def main():
