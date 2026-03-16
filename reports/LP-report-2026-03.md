@@ -9,15 +9,19 @@
 | [Understand KleidiAI SME2 matmul microkernels](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/kai_sme2_matmul_ukernel_explained/) | February 24, 2026 | March 06, 2026 | 10 |  | mobile-graphics-and-gaming |  |
 | [Migrate applications between Arm platforms using Kiro Arm SoC Migration Power](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arm-soc-migration-learning-path/) | January 26, 2026 | March 06, 2026 | 39 | ACM | servers-and-cloud-computing | Google Cloud, Microsoft Azure, AWS, Oracle |
 | [Build, optimize, and deploy ML models with ONNX on Arm64 and mobile devices](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/onnx/) | January 13, 2026 | March 06, 2026 | 52 |  | mobile-graphics-and-gaming |  |
+| [Use Linux on the NXP FRDM i.MX 93 board](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/linux-nxp-board/) | January 14, 2026 | March 16, 2026 | 61 |  | embedded-and-microcontrollers |  |
+| [Automate MCP server testing using Pytest and Testcontainers](https://learn.arm.com/learning-paths/cross-platform/automate-mcp-with-testcontainers/) | March 05, 2026 | March 16, 2026 | 11 |  | cross-platform |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 5 |
+| Number of Learning Paths published | 7 |
 | Number of ACM Learning Paths published | 3 |
-| Average time to publish (days) | 23.4 |
-| Longest time to publish (days) | 52 |
+| Average time to publish (days) | 27.0 |
+| Longest time to publish (days) | 61 |
 | Number in 'servers-and-cloud-computing' | 3 |
 | Number in 'mobile-graphics-and-gaming' | 2 |
+| Number in 'embedded-and-microcontrollers' | 1 |
+| Number in 'cross-platform' | 1 |
 | Number with Google Cloud tag | 2 |
 | Number with Microsoft Azure tag | 1 |
 | Number with AWS tag | 1 |
@@ -41,5 +45,5 @@
 Total planned Learning Paths: 11
 
 
-_Report generated on March 16, 2026 at 13:21:31 UTC_
+_Report generated on March 16, 2026 at 13:41:58 UTC_
 
