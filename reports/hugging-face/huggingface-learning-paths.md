@@ -7,7 +7,7 @@ Total Hugging Face Learning Paths: 23
 | [Fine-tune PyTorch models on DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/pytorch-finetuning-on-spark) | laptops-and-desktops |  |
 | [Build a RAG pipeline on Arm-based NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_rag) | laptops-and-desktops |  |
 | [Generate audio with Stable Audio Open Small on LiteRT](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-open-small-with-lite-rt) | mobile-graphics-and-gaming |  |
-| [LLM inference on Android with KleidiAI, MediaPipe, and XNNPACK](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/kleidiai-on-android-with-mediapipe-and-xnnpack) | mobile-graphics-and-gaming |  |
+| [Run LLM inference on Android with KleidiAI, MediaPipe, and XNNPACK](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/kleidiai-on-android-with-mediapipe-and-xnnpack) | mobile-graphics-and-gaming |  |
 | [Generate audio with Stable Audio Open Small using ExecuTorch](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-with-executorch) | mobile-graphics-and-gaming |  |
 | [Profile the Performance of AI and ML Mobile Applications on Arm](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/profiling-ml-on-arm) | mobile-graphics-and-gaming |  |
 | [Build an Android chat app with Llama, KleidiAI, ExecuTorch, and XNNPACK](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/build-llama3-chat-android-app-using-executorch-and-xnnpack) | mobile-graphics-and-gaming |  |
