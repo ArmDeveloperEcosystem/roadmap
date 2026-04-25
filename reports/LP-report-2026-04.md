@@ -12,14 +12,25 @@
 | [Deploy Redis on Azure Cobalt 100 Arm64 virtual machines for real-time messaging and event processing](https://learn.arm.com/learning-paths/servers-and-cloud-computing/redis-cobalt/) | April 06, 2026 | April 10, 2026 | 4 | ACM | servers-and-cloud-computing | Microsoft Azure |
 | [Identify code hotspots using Arm Performix through the Arm MCP Server](https://learn.arm.com/learning-paths/servers-and-cloud-computing/performix-mcp-agent/) | April 08, 2026 | April 10, 2026 | 2 | ACM | servers-and-cloud-computing |  |
 | [Scale AI workloads with Ray on Google Cloud C4A Axion VM](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ray-on-axion/) | April 13, 2026 | April 14, 2026 | 1 | ACM | servers-and-cloud-computing | Google Cloud |
+| [Connect AI agents to edge devices using Device Connect and Strands](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/device-connect-strands/) | March 16, 2026 | April 25, 2026 | 40 |  | embedded-and-microcontrollers |  |
+| [Flatpak](https://learn.arm.com/install-guides/flatpak/) | April 09, 2026 | April 25, 2026 | 16 |  | install-guides |  |
+| [Accelerate random number generation with OpenRNG and Performix](https://learn.arm.com/learning-paths/servers-and-cloud-computing/openrng-with-performix) | April 09, 2026 | April 25, 2026 | 16 | ACM | servers-and-cloud-computing |  |
+| [Build a Multimodal Retail Restocking Assistant on Armv9 With MNN](https://learn.arm.com/learning-paths/cross-platform/multimodel_mnn_v9/) | April 16, 2026 | April 25, 2026 | 9 | ACM | cross-platform |  |
+| [Add an LLM to your Android app with Arm's AI Chat library](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/android-ai-chat-lib/) | April 17, 2026 | April 25, 2026 | 8 |  | mobile-graphics-and-gaming |  |
+| [Device-to-Device communication with Device Connect](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/device-connect-d2d/) | April 21, 2026 | April 25, 2026 | 4 |  | embedded-and-microcontrollers |  |
+| [Generate neural graphics datasets with Neural Graphics Data Capture in Unreal Engine](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/neural-graphics-data-capture-unreal/) | April 20, 2026 | April 25, 2026 | 5 |  | mobile-graphics-and-gaming |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 8 |
-| Number of ACM Learning Paths published | 8 |
-| Average time to publish (days) | 7.2 |
-| Longest time to publish (days) | 11 |
-| Number in 'servers-and-cloud-computing' | 8 |
+| Number of Learning Paths published | 15 |
+| Number of ACM Learning Paths published | 10 |
+| Average time to publish (days) | 10.4 |
+| Longest time to publish (days) | 40 |
+| Number in 'servers-and-cloud-computing' | 9 |
+| Number in 'embedded-and-microcontrollers' | 2 |
+| Number in 'install-guides' | 1 |
+| Number in 'cross-platform' | 1 |
+| Number in 'mobile-graphics-and-gaming' | 2 |
 | Number with Google Cloud tag | 3 |
 | Number with Microsoft Azure tag | 3 |
 | Number with AWS tag | 0 |
@@ -28,6 +39,7 @@
 ## Planned Learning Paths
 | Title | Program | Created Date |
 |-------|-----|--------------|
+| [AWS CDK install guide and potential learning path](https://github.com/ArmDeveloperEcosystem/roadmap/issues/41) |  | April 17, 2026 |
 | [PAC/BTI instruction validation with AWS Greengrass LP](https://github.com/ArmDeveloperEcosystem/roadmap/issues/40) |  | April 08, 2026 |
 | [OpenJDK JVM PAC/BTI enablement LP](https://github.com/ArmDeveloperEcosystem/roadmap/issues/39) |  | April 08, 2026 |
 | [Lift-n-Shift MySQL Migration LP](https://github.com/ArmDeveloperEcosystem/roadmap/issues/38) |  | April 08, 2026 |
@@ -45,8 +57,8 @@
 | [stress-ng - System stress tester](https://github.com/ArmDeveloperEcosystem/roadmap/issues/15) | ACM | May 29, 2025 |
 | [OLAP workload benchmarking for Graviton5](https://github.com/ArmDeveloperEcosystem/roadmap/issues/11) | ACM | April 15, 2025 |
 
-Total planned Learning Paths: 16
+Total planned Learning Paths: 17
 
 
-_Report generated on April 17, 2026 at 13:56:48 UTC_
+_Report generated on April 25, 2026 at 03:32:03 UTC_
 
