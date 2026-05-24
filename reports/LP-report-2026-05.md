@@ -21,18 +21,20 @@
 | [Validate PAC/BTI security features in OpenJDK on Google Cloud C4A](https://learn.arm.com/learning-paths/servers-and-cloud-computing/openjdk-pacbti-gcp/) | May 11, 2026 | May 15, 2026 | 4 | ACM | servers-and-cloud-computing | Google Cloud |
 | [Deploy multi-network device meshes using Device Connect server and NATS](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/device-connect-server/) | May 11, 2026 | May 15, 2026 | 4 |  | embedded-and-microcontrollers |  |
 | [Prepare models for neural graphics with Arm neural technology](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/preparing-models-for-nt/) | May 12, 2026 | May 15, 2026 | 3 |  | mobile-graphics-and-gaming |  |
+| [Train and deploy XGBoost models on Google Cloud C4A Axion VM](https://learn.arm.com/learning-paths/servers-and-cloud-computing/xgboost-on-axion/) | May 11, 2026 | May 24, 2026 | 13 | ACM | servers-and-cloud-computing | Google Cloud |
+| [Train and benchmark AI workloads with DeepSpeed on Google Cloud C4A Axion VMs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/deepspeed-on-axion/) | May 15, 2026 | May 24, 2026 | 9 | ACM | servers-and-cloud-computing | Google Cloud |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 17 |
-| Number of ACM Learning Paths published | 10 |
-| Average time to publish (days) | 9.3 |
+| Number of Learning Paths published | 19 |
+| Number of ACM Learning Paths published | 12 |
+| Average time to publish (days) | 9.5 |
 | Longest time to publish (days) | 21 |
-| Number in 'servers-and-cloud-computing' | 11 |
+| Number in 'servers-and-cloud-computing' | 13 |
 | Number in 'mobile-graphics-and-gaming' | 2 |
 | Number in 'cross-platform' | 2 |
 | Number in 'embedded-and-microcontrollers' | 2 |
-| Number with Google Cloud tag | 5 |
+| Number with Google Cloud tag | 7 |
 | Number with Microsoft Azure tag | 7 |
 | Number with AWS tag | 2 |
 | Number with Oracle tag | 0 |
@@ -56,5 +58,5 @@
 Total planned Learning Paths: 12
 
 
-_Report generated on May 18, 2026 at 21:29:17 UTC_
+_Report generated on May 24, 2026 at 02:29:21 UTC_
 
