@@ -23,17 +23,21 @@
 | [Prepare models for neural graphics with Arm neural technology](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/preparing-models-for-nt/) | May 12, 2026 | May 15, 2026 | 3 |  | mobile-graphics-and-gaming |  |
 | [Train and deploy XGBoost models on Google Cloud C4A Axion VM](https://learn.arm.com/learning-paths/servers-and-cloud-computing/xgboost-on-axion/) | May 11, 2026 | May 24, 2026 | 13 | ACM | servers-and-cloud-computing | Google Cloud |
 | [Train and benchmark AI workloads with DeepSpeed on Google Cloud C4A Axion VMs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/deepspeed-on-axion/) | May 15, 2026 | May 24, 2026 | 9 | ACM | servers-and-cloud-computing | Google Cloud |
+| [Antigravity CLI](https://learn.arm.com/install-guides/antigravity/) | May 26, 2026 | May 27, 2026 | 1 |  | install-guides |  |
+| [Run vLLM inference with quantized models and benchmark on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-benchmark-quantisation/) | May 15, 2026 | May 30, 2026 | 15 | ACM | servers-and-cloud-computing |  |
+| [Memgraph on Arm](https://learn.arm.com/install-guides/memgraph-on-arm/) | May 27, 2026 | May 30, 2026 | 3 |  | install-guides |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 19 |
-| Number of ACM Learning Paths published | 12 |
-| Average time to publish (days) | 9.5 |
+| Number of Learning Paths published | 22 |
+| Number of ACM Learning Paths published | 13 |
+| Average time to publish (days) | 9.0 |
 | Longest time to publish (days) | 21 |
-| Number in 'servers-and-cloud-computing' | 13 |
+| Number in 'servers-and-cloud-computing' | 14 |
 | Number in 'mobile-graphics-and-gaming' | 2 |
 | Number in 'cross-platform' | 2 |
 | Number in 'embedded-and-microcontrollers' | 2 |
+| Number in 'install-guides' | 2 |
 | Number with Google Cloud tag | 7 |
 | Number with Microsoft Azure tag | 7 |
 | Number with AWS tag | 2 |
@@ -58,5 +62,5 @@
 Total planned Learning Paths: 12
 
 
-_Report generated on May 24, 2026 at 02:29:21 UTC_
+_Report generated on May 30, 2026 at 02:44:19 UTC_
 
