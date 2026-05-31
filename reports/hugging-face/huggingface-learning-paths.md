@@ -18,7 +18,7 @@ Total Hugging Face Learning Paths: 24
 | [Run a Large Language Model (LLM) chatbot with PyTorch using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pytorch-llama) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
 | [Run an LLM chatbot with rtp-llm on Arm-based servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rtp-llm) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
 | [Deploy a Large Language Model (LLM) chatbot with llama.cpp using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/llama-cpu) | servers-and-cloud-computing | AWS |
-| [Run vLLM inference with quantised models and benchmark on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-benchmark-quantisation) | servers-and-cloud-computing |  |
+| [Run vLLM inference with quantized models and benchmark on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-benchmark-quantisation) | servers-and-cloud-computing |  |
 | [Build and Run vLLM on Arm Servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
 | [Accelerate Whisper on Arm with Hugging Face Transformers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/whisper) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
 | [Run vLLM inference with INT4 quantization on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-acceleration) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
