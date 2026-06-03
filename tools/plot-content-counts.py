@@ -39,7 +39,7 @@ sorted_data = sorted(zip(dates, install_guides, unique_paths, published_content)
 dates, install_guides, unique_paths, published_content = zip(*sorted_data)
 
 # Plot
-plt.figure(figsize=(12, 7))
+plt.figure(figsize=(16, 7))
 plt.plot(dates, install_guides, label='Install Guides')
 plt.plot(dates, unique_paths, label='Total Learning Paths (unique)')
 plt.plot(dates, published_content, label='Total Published Content')
