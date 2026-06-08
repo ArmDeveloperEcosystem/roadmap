@@ -4,13 +4,26 @@
 ## Published Learning Paths
 | Title | Start Date | Publish Date | Time to Publish (days) | Program | Category | CSP |
 |-------|--------------|-------------|----------------------|-----|----------|-----|
+| [Port Zephyr RTOS and run applications on the Arm Corstone-320 MPS4 platform](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/zephyr_cs320_mps4/) | May 20, 2026 | June 08, 2026 | 19 |  | embedded-and-microcontrollers |  |
+| [Orchestrate a persistent local AI agent with Hermes on NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_persistent_agent/) | May 21, 2026 | June 08, 2026 | 18 |  | laptops-and-desktops |  |
+| [Benchmark QuantLib on Azure Cobalt](https://learn.arm.com/learning-paths/servers-and-cloud-computing/quantlib/) | May 27, 2026 | June 08, 2026 | 12 | ACM | servers-and-cloud-computing | Microsoft Azure |
+| [Build an edge AI Reachy Mini app with Raspberry Pi, MediaPipe, and MuJoCo](https://learn.arm.com/learning-paths/cross-platform/build-a-reachy-robot-app-on-pi/) | May 29, 2026 | June 08, 2026 | 10 |  | cross-platform |  |
+| [Use Longhorn to deploy persistent storage for Kubernetes workloads on Arm-based Azure virtual machines](https://learn.arm.com/learning-paths/servers-and-cloud-computing/longhorn-cobalt/) | June 01, 2026 | June 08, 2026 | 7 | ACM | servers-and-cloud-computing | Microsoft Azure |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 0 |
-| Number of ACM Learning Paths published | 0 |
-| Average time to publish (days) | N/A |
-| Longest time to publish (days) | N/A |
+| Number of Learning Paths published | 5 |
+| Number of ACM Learning Paths published | 2 |
+| Average time to publish (days) | 13.2 |
+| Longest time to publish (days) | 19 |
+| Number in 'embedded-and-microcontrollers' | 1 |
+| Number in 'laptops-and-desktops' | 1 |
+| Number in 'servers-and-cloud-computing' | 2 |
+| Number in 'cross-platform' | 1 |
+| Number with Google Cloud tag | 0 |
+| Number with Microsoft Azure tag | 2 |
+| Number with AWS tag | 0 |
+| Number with Oracle tag | 0 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -31,5 +44,5 @@
 Total planned Learning Paths: 12
 
 
-_Report generated on May 30, 2026 at 02:32:36 UTC_
+_Report generated on June 08, 2026 at 03:36:03 UTC_
 
