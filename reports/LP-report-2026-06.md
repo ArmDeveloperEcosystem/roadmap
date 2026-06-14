@@ -9,19 +9,25 @@
 | [Benchmark QuantLib on Azure Cobalt](https://learn.arm.com/learning-paths/servers-and-cloud-computing/quantlib/) | May 27, 2026 | June 08, 2026 | 12 | ACM | servers-and-cloud-computing | Microsoft Azure |
 | [Build an edge AI Reachy Mini app with Raspberry Pi, MediaPipe, and MuJoCo](https://learn.arm.com/learning-paths/cross-platform/build-a-reachy-robot-app-on-pi/) | May 29, 2026 | June 08, 2026 | 10 |  | cross-platform |  |
 | [Use Longhorn to deploy persistent storage for Kubernetes workloads on Arm-based Azure virtual machines](https://learn.arm.com/learning-paths/servers-and-cloud-computing/longhorn-cobalt/) | June 01, 2026 | June 08, 2026 | 7 | ACM | servers-and-cloud-computing | Microsoft Azure |
+| [Build RAG applications with LlamaIndex on a Google Cloud C4A virtual machine](https://learn.arm.com/learning-paths/servers-and-cloud-computing/llamaindex-rag-axion/) | May 28, 2026 | June 10, 2026 | 13 | ACM | servers-and-cloud-computing | Google Cloud |
+| [Use OpenEBS for Kubernetes-native persistent storage on Azure Cobalt 100-based Arm64 virtual machines](https://learn.arm.com/learning-paths/servers-and-cloud-computing/openebs-cobalt/) | June 03, 2026 | June 10, 2026 | 7 | ACM | servers-and-cloud-computing | Microsoft Azure |
+| [Deploy Keycloak on Azure Cobalt 100-based Arm64 virtual machines for identity and access management](https://learn.arm.com/learning-paths/servers-and-cloud-computing/keycloak-cobalt/) | May 05, 2026 | June 10, 2026 | 36 | ACM | servers-and-cloud-computing | Microsoft Azure |
+| [Docker Sandboxes (sbx)](https://learn.arm.com/install-guides/sbx/) | June 09, 2026 | June 10, 2026 | 1 |  | install-guides |  |
+| [Create and deploy a custom Topo Template](https://learn.arm.com/learning-paths/cross-platform/create-your-own-topo-templates/) | June 05, 2026 | June 14, 2026 | 9 |  | cross-platform |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 5 |
-| Number of ACM Learning Paths published | 2 |
+| Number of Learning Paths published | 10 |
+| Number of ACM Learning Paths published | 5 |
 | Average time to publish (days) | 13.2 |
-| Longest time to publish (days) | 19 |
+| Longest time to publish (days) | 36 |
 | Number in 'embedded-and-microcontrollers' | 1 |
 | Number in 'laptops-and-desktops' | 1 |
-| Number in 'servers-and-cloud-computing' | 2 |
-| Number in 'cross-platform' | 1 |
-| Number with Google Cloud tag | 0 |
-| Number with Microsoft Azure tag | 2 |
+| Number in 'servers-and-cloud-computing' | 5 |
+| Number in 'cross-platform' | 2 |
+| Number in 'install-guides' | 1 |
+| Number with Google Cloud tag | 1 |
+| Number with Microsoft Azure tag | 4 |
 | Number with AWS tag | 0 |
 | Number with Oracle tag | 0 |
 
@@ -44,5 +50,5 @@
 Total planned Learning Paths: 12
 
 
-_Report generated on June 08, 2026 at 03:36:03 UTC_
+_Report generated on June 14, 2026 at 17:46:49 UTC_
 
