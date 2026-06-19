@@ -14,21 +14,23 @@
 | [Deploy Keycloak on Azure Cobalt 100-based Arm64 virtual machines for identity and access management](https://learn.arm.com/learning-paths/servers-and-cloud-computing/keycloak-cobalt/) | May 05, 2026 | June 10, 2026 | 36 | ACM | servers-and-cloud-computing | Microsoft Azure |
 | [Docker Sandboxes (sbx)](https://learn.arm.com/install-guides/sbx/) | June 09, 2026 | June 10, 2026 | 1 |  | install-guides |  |
 | [Create and deploy a custom Topo Template](https://learn.arm.com/learning-paths/cross-platform/create-your-own-topo-templates/) | June 05, 2026 | June 14, 2026 | 9 |  | cross-platform |  |
+| [Create an interactive shell for Zephyr RTOS on Arm Cortex-M](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/zephyr_shell/) | June 04, 2026 | June 19, 2026 | 15 |  | embedded-and-microcontrollers |  |
+| [Measure and modify Go garbage collection behavior on AWS Graviton-based compute](https://learn.arm.com/learning-paths/servers-and-cloud-computing/go-gc-default-settings/) | June 12, 2026 | June 19, 2026 | 7 | ACM | servers-and-cloud-computing | AWS |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 10 |
-| Number of ACM Learning Paths published | 5 |
-| Average time to publish (days) | 13.2 |
+| Number of Learning Paths published | 12 |
+| Number of ACM Learning Paths published | 6 |
+| Average time to publish (days) | 12.8 |
 | Longest time to publish (days) | 36 |
-| Number in 'embedded-and-microcontrollers' | 1 |
+| Number in 'embedded-and-microcontrollers' | 2 |
 | Number in 'laptops-and-desktops' | 1 |
-| Number in 'servers-and-cloud-computing' | 5 |
+| Number in 'servers-and-cloud-computing' | 6 |
 | Number in 'cross-platform' | 2 |
 | Number in 'install-guides' | 1 |
 | Number with Google Cloud tag | 1 |
 | Number with Microsoft Azure tag | 4 |
-| Number with AWS tag | 0 |
+| Number with AWS tag | 1 |
 | Number with Oracle tag | 0 |
 
 ## Planned Learning Paths
@@ -50,5 +52,5 @@
 Total planned Learning Paths: 12
 
 
-_Report generated on June 14, 2026 at 17:46:49 UTC_
+_Report generated on June 19, 2026 at 16:44:06 UTC_
 
