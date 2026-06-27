@@ -16,21 +16,24 @@
 | [Create and deploy a custom Topo Template](https://learn.arm.com/learning-paths/cross-platform/create-your-own-topo-templates/) | June 05, 2026 | June 14, 2026 | 9 |  | cross-platform |  |
 | [Create an interactive shell for Zephyr RTOS on Arm Cortex-M](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/zephyr_shell/) | June 04, 2026 | June 19, 2026 | 15 |  | embedded-and-microcontrollers |  |
 | [Measure and modify Go garbage collection behavior on AWS Graviton-based compute](https://learn.arm.com/learning-paths/servers-and-cloud-computing/go-gc-default-settings/) | June 12, 2026 | June 19, 2026 | 7 | ACM | servers-and-cloud-computing | AWS |
+| [Deploy containerized workloads to Arm-based Linux targets with Topo](https://learn.arm.com/learning-paths/cross-platform/deploy-containerized-workloads-with-topo/) | June 12, 2026 | June 27, 2026 | 15 |  | cross-platform |  |
+| [Deploy containers on Arm-based compute using Amazon ECS and the AWS CDK](https://learn.arm.com/learning-paths/servers-and-cloud-computing/aws-cdk/) | June 18, 2026 | June 27, 2026 | 9 | ACM | servers-and-cloud-computing | AWS |
+| [Deploy an Amazon EKS cluster with AWS Graviton-based nodes using Rafay](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rafay-eks/) | June 24, 2026 | June 27, 2026 | 3 | ACM | servers-and-cloud-computing | AWS |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 12 |
-| Number of ACM Learning Paths published | 6 |
-| Average time to publish (days) | 12.8 |
+| Number of Learning Paths published | 15 |
+| Number of ACM Learning Paths published | 8 |
+| Average time to publish (days) | 12.1 |
 | Longest time to publish (days) | 36 |
 | Number in 'embedded-and-microcontrollers' | 2 |
 | Number in 'laptops-and-desktops' | 1 |
-| Number in 'servers-and-cloud-computing' | 6 |
-| Number in 'cross-platform' | 2 |
+| Number in 'servers-and-cloud-computing' | 8 |
+| Number in 'cross-platform' | 3 |
 | Number in 'install-guides' | 1 |
 | Number with Google Cloud tag | 1 |
 | Number with Microsoft Azure tag | 4 |
-| Number with AWS tag | 1 |
+| Number with AWS tag | 3 |
 | Number with Oracle tag | 0 |
 
 ## Planned Learning Paths
@@ -52,5 +55,5 @@
 Total planned Learning Paths: 12
 
 
-_Report generated on June 19, 2026 at 16:44:06 UTC_
+_Report generated on June 27, 2026 at 13:45:43 UTC_
 
