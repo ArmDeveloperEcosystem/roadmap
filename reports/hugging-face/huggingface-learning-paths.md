@@ -7,7 +7,7 @@ Total Hugging Face Learning Paths: 24
 | [Run a Computer Vision Model on a Himax Microcontroller](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/yolo-on-himax) | embedded-and-microcontrollers |  |
 | [Run a local LLM chatbot on a Raspberry Pi 5](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/llama-python-cpu) | embedded-and-microcontrollers |  |
 | [Run Llama 3 on a Raspberry Pi 5 using ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/rpi-llama3) | embedded-and-microcontrollers |  |
-| [Build and Run vLLM on Arm Servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
+| [Build and run vLLM on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
 | [Deploy Arcee AFM-4.5B on Arm-based Google Cloud Axion with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-gcp) | servers-and-cloud-computing | Google Cloud |
 | [Run an LLM chatbot with rtp-llm on Arm-based servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rtp-llm) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
 | [Run a Large Language Model (LLM) chatbot with PyTorch using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pytorch-llama) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
