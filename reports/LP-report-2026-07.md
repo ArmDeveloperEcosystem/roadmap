@@ -5,16 +5,27 @@
 | Title | Start Date | Publish Date | Time to Publish (days) | Program | Category | CSP |
 |-------|--------------|-------------|----------------------|-----|----------|-----|
 | [Deploy Gerrit on a Google Cloud C4A instance](https://learn.arm.com/learning-paths/servers-and-cloud-computing/gerrit-on-gcp/) | June 23, 2026 | July 06, 2026 | 13 | ACM | servers-and-cloud-computing | Google Cloud |
+| [Deploy a mixed-placement AI shopping assistant on Google Kubernetes Engine with Axion-based compute](https://learn.arm.com/learning-paths/servers-and-cloud-computing/storefront-ai-assistant-gke-axion/) | July 10, 2026 | July 21, 2026 | 11 | ACM | servers-and-cloud-computing | Google Cloud |
+| [Run a Minecraft server on an Arm-based Oracle Cloud Infrastructure instance](https://learn.arm.com/learning-paths/servers-and-cloud-computing/minecraft-on-oci/) | June 30, 2026 | July 22, 2026 | 22 | ACM | servers-and-cloud-computing |  |
+| [Migrate and optimize a .NET nopCommerce application on Microsoft Azure](https://learn.arm.com/learning-paths/servers-and-cloud-computing/dotnet-migration-nopcommerce/) | July 06, 2026 | July 22, 2026 | 16 | ACM | servers-and-cloud-computing | Microsoft Azure |
+| [Secure Realms during boot using Arm Confidential Compute Architecture BootSync](https://learn.arm.com/learning-paths/servers-and-cloud-computing/cca-bootsync/) | July 06, 2026 | July 22, 2026 | 16 | ACM | servers-and-cloud-computing |  |
+| [Build an on-device AI fitness tutor app on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/ai-plank-tutor/) | July 06, 2026 | July 22, 2026 | 16 |  | mobile-graphics-and-gaming |  |
+| [Run a local AI agent with Ollama to visualize CPU orchestration on Arm](https://learn.arm.com/learning-paths/cross-platform/ai-agent-cpu-orchestration/) | July 09, 2026 | July 22, 2026 | 13 |  | cross-platform |  |
+| [Arm Toolchains repository](https://learn.arm.com/install-guides/arm-toolchains-repository/) | July 10, 2026 | July 22, 2026 | 12 |  | install-guides |  |
+| [Profile GPT-2 inference with the Arm Performix Instruction Mix recipe](https://learn.arm.com/learning-paths/servers-and-cloud-computing/performix-instruction-mix/) | July 13, 2026 | July 22, 2026 | 9 |  | servers-and-cloud-computing |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 1 |
-| Number of ACM Learning Paths published | 1 |
-| Average time to publish (days) | 13.0 |
-| Longest time to publish (days) | 13 |
-| Number in 'servers-and-cloud-computing' | 1 |
-| Number with Google Cloud tag | 1 |
-| Number with Microsoft Azure tag | 0 |
+| Number of Learning Paths published | 9 |
+| Number of ACM Learning Paths published | 5 |
+| Average time to publish (days) | 14.2 |
+| Longest time to publish (days) | 22 |
+| Number in 'servers-and-cloud-computing' | 6 |
+| Number in 'mobile-graphics-and-gaming' | 1 |
+| Number in 'cross-platform' | 1 |
+| Number in 'install-guides' | 1 |
+| Number with Google Cloud tag | 2 |
+| Number with Microsoft Azure tag | 1 |
 | Number with AWS tag | 0 |
 | Number with Oracle tag | 0 |
 
@@ -33,5 +44,5 @@
 Total planned Learning Paths: 8
 
 
-_Report generated on July 06, 2026 at 15:10:24 UTC_
+_Report generated on July 24, 2026 at 22:20:16 UTC_
 
