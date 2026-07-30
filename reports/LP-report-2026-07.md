@@ -13,16 +13,20 @@
 | [Run a local AI agent with Ollama to visualize CPU orchestration on Arm](https://learn.arm.com/learning-paths/cross-platform/ai-agent-cpu-orchestration/) | July 09, 2026 | July 22, 2026 | 13 |  | cross-platform |  |
 | [Arm Toolchains repository](https://learn.arm.com/install-guides/arm-toolchains-repository/) | July 10, 2026 | July 22, 2026 | 12 |  | install-guides |  |
 | [Profile GPT-2 inference with the Arm Performix Instruction Mix recipe](https://learn.arm.com/learning-paths/servers-and-cloud-computing/performix-instruction-mix/) | July 13, 2026 | July 22, 2026 | 9 |  | servers-and-cloud-computing |  |
+| [Get started with the arm-performix agent skill for profiling and improving Arm workloads](https://learn.arm.com/learning-paths/servers-and-cloud-computing/performix-llm-agent-skill/) | July 09, 2026 | July 30, 2026 | 21 | ACM | servers-and-cloud-computing |  |
+| [Inspect model artifacts and runtime profiles with Google Model Explorer and Arm extensions](https://learn.arm.com/learning-paths/cross-platform/explore-model-artifacts-with-model-explorer/) | July 09, 2026 | July 30, 2026 | 21 |  | cross-platform |  |
+| [Generate Arm Performix AI insights in Visual Studio Code with Codex](https://learn.arm.com/learning-paths/servers-and-cloud-computing/performix-agentic-dynamic-insights-codex/) | July 16, 2026 | July 30, 2026 | 14 |  | servers-and-cloud-computing |  |
+| [Enable Neural Frame Rate Upscaling in Unreal Engine](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/nfru-unreal/) | July 08, 2026 | July 30, 2026 | 22 |  | mobile-graphics-and-gaming |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 9 |
-| Number of ACM Learning Paths published | 5 |
-| Average time to publish (days) | 14.2 |
+| Number of Learning Paths published | 13 |
+| Number of ACM Learning Paths published | 6 |
+| Average time to publish (days) | 15.8 |
 | Longest time to publish (days) | 22 |
-| Number in 'servers-and-cloud-computing' | 6 |
-| Number in 'mobile-graphics-and-gaming' | 1 |
-| Number in 'cross-platform' | 1 |
+| Number in 'servers-and-cloud-computing' | 8 |
+| Number in 'mobile-graphics-and-gaming' | 2 |
+| Number in 'cross-platform' | 2 |
 | Number in 'install-guides' | 1 |
 | Number with Google Cloud tag | 2 |
 | Number with Microsoft Azure tag | 1 |
@@ -44,5 +48,5 @@
 Total planned Learning Paths: 8
 
 
-_Report generated on July 24, 2026 at 22:20:16 UTC_
+_Report generated on July 30, 2026 at 20:18:21 UTC_
 
