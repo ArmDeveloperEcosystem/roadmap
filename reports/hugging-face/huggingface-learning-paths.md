@@ -7,19 +7,19 @@ Total Hugging Face Learning Paths: 24
 | [Run Llama 3 on a Raspberry Pi 5 using ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/rpi-llama3) | embedded-and-microcontrollers |  |
 | [Run a local LLM chatbot on a Raspberry Pi 5](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/llama-python-cpu) | embedded-and-microcontrollers |  |
 | [Run a Computer Vision Model on a Himax Microcontroller](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/yolo-on-himax) | embedded-and-microcontrollers |  |
-| [Deploy Arcee AFM-4.5B on Arm-based AWS Graviton4 with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-aws) | servers-and-cloud-computing | AWS |
+| [Deploy Arcee AFM-4.5B on Arm-based AWS Graviton4 with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-aws) | servers-and-cloud-computing |  |
 | [Run vLLM inference with quantized models and benchmark on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-benchmark-quantisation) | servers-and-cloud-computing |  |
-| [Run an LLM chatbot with rtp-llm on Arm-based servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rtp-llm) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
-| [Accelerate Whisper on Arm with Hugging Face Transformers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/whisper) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
-| [Run a Natural Language Processing (NLP) model from Hugging Face on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/nlp-hugging-face) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
-| [Deploy a RAG-based Chatbot with llama-cpp-python using KleidiAI on Google Axion processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rag) | servers-and-cloud-computing | Google Cloud |
-| [Build a RAG application using Zilliz Cloud on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/milvus-rag) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
-| [Deploy Arcee AFM-4.5B on Arm-based Google Cloud Axion with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-gcp) | servers-and-cloud-computing | Google Cloud |
-| [Deploy a Large Language Model (LLM) chatbot with llama.cpp using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/llama-cpu) | servers-and-cloud-computing | AWS |
-| [Build and run vLLM on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
-| [Run vLLM inference with INT4 quantization on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-acceleration) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
-| [Accelerate Natural Language Processing (NLP) models from Hugging Face on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/benchmark-nlp) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
-| [Run a Large Language Model (LLM) chatbot with PyTorch using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pytorch-llama) | servers-and-cloud-computing | AWS, Microsoft Azure, Google Cloud, Oracle |
+| [Run an LLM chatbot with rtp-llm on Arm-based servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rtp-llm) | servers-and-cloud-computing |  |
+| [Accelerate Whisper on Arm with Hugging Face Transformers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/whisper) | servers-and-cloud-computing |  |
+| [Run a Natural Language Processing (NLP) model from Hugging Face on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/nlp-hugging-face) | servers-and-cloud-computing |  |
+| [Deploy a RAG-based Chatbot with llama-cpp-python using KleidiAI on Google Axion processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rag) | servers-and-cloud-computing |  |
+| [Build a RAG application using Zilliz Cloud on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/milvus-rag) | servers-and-cloud-computing |  |
+| [Deploy Arcee AFM-4.5B on Arm-based Google Cloud Axion with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-gcp) | servers-and-cloud-computing |  |
+| [Deploy a Large Language Model (LLM) chatbot with llama.cpp using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/llama-cpu) | servers-and-cloud-computing |  |
+| [Build and run vLLM on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing |  |
+| [Run vLLM inference with INT4 quantization on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-acceleration) | servers-and-cloud-computing |  |
+| [Accelerate Natural Language Processing (NLP) models from Hugging Face on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/benchmark-nlp) | servers-and-cloud-computing |  |
+| [Run a Large Language Model (LLM) chatbot with PyTorch using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pytorch-llama) | servers-and-cloud-computing |  |
 | [Fine-tune PyTorch models on DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/pytorch-finetuning-on-spark) | laptops-and-desktops |  |
 | [Build a RAG pipeline on Arm-based NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_rag) | laptops-and-desktops |  |
 | [Generate audio with Stable Audio Open Small using ExecuTorch](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-with-executorch) | mobile-graphics-and-gaming |  |
