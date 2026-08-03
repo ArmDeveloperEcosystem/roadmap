@@ -17,15 +17,16 @@
 | [Inspect model artifacts and runtime profiles with Google Model Explorer and Arm extensions](https://learn.arm.com/learning-paths/cross-platform/explore-model-artifacts-with-model-explorer/) | July 09, 2026 | July 30, 2026 | 21 |  | cross-platform |  |
 | [Generate Arm Performix AI insights in Visual Studio Code with Codex](https://learn.arm.com/learning-paths/servers-and-cloud-computing/performix-agentic-dynamic-insights-codex/) | July 16, 2026 | July 30, 2026 | 14 |  | servers-and-cloud-computing |  |
 | [Enable Neural Frame Rate Upscaling in Unreal Engine](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/nfru-unreal/) | July 08, 2026 | July 30, 2026 | 22 |  | mobile-graphics-and-gaming |  |
+| [Train and evaluate Neural Frame Rate Upscaling models using Model Gym](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/model-training-gym-nfru/) | July 29, 2026 | July 31, 2026 | 2 |  | mobile-graphics-and-gaming |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 13 |
+| Number of Learning Paths published | 14 |
 | Number of ACM Learning Paths published | 6 |
-| Average time to publish (days) | 15.8 |
+| Average time to publish (days) | 14.9 |
 | Longest time to publish (days) | 22 |
 | Number in 'servers-and-cloud-computing' | 8 |
-| Number in 'mobile-graphics-and-gaming' | 2 |
+| Number in 'mobile-graphics-and-gaming' | 3 |
 | Number in 'cross-platform' | 2 |
 | Number in 'install-guides' | 1 |
 | Number with Google Cloud tag | 2 |
@@ -48,5 +49,5 @@
 Total planned Learning Paths: 8
 
 
-_Report generated on July 30, 2026 at 20:18:21 UTC_
+_Report generated on August 03, 2026 at 16:27:10 UTC_
 
