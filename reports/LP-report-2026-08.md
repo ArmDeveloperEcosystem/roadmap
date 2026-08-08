@@ -5,7 +5,7 @@
 | Title | Start Date | Publish Date | Time to Publish (days) | Program | Category | CSP |
 |-------|--------------|-------------|----------------------|-----|----------|-----|
 | [Run and benchmark BitNet-2B inference on Arm CPUs with Litespark-Inference](https://learn.arm.com/learning-paths/cross-platform/litespark-inference/) | July 24, 2026 | August 07, 2026 | 14 |  | cross-platform |  |
-|  | July 24, 2026 | August 07, 2026 | 14 |  |  |  |
+| [Litespark-Inference](https://learn.arm.com/install-guides/litespark-inference/) | July 24, 2026 | August 07, 2026 | 14 |  | install-guides |  |
 | [Analyze Neural Frame Rate Upscaling using Project Moku](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/nfru-cases-study/) | July 27, 2026 | August 07, 2026 | 11 |  | mobile-graphics-and-gaming |  |
 | [Build NVIDIA JetPack Yocto images for Jetson Orin NX, Orin Nano, and Thor platforms](https://learn.arm.com/learning-paths/cross-platform/nvidia-jetpack-yocto-build/) | July 24, 2026 | August 08, 2026 | 15 |  | cross-platform |  |
 | [Run MNIST on an Alif E8 Ensemble DevKit using ExecuTorch and Ethos-U85](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/observing-ethos-u-on-alif/) | August 04, 2026 | August 08, 2026 | 4 |  | embedded-and-microcontrollers |  |
@@ -19,10 +19,9 @@
 | Average time to publish (days) | 8.9 |
 | Longest time to publish (days) | 15 |
 | Number in 'cross-platform' | 2 |
-| Number in '(uncategorized)' | 1 |
+| Number in 'install-guides' | 2 |
 | Number in 'mobile-graphics-and-gaming' | 1 |
 | Number in 'embedded-and-microcontrollers' | 1 |
-| Number in 'install-guides' | 1 |
 | Number in 'servers-and-cloud-computing' | 1 |
 
 ## Planned Learning Paths
@@ -40,5 +39,5 @@
 Total planned Learning Paths: 8
 
 
-_Report generated on August 08, 2026 at 02:57:46 UTC_
+_Report generated on August 08, 2026 at 03:05:14 UTC_
 
