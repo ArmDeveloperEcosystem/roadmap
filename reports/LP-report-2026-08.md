@@ -11,18 +11,21 @@
 | [Run MNIST on an Alif E8 Ensemble DevKit using ExecuTorch and Ethos-U85](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/observing-ethos-u-on-alif/) | August 04, 2026 | August 08, 2026 | 4 |  | embedded-and-microcontrollers |  |
 | [Visual Studio Code Server](https://learn.arm.com/install-guides/vscode-remote/) | August 06, 2026 | August 08, 2026 | 2 |  | install-guides |  |
 | [Measure and compare performance per watt on an Arm Linux system](https://learn.arm.com/learning-paths/servers-and-cloud-computing/perf-per-watt/) | August 06, 2026 | August 08, 2026 | 2 |  | servers-and-cloud-computing |  |
+| [Optimize AArch64 code with LLVM link-time optimization and profile-guided optimization](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pgo/) | July 24, 2026 | August 12, 2026 | 19 | ACM | servers-and-cloud-computing |  |
+| [Extend OpenClaw for a local-first AI assistant across Arm platforms](https://learn.arm.com/learning-paths/laptops-and-desktops/openclaw_continuum/) | July 27, 2026 | August 12, 2026 | 16 |  | laptops-and-desktops |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 7 |
-| Number of ACM Learning Paths published | 0 |
-| Average time to publish (days) | 8.9 |
-| Longest time to publish (days) | 15 |
+| Number of Learning Paths published | 9 |
+| Number of ACM Learning Paths published | 1 |
+| Average time to publish (days) | 10.8 |
+| Longest time to publish (days) | 19 |
 | Number in 'cross-platform' | 2 |
 | Number in 'install-guides' | 2 |
 | Number in 'mobile-graphics-and-gaming' | 1 |
 | Number in 'embedded-and-microcontrollers' | 1 |
-| Number in 'servers-and-cloud-computing' | 1 |
+| Number in 'servers-and-cloud-computing' | 2 |
+| Number in 'laptops-and-desktops' | 1 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -39,5 +42,5 @@
 Total planned Learning Paths: 8
 
 
-_Report generated on August 11, 2026 at 16:51:28 UTC_
+_Report generated on August 12, 2026 at 02:35:41 UTC_
 
