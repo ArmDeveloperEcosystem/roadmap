@@ -22,10 +22,10 @@ Total Hugging Face Learning Paths: 26
 | [Build a RAG pipeline on Arm-based NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_rag) | laptops-and-desktops |  |
 | [Run a local LLM chatbot on a Raspberry Pi 5](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/llama-python-cpu) | embedded-and-microcontrollers |  |
 | [Run a computer vision model on a Himax microcontroller](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/yolo-on-himax) | embedded-and-microcontrollers |  |
-| [Run ExecuTorch Llama 3.2 1B Instruct on a Vivo X300 Pro with Vulkan](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/executorch-vulkan-learning-path) | embedded-and-microcontrollers |  |
 | [Run Llama 3 on a Raspberry Pi 5 using ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/rpi-llama3) | embedded-and-microcontrollers |  |
 | [Build an Android chat application with ONNX Runtime API](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/build-android-chat-app-using-onnxruntime) | mobile-graphics-and-gaming |  |
 | [Build an Android chat app with Llama, KleidiAI, ExecuTorch, and XNNPACK](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/build-llama3-chat-android-app-using-executorch-and-xnnpack) | mobile-graphics-and-gaming |  |
+| [Run ExecuTorch Llama 3.2 1B Instruct on an Android phone with Vulkan](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/executorch-vulkan-learning-path) | mobile-graphics-and-gaming |  |
 | [Run LLM inference on Android with KleidiAI, MediaPipe, and XNNPACK](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/kleidiai-on-android-with-mediapipe-and-xnnpack) | mobile-graphics-and-gaming |  |
 | [Generate audio with Stable Audio Open Small on LiteRT](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-open-small-with-lite-rt) | mobile-graphics-and-gaming |  |
 | [Profile the Performance of AI and ML Mobile Applications on Arm](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/profiling-ml-on-arm) | mobile-graphics-and-gaming |  |
