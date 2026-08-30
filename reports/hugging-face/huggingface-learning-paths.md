@@ -17,7 +17,7 @@ Total Hugging Face Learning Paths: 26
 | [Run an LLM chatbot with rtp-llm on Arm-based servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rtp-llm) | servers-and-cloud-computing |  |
 | [Build and run vLLM on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing |  |
 | [Run a Large Language Model (LLM) chatbot with PyTorch using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pytorch-llama) | servers-and-cloud-computing |  |
-| [Fine-tune SmolVLA for an SO-101 pick-and-place task](https://learn.arm.com/learning-paths/laptops-and-desktops/finetune-smolvla-lerobot) | laptops-and-desktops |  |
+| [Fine-tune SmolVLA for an SO-101 pick-and-place task on an NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/finetune-smolvla-lerobot) | laptops-and-desktops |  |
 | [Fine-tune PyTorch models on DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/pytorch-finetuning-on-spark) | laptops-and-desktops |  |
 | [Build a RAG pipeline on Arm-based NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_rag) | laptops-and-desktops |  |
 | [Run a local LLM chatbot on a Raspberry Pi 5](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/llama-python-cpu) | embedded-and-microcontrollers |  |
