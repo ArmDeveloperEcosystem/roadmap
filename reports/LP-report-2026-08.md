@@ -16,19 +16,22 @@
 | [Advance robotics reinforcement learning with Isaac Lab on DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_isaac_robotics2/) | August 10, 2026 | August 21, 2026 | 11 |  | laptops-and-desktops |  |
 | [Optimize a sample C++ application on an Arm-based server with Arm Performix](https://learn.arm.com/learning-paths/servers-and-cloud-computing/performix-get-started/) | August 13, 2026 | August 21, 2026 | 8 | ACM | servers-and-cloud-computing |  |
 | [Run ExecuTorch Llama 3.2 1B Instruct on an Android phone with Vulkan](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/executorch-vulkan-learning-path/) | August 14, 2026 | August 21, 2026 | 7 |  | mobile-graphics-and-gaming |  |
+| [Fine-tune SmolVLA for an SO-101 pick-and-place task on an NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/finetune-smolvla-lerobot/) | August 13, 2026 | August 31, 2026 | 18 |  | laptops-and-desktops |  |
+| [Deploy a Zephyr-based machine learning application on Arm Corstone-320 MPS4 with ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/zephyr_ml_cs320_mps4/) | August 24, 2026 | August 31, 2026 | 7 |  | embedded-and-microcontrollers |  |
+| [Export and quantize SmolVLA for ONNX Runtime on Arm](https://learn.arm.com/learning-paths/cross-platform/smolvla-onnx-conversion/) | August 26, 2026 | August 31, 2026 | 5 |  | cross-platform |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 12 |
+| Number of Learning Paths published | 15 |
 | Number of ACM Learning Paths published | 3 |
 | Average time to publish (days) | 10.2 |
 | Longest time to publish (days) | 19 |
-| Number in 'cross-platform' | 2 |
+| Number in 'cross-platform' | 3 |
 | Number in 'install-guides' | 2 |
 | Number in 'mobile-graphics-and-gaming' | 2 |
-| Number in 'embedded-and-microcontrollers' | 1 |
+| Number in 'embedded-and-microcontrollers' | 2 |
 | Number in 'servers-and-cloud-computing' | 3 |
-| Number in 'laptops-and-desktops' | 2 |
+| Number in 'laptops-and-desktops' | 3 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -44,5 +47,5 @@
 Total planned Learning Paths: 7
 
 
-_Report generated on September 01, 2026 at 02:14:08 UTC_
+_Report generated on September 01, 2026 at 02:21:53 UTC_
 
