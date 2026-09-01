@@ -10,17 +10,17 @@
 | [Build NVIDIA JetPack Yocto images for Jetson Orin NX, Orin Nano, and Thor platforms](https://learn.arm.com/learning-paths/cross-platform/nvidia-jetpack-yocto-build/) | July 24, 2026 | August 08, 2026 | 15 |  | cross-platform |  |
 | [Run MNIST on an Alif E8 Ensemble DevKit using ExecuTorch and Ethos-U85](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/observing-ethos-u-on-alif/) | August 04, 2026 | August 08, 2026 | 4 |  | embedded-and-microcontrollers |  |
 | [Visual Studio Code Server](https://learn.arm.com/install-guides/vscode-remote/) | August 06, 2026 | August 08, 2026 | 2 |  | install-guides |  |
-| [Measure and compare performance per watt on an Arm Linux system](https://learn.arm.com/learning-paths/servers-and-cloud-computing/perf-per-watt/) | August 06, 2026 | August 08, 2026 | 2 |  | servers-and-cloud-computing |  |
+| [Measure and compare performance per watt on an Arm Linux system](https://learn.arm.com/learning-paths/servers-and-cloud-computing/perf-per-watt/) | August 06, 2026 | August 08, 2026 | 2 | ACM | servers-and-cloud-computing |  |
 | [Optimize AArch64 code with LLVM link-time optimization and profile-guided optimization](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pgo/) | July 24, 2026 | August 12, 2026 | 19 | ACM | servers-and-cloud-computing |  |
 | [Extend OpenClaw for a local-first AI assistant across Arm platforms](https://learn.arm.com/learning-paths/laptops-and-desktops/openclaw_continuum/) | July 27, 2026 | August 12, 2026 | 16 |  | laptops-and-desktops |  |
 | [Advance robotics reinforcement learning with Isaac Lab on DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_isaac_robotics2/) | August 10, 2026 | August 21, 2026 | 11 |  | laptops-and-desktops |  |
-| [Optimize a sample C++ application on an Arm-based server with Arm Performix](https://learn.arm.com/learning-paths/servers-and-cloud-computing/performix-get-started/) | August 13, 2026 | August 21, 2026 | 8 |  | servers-and-cloud-computing |  |
+| [Optimize a sample C++ application on an Arm-based server with Arm Performix](https://learn.arm.com/learning-paths/servers-and-cloud-computing/performix-get-started/) | August 13, 2026 | August 21, 2026 | 8 | ACM | servers-and-cloud-computing |  |
 | [Run ExecuTorch Llama 3.2 1B Instruct on an Android phone with Vulkan](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/executorch-vulkan-learning-path/) | August 14, 2026 | August 21, 2026 | 7 |  | mobile-graphics-and-gaming |  |
 
 | Statistic | Value |
 |-----------|-------|
 | Number of Learning Paths published | 12 |
-| Number of ACM Learning Paths published | 1 |
+| Number of ACM Learning Paths published | 3 |
 | Average time to publish (days) | 10.2 |
 | Longest time to publish (days) | 19 |
 | Number in 'cross-platform' | 2 |
@@ -33,7 +33,6 @@
 ## Planned Learning Paths
 | Title | Program | Created Date |
 |-------|-----|--------------|
-| [.NET use case on Cobalt 100](https://github.com/ArmDeveloperEcosystem/roadmap/issues/35) | ACM | February 09, 2026 |
 | [Opensearch benchmarking](https://github.com/ArmDeveloperEcosystem/roadmap/issues/32) | ACM | January 29, 2026 |
 | [Introduction to benchmarking and optimizing on Arm (Compiling, Code tuning, SMT)](https://github.com/ArmDeveloperEcosystem/roadmap/issues/30) |  | December 08, 2025 |
 | [PyTorch Conference: Model training gym for NSS](https://github.com/ArmDeveloperEcosystem/roadmap/issues/24) |  | September 05, 2025 |
@@ -42,8 +41,8 @@
 | [stress-ng - System stress tester](https://github.com/ArmDeveloperEcosystem/roadmap/issues/15) | ACM | May 29, 2025 |
 | [OLAP workload benchmarking for Graviton5](https://github.com/ArmDeveloperEcosystem/roadmap/issues/11) | ACM | April 15, 2025 |
 
-Total planned Learning Paths: 8
+Total planned Learning Paths: 7
 
 
-_Report generated on August 24, 2026 at 12:15:43 UTC_
+_Report generated on September 01, 2026 at 02:14:08 UTC_
 
