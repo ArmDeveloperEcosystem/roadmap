@@ -1,4 +1,4 @@
-name: Generate Reports for April-December 2025
+name: Generate Reports for January-December 2026
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-24.04-arm
     strategy:
       matrix:
-        month: ['2025-04', '2025-05', '2025-06', '2025-07', '2025-08', '2025-09', '2025-10', '2025-11', '2025-12']
+        month: ['2026-01', '2026-02', '2026-03', '2026-04', '2026-05', '2026-06', '2026-07', '2026-08', '2026-09', '2026-10', '2026-11', '2026-12']
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -64,7 +64,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add reports/
-          git commit -m "Add monthly learning path reports for April-December 2025 [skip ci]" || echo "No changes to commit"
+          git commit -m "Add monthly learning path reports for January-December 2026 [skip ci]" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
