@@ -23,21 +23,29 @@
 | [Deploy Silero VAD on Arm Ethos-U with ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/silero-vad-ethos-u/) | September 08, 2026 | September 12, 2026 | 4 |  | embedded-and-microcontrollers |  |
 | [Run MobileSAM prompt segmentation on Arm Ethos-U85 with ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/deploy-mobilesam-on-ethos-u/) | September 08, 2026 | September 12, 2026 | 4 |  | embedded-and-microcontrollers |  |
 | [Compare KleidiCV Gaussian blur performance across Neon, SVE2, and SME on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/explore-kleidicv-gaussian-blur-on-android/) | September 09, 2026 | September 12, 2026 | 3 |  | mobile-graphics-and-gaming |  |
+| [Detect and resolve false sharing in Java on Arm Neoverse](https://learn.arm.com/learning-paths/servers-and-cloud-computing/java-detect-false-sharing/) | September 08, 2026 | September 25, 2026 | 17 | ACM | servers-and-cloud-computing |  |
+| [Convert SmolVLA to ExecuTorch for inference on Arm CPUs](https://learn.arm.com/learning-paths/laptops-and-desktops/smolvla-executorch-conversion/) | September 11, 2026 | September 25, 2026 | 14 |  | laptops-and-desktops |  |
+| [Decode low-bit weights with Arm SME2 LUTI](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/luti/) | September 17, 2025 | September 25, 2026 | 373 |  | mobile-graphics-and-gaming |  |
+| [Run an optimized vision-language model from the Arm AI Portal on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/ai-portal-mobile-vision-language/) | September 21, 2026 | September 25, 2026 | 4 |  | mobile-graphics-and-gaming |  |
+| [Run an Arm AI Portal depth estimation model on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-depth-anything-v2-on-android/) | September 22, 2026 | September 25, 2026 | 3 |  | mobile-graphics-and-gaming |  |
+| [Analyze machine learning models for Arm Ethos-U with Arm ML Inference Advisor](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/analyze-ethos-u-models-with-mlia/) | September 17, 2026 | September 25, 2026 | 8 |  | embedded-and-microcontrollers |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 19 |
-| Number of ACM Learning Paths published | 3 |
-| Average time to publish (days) | 22.4 |
-| Longest time to publish (days) | 325 |
+| Number of Learning Paths published | 25 |
+| Number of ACM Learning Paths published | 4 |
+| Average time to publish (days) | 33.8 |
+| Longest time to publish (days) | 373 |
 | Number in 'cross-platform' | 4 |
-| Number in 'servers-and-cloud-computing' | 4 |
-| Number in 'mobile-graphics-and-gaming' | 7 |
-| Number in 'embedded-and-microcontrollers' | 4 |
+| Number in 'servers-and-cloud-computing' | 5 |
+| Number in 'mobile-graphics-and-gaming' | 10 |
+| Number in 'embedded-and-microcontrollers' | 5 |
+| Number in 'laptops-and-desktops' | 1 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
 |-------|-----|--------------|
+| [Firecracker VM on AGI CPU](https://github.com/ArmDeveloperEcosystem/roadmap/issues/42) | ACM | September 21, 2026 |
 | [Opensearch benchmarking](https://github.com/ArmDeveloperEcosystem/roadmap/issues/32) | ACM | January 29, 2026 |
 | [Introduction to benchmarking and optimizing on Arm (Compiling, Code tuning, SMT)](https://github.com/ArmDeveloperEcosystem/roadmap/issues/30) |  | December 08, 2025 |
 | [PyTorch Conference: Model training gym for NSS](https://github.com/ArmDeveloperEcosystem/roadmap/issues/24) |  | September 05, 2025 |
@@ -46,8 +54,8 @@
 | [stress-ng - System stress tester](https://github.com/ArmDeveloperEcosystem/roadmap/issues/15) | ACM | May 29, 2025 |
 | [OLAP workload benchmarking for Graviton5](https://github.com/ArmDeveloperEcosystem/roadmap/issues/11) | ACM | April 15, 2025 |
 
-Total planned Learning Paths: 7
+Total planned Learning Paths: 8
 
 
-_Report generated on September 12, 2026 at 16:54:15 UTC_
+_Report generated on September 26, 2026 at 22:41:29 UTC_
 
