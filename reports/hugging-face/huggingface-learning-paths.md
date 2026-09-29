@@ -1,6 +1,6 @@
 # Hugging Face Learning Paths
 
-Total Hugging Face Learning Paths: 36
+Total Hugging Face Learning Paths: 37
 
 | Title | Category | CSP |
 |-------|----------|-----|
@@ -31,6 +31,7 @@ Total Hugging Face Learning Paths: 36
 | [Run Arm AI Portal text-generation models on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-text-to-text-models-on-android) | mobile-graphics-and-gaming |  |
 | [Generate audio with Stable Audio Open Small on LiteRT](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-stable-audio-open-small-with-lite-rt) | mobile-graphics-and-gaming |  |
 | [Run optimized image classification models from the Arm AI Portal on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/ai-portal-mobile-image-classification) | mobile-graphics-and-gaming |  |
+| [Classify pet images with DeiT-Tiny and Arm VGF using ExecuTorch](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/deploy-deit-tiny-with-vgf) | mobile-graphics-and-gaming |  |
 | [Profile the Performance of AI and ML Mobile Applications on Arm](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/profiling-ml-on-arm) | mobile-graphics-and-gaming |  |
 | [Run optimized object-detection models from the Arm AI Portal on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/ai-portal-mobile-object-detection) | mobile-graphics-and-gaming |  |
 | [Build an Android chat app with Llama, KleidiAI, ExecuTorch, and XNNPACK](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/build-llama3-chat-android-app-using-executorch-and-xnnpack) | mobile-graphics-and-gaming |  |
