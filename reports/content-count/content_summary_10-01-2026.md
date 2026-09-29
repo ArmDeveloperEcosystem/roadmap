@@ -1,6 +1,6 @@
 # Arm Learning Paths Content Summary
 
-This document provides a summary of the content available in the Arm Learning Paths repository as of September 12, 2026.
+This document provides a summary of the content available in the Arm Learning Paths repository as of September 29, 2026.
 
 ## Learning Paths by Category
 
@@ -8,27 +8,27 @@ The table below shows the breakdown of Learning Paths by category, including bot
 
 | Category | Total | Published | Direct | Shared | Drafts |
 |----------|-------|-----------|--------|--------|--------|
-| Automotive | 13 | 12 | 4 | 9 | 1 |
+| Automotive | 13 | 11 | 4 | 9 | 2 |
 | Cross Platform | 55 | 52 | 55 | 0 | 3 |
-| Embedded And Microcontrollers | 87 | 81 | 63 | 24 | 6 |
-| Laptops And Desktops | 90 | 88 | 52 | 38 | 2 |
-| Mobile Graphics And Gaming | 89 | 87 | 65 | 24 | 2 |
-| Servers And Cloud Computing | 279 | 277 | 239 | 40 | 2 |
+| Embedded And Microcontrollers | 88 | 82 | 64 | 24 | 6 |
+| Laptops And Desktops | 91 | 90 | 53 | 38 | 1 |
+| Mobile Graphics And Gaming | 92 | 88 | 68 | 24 | 4 |
+| Servers And Cloud Computing | 279 | 276 | 239 | 40 | 3 |
 
 ## Install Guides
 
 | Content Type | Count |
 |--------------|-------|
-| Install Guides | 103 |
+| Install Guides | 104 |
 
 ## Summary Totals
 
 | Metric | Count |
 |--------|-------|
-| Total Learning Paths (unique) | 478 |
-| Total Learning Paths (including shared) | 613 |
-| Total Learning Paths (drafts) | 16 |
-| Total Published Content (unique Learning Paths + Install Guides) | 581 |
+| Total Learning Paths (unique) | 483 |
+| Total Learning Paths (including shared) | 618 |
+| Total Learning Paths (drafts) | 19 |
+| Total Published Content (unique Learning Paths + Install Guides) | 587 |
 
 ## Notes
 
