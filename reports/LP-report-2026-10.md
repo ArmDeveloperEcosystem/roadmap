@@ -10,16 +10,19 @@
 | [Classify pet images with DeiT-Tiny and Arm VGF using ExecuTorch](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/deploy-deit-tiny-with-vgf/) | September 28, 2026 | October 03, 2026 | 5 |  | mobile-graphics-and-gaming |  |
 | [Upscale an image with Swin2SR and Arm VGF](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/swin2sr-vgf/) | October 01, 2026 | October 07, 2026 | 6 |  | mobile-graphics-and-gaming |  |
 | [Boot a signed Zephyr image with U-Boot on Arm Cortex-A](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/zephyr-signed-fit-uboot-cortex-a/) | October 02, 2026 | October 07, 2026 | 5 |  | embedded-and-microcontrollers |  |
+| [Configure and run nested virtualization on an Arm server](https://learn.arm.com/learning-paths/servers-and-cloud-computing/nested-virtualization/) | September 29, 2026 | October 09, 2026 | 10 | ACM | servers-and-cloud-computing |  |
+| [Expose an Arm-based ROS 2 system as a discoverable device on Device Connect](https://learn.arm.com/learning-paths/cross-platform/ros2-device-connect/) | October 05, 2026 | October 09, 2026 | 4 |  | cross-platform |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 6 |
-| Number of ACM Learning Paths published | 2 |
-| Average time to publish (days) | 9.3 |
+| Number of Learning Paths published | 8 |
+| Number of ACM Learning Paths published | 3 |
+| Average time to publish (days) | 8.8 |
 | Longest time to publish (days) | 25 |
-| Number in 'servers-and-cloud-computing' | 2 |
+| Number in 'servers-and-cloud-computing' | 3 |
 | Number in 'mobile-graphics-and-gaming' | 3 |
 | Number in 'embedded-and-microcontrollers' | 1 |
+| Number in 'cross-platform' | 1 |
 | Number with Google Cloud tag | 0 |
 | Number with Microsoft Azure tag | 0 |
 | Number with AWS tag | 2 |
@@ -40,5 +43,5 @@
 Total planned Learning Paths: 8
 
 
-_Report generated on October 07, 2026 at 02:45:34 UTC_
+_Report generated on October 09, 2026 at 14:42:01 UTC_
 
