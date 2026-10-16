@@ -12,17 +12,24 @@
 | [Boot a signed Zephyr image with U-Boot on Arm Cortex-A](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/zephyr-signed-fit-uboot-cortex-a/) | October 02, 2026 | October 07, 2026 | 5 |  | embedded-and-microcontrollers |  |
 | [Configure and run nested virtualization on an Arm server](https://learn.arm.com/learning-paths/servers-and-cloud-computing/nested-virtualization/) | September 29, 2026 | October 09, 2026 | 10 | ACM | servers-and-cloud-computing |  |
 | [Expose an Arm-based ROS 2 system as a discoverable device on Device Connect](https://learn.arm.com/learning-paths/cross-platform/ros2-device-connect/) | October 05, 2026 | October 09, 2026 | 4 |  | cross-platform |  |
+| [NVIDIA OpenShell](https://learn.arm.com/install-guides/openshell/) | October 09, 2026 | October 13, 2026 | 4 |  | install-guides |  |
+| [Generate human faces with a diffusion model on an Alif Ensemble E8](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/generate-faces-alif-e8/) | October 12, 2026 | October 16, 2026 | 4 |  | embedded-and-microcontrollers |  |
+| [Deploy Ceph RADOS Block Device storage on an Arm AGI CPU host](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ceph-rbd-agi/) | October 12, 2026 | October 16, 2026 | 4 | ACM | servers-and-cloud-computing |  |
+| [Implement a voice translation pipeline on Apple silicon](https://learn.arm.com/learning-paths/laptops-and-desktops/implementing-a-voice-translation-pipeline/) | October 12, 2026 | October 16, 2026 | 4 |  | laptops-and-desktops |  |
+| [gVisor (runsc)](https://learn.arm.com/install-guides/gvisor/) | October 13, 2026 | October 16, 2026 | 3 | ACM | install-guides |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 8 |
-| Number of ACM Learning Paths published | 3 |
-| Average time to publish (days) | 8.8 |
+| Number of Learning Paths published | 13 |
+| Number of ACM Learning Paths published | 5 |
+| Average time to publish (days) | 6.8 |
 | Longest time to publish (days) | 25 |
-| Number in 'servers-and-cloud-computing' | 3 |
+| Number in 'servers-and-cloud-computing' | 4 |
 | Number in 'mobile-graphics-and-gaming' | 3 |
-| Number in 'embedded-and-microcontrollers' | 1 |
+| Number in 'embedded-and-microcontrollers' | 2 |
 | Number in 'cross-platform' | 1 |
+| Number in 'install-guides' | 2 |
+| Number in 'laptops-and-desktops' | 1 |
 | Number with Google Cloud tag | 0 |
 | Number with Microsoft Azure tag | 0 |
 | Number with AWS tag | 2 |
@@ -43,5 +50,5 @@
 Total planned Learning Paths: 8
 
 
-_Report generated on October 09, 2026 at 14:42:01 UTC_
+_Report generated on October 16, 2026 at 19:55:02 UTC_
 
