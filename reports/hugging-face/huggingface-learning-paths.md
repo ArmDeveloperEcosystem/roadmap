@@ -1,12 +1,13 @@
 # Hugging Face Learning Paths
 
-Total Hugging Face Learning Paths: 37
+Total Hugging Face Learning Paths: 39
 
 | Title | Category | CSP |
 |-------|----------|-----|
 | [Deploy a RAG-based Chatbot with llama-cpp-python using KleidiAI on Google Axion processors](https://learn.arm.com/learning-paths/servers-and-cloud-computing/rag) | servers-and-cloud-computing |  |
 | [Accelerate Whisper on Arm with Hugging Face Transformers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/whisper) | servers-and-cloud-computing |  |
 | [Build and run vLLM on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm) | servers-and-cloud-computing |  |
+| [Run and benchmark vLLM MoE models on Arm CPUs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-moe) | servers-and-cloud-computing |  |
 | [Run an optimized text-to-speech model from the Arm AI Portal on an Arm Neoverse-based instance](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ai-portal-text-to-speech) | servers-and-cloud-computing | AWS, Google Cloud, Microsoft Azure |
 | [Run a Large Language Model (LLM) chatbot with PyTorch using KleidiAI on Arm servers](https://learn.arm.com/learning-paths/servers-and-cloud-computing/pytorch-llama) | servers-and-cloud-computing |  |
 | [Deploy Arcee AFM-4.5B on Arm-based Google Cloud Axion with Llama.cpp](https://learn.arm.com/learning-paths/servers-and-cloud-computing/arcee-foundation-model-on-gcp) | servers-and-cloud-computing |  |
@@ -23,6 +24,7 @@ Total Hugging Face Learning Paths: 37
 | [Run Llama 3 on a Raspberry Pi 5 using ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/rpi-llama3) | embedded-and-microcontrollers |  |
 | [Run a computer vision model on a Himax microcontroller](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/yolo-on-himax) | embedded-and-microcontrollers |  |
 | [Deploy models with the Arm AI Portal](https://learn.arm.com/learning-paths/cross-platform/ai-portal-model-deployment) | cross-platform |  |
+| [Measure whether LLM token generation is memory-bound on Arm CPUs with llama-roofline](https://learn.arm.com/learning-paths/cross-platform/llm-decode-roofline) | cross-platform |  |
 | [Build an Android chat application with ONNX Runtime API](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/build-android-chat-app-using-onnxruntime) | mobile-graphics-and-gaming |  |
 | [Run an Arm AI Portal depth estimation model on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-depth-anything-v2-on-android) | mobile-graphics-and-gaming |  |
 | [Run ExecuTorch Llama 3.2 1B Instruct on an Android phone with Vulkan](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/executorch-vulkan-learning-path) | mobile-graphics-and-gaming |  |
