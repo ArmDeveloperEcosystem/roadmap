@@ -17,15 +17,17 @@
 | [Deploy Ceph RADOS Block Device storage on an Arm AGI CPU host](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ceph-rbd-agi/) | October 12, 2026 | October 16, 2026 | 4 | ACM | servers-and-cloud-computing |  |
 | [Implement a voice translation pipeline on Apple silicon](https://learn.arm.com/learning-paths/laptops-and-desktops/implementing-a-voice-translation-pipeline/) | October 12, 2026 | October 16, 2026 | 4 |  | laptops-and-desktops |  |
 | [gVisor (runsc)](https://learn.arm.com/install-guides/gvisor/) | October 13, 2026 | October 16, 2026 | 3 | ACM | install-guides |  |
+| [Evaluate Opacity Micromaps for ray-traced game assets](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/omm-mali-intro/) | October 05, 2026 | October 19, 2026 | 14 |  | mobile-graphics-and-gaming |  |
+| [Estimate neural accelerator performance with ML Inference Advisor](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/mlia-nx-performance-estimator/) | October 15, 2026 | October 19, 2026 | 4 |  | mobile-graphics-and-gaming |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 13 |
+| Number of Learning Paths published | 15 |
 | Number of ACM Learning Paths published | 5 |
-| Average time to publish (days) | 6.8 |
+| Average time to publish (days) | 7.1 |
 | Longest time to publish (days) | 25 |
 | Number in 'servers-and-cloud-computing' | 4 |
-| Number in 'mobile-graphics-and-gaming' | 3 |
+| Number in 'mobile-graphics-and-gaming' | 5 |
 | Number in 'embedded-and-microcontrollers' | 2 |
 | Number in 'cross-platform' | 1 |
 | Number in 'install-guides' | 2 |
@@ -50,5 +52,5 @@
 Total planned Learning Paths: 8
 
 
-_Report generated on October 16, 2026 at 19:55:02 UTC_
+_Report generated on October 19, 2026 at 19:56:34 UTC_
 
