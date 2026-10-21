@@ -19,18 +19,21 @@
 | [gVisor (runsc)](https://learn.arm.com/install-guides/gvisor/) | October 13, 2026 | October 16, 2026 | 3 | ACM | install-guides |  |
 | [Evaluate Opacity Micromaps for ray-traced game assets](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/omm-mali-intro/) | October 05, 2026 | October 19, 2026 | 14 |  | mobile-graphics-and-gaming |  |
 | [Estimate neural accelerator performance with ML Inference Advisor](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/mlia-nx-performance-estimator/) | October 15, 2026 | October 19, 2026 | 4 |  | mobile-graphics-and-gaming |  |
+| [Run Conformer speech recognition on Alif Ensemble E8 with ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/alif-conformer-asr/) | October 14, 2026 | October 21, 2026 | 7 |  | embedded-and-microcontrollers |  |
+| [Run agent-generated Python in GKE Agent Sandbox on Google Axion](https://learn.arm.com/learning-paths/servers-and-cloud-computing/gke-agent-sandbox/) | October 19, 2026 | October 21, 2026 | 2 | ACM | servers-and-cloud-computing |  |
+| [Microsandbox](https://learn.arm.com/install-guides/microsandbox/) | October 19, 2026 | October 21, 2026 | 2 | ACM | install-guides |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 15 |
-| Number of ACM Learning Paths published | 5 |
-| Average time to publish (days) | 7.1 |
+| Number of Learning Paths published | 18 |
+| Number of ACM Learning Paths published | 7 |
+| Average time to publish (days) | 6.6 |
 | Longest time to publish (days) | 25 |
-| Number in 'servers-and-cloud-computing' | 4 |
+| Number in 'servers-and-cloud-computing' | 5 |
 | Number in 'mobile-graphics-and-gaming' | 5 |
-| Number in 'embedded-and-microcontrollers' | 2 |
+| Number in 'embedded-and-microcontrollers' | 3 |
 | Number in 'cross-platform' | 1 |
-| Number in 'install-guides' | 2 |
+| Number in 'install-guides' | 3 |
 | Number in 'laptops-and-desktops' | 1 |
 | Number with Google Cloud tag | 0 |
 | Number with Microsoft Azure tag | 0 |
@@ -52,5 +55,5 @@
 Total planned Learning Paths: 8
 
 
-_Report generated on October 20, 2026 at 02:30:30 UTC_
+_Report generated on October 21, 2026 at 12:59:15 UTC_
 
