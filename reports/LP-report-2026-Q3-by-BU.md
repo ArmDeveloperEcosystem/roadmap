@@ -1,21 +1,20 @@
-# Learning Paths Published in CY Q3 2026 by Business Unit — Work in Progress
+# Learning Paths Published in Q3 2026 by Business Unit
 
-**Reporting period:** July 1–September 16, 2026  
-**Status:** Work in progress; Q3 is incomplete  
+**Reporting period:** July 1–September 30, 2026
 **Source reports:** [July](LP-report-2026-07.md), [August](LP-report-2026-08.md), and [September](LP-report-2026-09.md)
 
 ## Executive summary
 
-The monthly source reports contain **48 publication records** through September 16, representing **48 unique URLs** and producing **55 BU assignments**. Cross-platform content can count toward more than one BU.
+The monthly source reports contain **54 publication records** in Q3 2026, representing **54 unique URLs** and producing **61 BU assignments**. Cross-platform content can count toward more than one BU.
 
-| Business unit delivery | July | August | September 1–16 | Q3 WIP BU assignments | Share of assignments |
+| Business unit delivery | July | August | September | Q3 BU assignments | Share of assignments |
 |---|---:|---:|---:|---:|---:|
-| Cloud AI BU | 9 | 7 | 5 | 21 | 38.2% |
-| Edge AI BU | 6 | 10 | 12 | 28 | 50.9% |
-| Physical AI BU | 0 | 3 | 3 | 6 | 10.9% |
-| **Total BU assignments** | **15** | **20** | **20** | **55** | **100.0%** |
+| Cloud AI BU | 9 | 7 | 6 | 22 | 36.1% |
+| Edge AI BU | 6 | 10 | 16 | 32 | 52.4% |
+| Physical AI BU | 0 | 3 | 4 | 7 | 11.5% |
+| **Total BU assignments** | **15** | **20** | **26** | **61** | **100.0%** |
 
-The assignment total exceeds the 48 source records because seven records span two BUs.
+The assignment total exceeds the 54 source records because seven records span two BUs.
 
 ## Cloud AI BU
 
@@ -36,6 +35,7 @@ The assignment total exceeds the 48 source records because seven records span tw
 | [Run optimized LLMs from the Arm AI Portal on Arm Neoverse-based instances](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ai-portal-cloud-text-to-text/) | September 7, 2026 | `servers-and-cloud-computing` | ACM |
 | [Discover and deploy AI models with the Arm AI Portal MCP server](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ai-portal-mcp/) | September 7, 2026 | `servers-and-cloud-computing` | — |
 | [Run an optimized text-to-speech model from the Arm AI Portal on an Arm Neoverse-based instance](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ai-portal-text-to-speech/) | September 7, 2026 | `servers-and-cloud-computing` | ACM |
+| [Detect and resolve false sharing in Java on Arm Neoverse](https://learn.arm.com/learning-paths/servers-and-cloud-computing/java-detect-false-sharing/) | September 25, 2026 | `servers-and-cloud-computing` | ACM |
 | [Arm Toolchains repository](https://learn.arm.com/install-guides/arm-toolchains-repository/) | July 22, 2026 | `install-guides` | — |
 | [Run and benchmark BitNet-2B inference on Arm CPUs with Litespark-Inference](https://learn.arm.com/learning-paths/cross-platform/litespark-inference/) | August 7, 2026 | `cross-platform` | — |
 | [Litespark-Inference](https://learn.arm.com/install-guides/litespark-inference/) | August 7, 2026 | `install-guides` | — |
@@ -66,6 +66,10 @@ The assignment total exceeds the 48 source records because seven records span tw
 | [Deploy Silero VAD on Arm Ethos-U with ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/silero-vad-ethos-u/) | September 12, 2026 | `embedded-and-microcontrollers` | — |
 | [Run MobileSAM prompt segmentation on Arm Ethos-U85 with ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/deploy-mobilesam-on-ethos-u/) | September 12, 2026 | `embedded-and-microcontrollers` | — |
 | [Compare KleidiCV Gaussian blur performance across Neon, SVE2, and SME on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/explore-kleidicv-gaussian-blur-on-android/) | September 12, 2026 | `mobile-graphics-and-gaming` | — |
+| [Decode low-bit weights with Arm SME2 LUTI](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/luti/) | September 25, 2026 | `mobile-graphics-and-gaming` | — |
+| [Run an optimized vision-language model from the Arm AI Portal on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/ai-portal-mobile-vision-language/) | September 25, 2026 | `mobile-graphics-and-gaming` | — |
+| [Run an Arm AI Portal depth estimation model on Android](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/run-depth-anything-v2-on-android/) | September 25, 2026 | `mobile-graphics-and-gaming` | — |
+| [Analyze machine learning models for Arm Ethos-U with Arm ML Inference Advisor](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/analyze-ethos-u-models-with-mlia/) | September 25, 2026 | `embedded-and-microcontrollers` | — |
 | [Run a local AI agent with Ollama to visualize CPU orchestration on Arm](https://learn.arm.com/learning-paths/cross-platform/ai-agent-cpu-orchestration/) | July 22, 2026 | `cross-platform` | — |
 | [Arm Toolchains repository](https://learn.arm.com/install-guides/arm-toolchains-repository/) | July 22, 2026 | `install-guides` | — |
 | [Inspect model artifacts and runtime profiles with Google Model Explorer and Arm extensions](https://learn.arm.com/learning-paths/cross-platform/explore-model-artifacts-with-model-explorer/) | July 30, 2026 | `cross-platform` | — |
@@ -82,11 +86,8 @@ The assignment total exceeds the 48 source records because seven records span tw
 |---|---:|---|---|
 | [Advance robotics reinforcement learning with Isaac Lab on DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_isaac_robotics2/) | August 21, 2026 | `laptops-and-desktops` | Robotics workflow and audience |
 | [Fine-tune SmolVLA for an SO-101 pick-and-place task on an NVIDIA DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/finetune-smolvla-lerobot/) | August 31, 2026 | `laptops-and-desktops` | Physical robot training and evaluation |
+| [Convert SmolVLA to ExecuTorch for inference on Arm CPUs](https://learn.arm.com/learning-paths/laptops-and-desktops/smolvla-executorch-conversion/) | September 25, 2026 | `laptops-and-desktops` | Vision-language-action model used in robot-control workflows |
 | [Distribute a ROS 2 robotic system across Arm devices with Zenoh](https://learn.arm.com/learning-paths/cross-platform/distributed-ros2-zenoh-lp2/) | September 7, 2026 | `cross-platform` | ROS 2 robotics workflow |
 | [Build a ROS 2 and Zenoh simulation environment on an Arm server](https://learn.arm.com/learning-paths/cross-platform/ros2-zenoh-arm/) | September 7, 2026 | `cross-platform` | ROS 2 robot simulation |
 | [Tune Zenoh for ROS 2 traffic over wireless networks](https://learn.arm.com/learning-paths/cross-platform/tuning-zenoh-ros2-lp3/) | September 7, 2026 | `cross-platform` | Robotics audience and ROS 2 workflow |
 | [Export and quantize SmolVLA for ONNX Runtime on Arm](https://learn.arm.com/learning-paths/cross-platform/smolvla-onnx-conversion/) | August 31, 2026 | `cross-platform` | Vision-language-action model used in robot-control workflows |
-
-## Work-in-progress note
-
-This report is a snapshot through **September 16, 2026**, not a final Q3 report. The September source report was generated on September 12 and contains publications through that date; consequently, no publication records were available for September 13–16. The report should be refreshed after the September monthly report is finalized.
