@@ -22,19 +22,28 @@
 | [Run Conformer speech recognition on Alif Ensemble E8 with ExecuTorch](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/alif-conformer-asr/) | October 14, 2026 | October 21, 2026 | 7 |  | embedded-and-microcontrollers |  |
 | [Run agent-generated Python in GKE Agent Sandbox on Google Axion](https://learn.arm.com/learning-paths/servers-and-cloud-computing/gke-agent-sandbox/) | October 19, 2026 | October 21, 2026 | 2 | ACM | servers-and-cloud-computing |  |
 | [Microsandbox](https://learn.arm.com/install-guides/microsandbox/) | October 19, 2026 | October 21, 2026 | 2 | ACM | install-guides |  |
+| [Benchmark Gemma 4 CPU inference with KleidiAI and SME2](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/gemma4-kleidiai-sme2/) | September 11, 2026 | October 28, 2026 | 47 |  | mobile-graphics-and-gaming |  |
+| [Port and integrate FreeRTOS on the Arm Zena CSS Safety Island](https://learn.arm.com/learning-paths/automotive/freertos-zena-css/) | September 21, 2026 | October 28, 2026 | 37 |  | automotive |  |
+| [Run and benchmark vLLM mixture of experts models on Arm CPUs](https://learn.arm.com/learning-paths/servers-and-cloud-computing/vllm-moe/) | October 16, 2026 | October 28, 2026 | 12 | ACM | servers-and-cloud-computing |  |
+| [Run headless browser tests with Puppeteer on Arm Linux](https://learn.arm.com/learning-paths/servers-and-cloud-computing/puppeteer-headless-chrome/) | October 20, 2026 | October 28, 2026 | 8 | ACM | servers-and-cloud-computing |  |
+| [Profile a model on a neural accelerator with MLIA for VS Code](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/profile-nx-with-mlia-vscode/) | October 21, 2026 | October 28, 2026 | 7 |  | mobile-graphics-and-gaming |  |
+| [Incus](https://learn.arm.com/install-guides/incus) | October 21, 2026 | October 28, 2026 | 7 | ACM | install-guides |  |
+| [Arm Neural Technology Playbook - Integrate](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/neural-graphics-playbook-integrate/) | October 21, 2026 | October 28, 2026 | 7 |  | mobile-graphics-and-gaming |  |
+| [Profile a model on a neural accelerator with MLIA for VS Code](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/profile-nx-with-mlia-vscode/) | October 26, 2026 | October 28, 2026 | 2 |  | mobile-graphics-and-gaming |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 18 |
-| Number of ACM Learning Paths published | 7 |
-| Average time to publish (days) | 6.6 |
-| Longest time to publish (days) | 25 |
-| Number in 'servers-and-cloud-computing' | 5 |
-| Number in 'mobile-graphics-and-gaming' | 5 |
+| Number of Learning Paths published | 26 |
+| Number of ACM Learning Paths published | 10 |
+| Average time to publish (days) | 9.4 |
+| Longest time to publish (days) | 47 |
+| Number in 'servers-and-cloud-computing' | 7 |
+| Number in 'mobile-graphics-and-gaming' | 9 |
 | Number in 'embedded-and-microcontrollers' | 3 |
 | Number in 'cross-platform' | 1 |
-| Number in 'install-guides' | 3 |
+| Number in 'install-guides' | 4 |
 | Number in 'laptops-and-desktops' | 1 |
+| Number in 'automotive' | 1 |
 | Number with Google Cloud tag | 0 |
 | Number with Microsoft Azure tag | 0 |
 | Number with AWS tag | 2 |
@@ -55,5 +64,5 @@
 Total planned Learning Paths: 8
 
 
-_Report generated on October 21, 2026 at 12:59:15 UTC_
+_Report generated on October 28, 2026 at 15:23:33 UTC_
 
