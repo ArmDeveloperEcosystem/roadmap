@@ -9,17 +9,28 @@
 | [Generate Arm Performix AI insights in VS Code with Claude Code](https://learn.arm.com/learning-paths/servers-and-cloud-computing/performix-agentic-dynamic-insights-claude/) | October 26, 2026 | November 03, 2026 | 8 | ACM | servers-and-cloud-computing |  |
 | [Disassemble macOS binaries to check for SME and SME2 instructions](https://learn.arm.com/learning-paths/laptops-and-desktops/disassemble-arm64-binaries/) | October 28, 2026 | November 03, 2026 | 6 |  | laptops-and-desktops |  |
 | [Run object detection with Arm Runtime for YOLO26 on Raspberry Pi 5](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/yolo26-arm-runtime/) | October 28, 2026 | November 03, 2026 | 6 |  | embedded-and-microcontrollers |  |
+| [C2PA Tool](https://learn.arm.com/install-guides/c2patool/) | November 02, 2026 | November 07, 2026 | 5 |  | install-guides |  |
+| [ExifTool](https://learn.arm.com/install-guides/exiftool/) | November 02, 2026 | November 07, 2026 | 5 |  | install-guides |  |
+| [libjpeg-turbo](https://learn.arm.com/install-guides/libjpeg-turbo/) | November 03, 2026 | November 07, 2026 | 4 |  | install-guides |  |
+| [OpenSandbox](https://learn.arm.com/install-guides/opensandbox/) | November 04, 2026 | November 07, 2026 | 3 |  | install-guides |  |
+| [Run and benchmark a WebAssembly app on AWS Graviton with wasmCloud](https://learn.arm.com/learning-paths/servers-and-cloud-computing/wasmcloud/) | November 05, 2026 | November 07, 2026 | 2 | ACM | servers-and-cloud-computing | AWS |
+| [wasmCloud](https://learn.arm.com/install-guides/wasmcloud/) | November 05, 2026 | November 07, 2026 | 2 | ACM | install-guides |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 5 |
-| Number of ACM Learning Paths published | 1 |
-| Average time to publish (days) | 10.4 |
+| Number of Learning Paths published | 11 |
+| Number of ACM Learning Paths published | 3 |
+| Average time to publish (days) | 6.6 |
 | Longest time to publish (days) | 21 |
 | Number in 'cross-platform' | 2 |
-| Number in 'servers-and-cloud-computing' | 1 |
+| Number in 'servers-and-cloud-computing' | 2 |
 | Number in 'laptops-and-desktops' | 1 |
 | Number in 'embedded-and-microcontrollers' | 1 |
+| Number in 'install-guides' | 5 |
+| Number with Google Cloud tag | 0 |
+| Number with Microsoft Azure tag | 0 |
+| Number with AWS tag | 1 |
+| Number with Oracle tag | 0 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -35,5 +46,5 @@
 Total planned Learning Paths: 7
 
 
-_Report generated on November 03, 2026 at 01:44:56 UTC_
+_Report generated on November 07, 2026 at 01:07:50 UTC_
 
