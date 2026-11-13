@@ -15,18 +15,23 @@
 | [OpenSandbox](https://learn.arm.com/install-guides/opensandbox/) | November 04, 2026 | November 07, 2026 | 3 |  | install-guides |  |
 | [Run and benchmark a WebAssembly app on AWS Graviton with wasmCloud](https://learn.arm.com/learning-paths/servers-and-cloud-computing/wasmcloud/) | November 05, 2026 | November 07, 2026 | 2 | ACM | servers-and-cloud-computing | AWS |
 | [wasmCloud](https://learn.arm.com/install-guides/wasmcloud/) | November 05, 2026 | November 07, 2026 | 2 | ACM | install-guides |  |
+| [Build Muse Glimmer 30B with Hermes and ExecuTorch on DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_muse_glimmer_executorch_hermes/) | October 16, 2026 | November 13, 2026 | 28 |  | laptops-and-desktops |  |
+| [Create and verify C2PA Content Credentials on Arm](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/c2pa-on-arm/) | November 02, 2026 | November 13, 2026 | 11 |  | embedded-and-microcontrollers |  |
+| [Build an OpenCV YOLOX pipeline to benchmark KleidiCV preprocessing](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/opencv-onnx-kleidicv-static-detection/) | November 04, 2026 | November 13, 2026 | 9 |  | embedded-and-microcontrollers |  |
+| [Pethost CLI](https://learn.arm.com/install-guides/pethost/) | November 04, 2026 | November 13, 2026 | 9 |  | install-guides |  |
+| [CMSIS Developer Assistant](https://learn.arm.com/install-guides/cmsis-developer-assistant/) | November 06, 2026 | November 13, 2026 | 7 |  | install-guides |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 11 |
+| Number of Learning Paths published | 16 |
 | Number of ACM Learning Paths published | 3 |
-| Average time to publish (days) | 6.6 |
-| Longest time to publish (days) | 21 |
+| Average time to publish (days) | 8.6 |
+| Longest time to publish (days) | 28 |
 | Number in 'cross-platform' | 2 |
 | Number in 'servers-and-cloud-computing' | 2 |
-| Number in 'laptops-and-desktops' | 1 |
-| Number in 'embedded-and-microcontrollers' | 1 |
-| Number in 'install-guides' | 5 |
+| Number in 'laptops-and-desktops' | 2 |
+| Number in 'embedded-and-microcontrollers' | 3 |
+| Number in 'install-guides' | 7 |
 | Number with Google Cloud tag | 0 |
 | Number with Microsoft Azure tag | 0 |
 | Number with AWS tag | 1 |
@@ -46,5 +51,5 @@
 Total planned Learning Paths: 7
 
 
-_Report generated on November 07, 2026 at 01:07:50 UTC_
+_Report generated on November 13, 2026 at 22:50:36 UTC_
 
