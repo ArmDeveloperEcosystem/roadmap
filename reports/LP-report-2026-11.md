@@ -19,14 +19,14 @@
 | [Create and verify C2PA Content Credentials on Arm](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/c2pa-on-arm/) | November 02, 2026 | November 13, 2026 | 11 |  | embedded-and-microcontrollers |  |
 | [Build an OpenCV YOLOX pipeline to benchmark KleidiCV preprocessing](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/opencv-onnx-kleidicv-static-detection/) | November 04, 2026 | November 13, 2026 | 9 |  | embedded-and-microcontrollers |  |
 | [Pethost CLI](https://learn.arm.com/install-guides/pethost/) | November 04, 2026 | November 13, 2026 | 9 |  | install-guides |  |
+| [Benchmark TinyStories with Google DDP and an AI agent](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/google-ddp-get-started/) | November 06, 2026 | November 13, 2026 | 7 |  | mobile-graphics-and-gaming |  |
 | [CMSIS Developer Assistant](https://learn.arm.com/install-guides/cmsis-developer-assistant/) | November 06, 2026 | November 13, 2026 | 7 |  | install-guides |  |
-| [Benchmark TinyStories with Google DDP and an AI agent](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/google-ddp-get-started/) | November 06, 2026 | November 15, 2026 | 9 |  | mobile-graphics-and-gaming |  |
 
 | Statistic | Value |
 |-----------|-------|
 | Number of Learning Paths published | 17 |
 | Number of ACM Learning Paths published | 3 |
-| Average time to publish (days) | 8.6 |
+| Average time to publish (days) | 8.5 |
 | Longest time to publish (days) | 28 |
 | Number in 'cross-platform' | 2 |
 | Number in 'servers-and-cloud-computing' | 2 |
@@ -53,5 +53,5 @@
 Total planned Learning Paths: 7
 
 
-_Report generated on November 16, 2026 at 15:44:25 UTC_
+_Report generated on November 16, 2026 at 15:48:03 UTC_
 
