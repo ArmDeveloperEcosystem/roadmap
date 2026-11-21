@@ -13,7 +13,7 @@
 | [ExifTool](https://learn.arm.com/install-guides/exiftool/) | November 02, 2026 | November 07, 2026 | 5 |  | install-guides |  |
 | [libjpeg-turbo](https://learn.arm.com/install-guides/libjpeg-turbo/) | November 03, 2026 | November 07, 2026 | 4 |  | install-guides |  |
 | [OpenSandbox](https://learn.arm.com/install-guides/opensandbox/) | November 04, 2026 | November 07, 2026 | 3 |  | install-guides |  |
-| [Run and benchmark a WebAssembly app on AWS Graviton with wasmCloud](https://learn.arm.com/learning-paths/servers-and-cloud-computing/wasmcloud/) | November 05, 2026 | November 07, 2026 | 2 | ACM | servers-and-cloud-computing | AWS |
+| [Run and benchmark a WebAssembly app on AWS Graviton with wasmCloud](https://learn.arm.com/learning-paths/servers-and-cloud-computing/wasmcloud/) | November 05, 2026 | November 07, 2026 | 2 | ACM | servers-and-cloud-computing |  |
 | [wasmCloud](https://learn.arm.com/install-guides/wasmcloud/) | November 05, 2026 | November 07, 2026 | 2 | ACM | install-guides |  |
 | [Build Muse Glimmer 30B with Hermes and ExecuTorch on DGX Spark](https://learn.arm.com/learning-paths/laptops-and-desktops/dgx_spark_muse_glimmer_executorch_hermes/) | October 16, 2026 | November 13, 2026 | 28 |  | laptops-and-desktops |  |
 | [Create and verify C2PA Content Credentials on Arm](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/c2pa-on-arm/) | November 02, 2026 | November 13, 2026 | 11 |  | embedded-and-microcontrollers |  |
@@ -21,23 +21,23 @@
 | [Pethost CLI](https://learn.arm.com/install-guides/pethost/) | November 04, 2026 | November 13, 2026 | 9 |  | install-guides |  |
 | [Benchmark TinyStories with Google DDP and an AI agent](https://learn.arm.com/learning-paths/mobile-graphics-and-gaming/google-ddp-get-started/) | November 06, 2026 | November 13, 2026 | 7 |  | mobile-graphics-and-gaming |  |
 | [CMSIS Developer Assistant](https://learn.arm.com/install-guides/cmsis-developer-assistant/) | November 06, 2026 | November 13, 2026 | 7 |  | install-guides |  |
+| [Optimize ExecuTorch fallback with CMSIS-NN on Cortex-M](https://learn.arm.com/learning-paths/embedded-and-microcontrollers/optimize-executorch-fallback-cortex-m/) | November 06, 2026 | November 21, 2026 | 15 |  | embedded-and-microcontrollers |  |
+| [Explore SME matrix operations with interactive visualizations](https://learn.arm.com/learning-paths/cross-platform/explore-sme-visualisations/) | November 09, 2026 | November 21, 2026 | 12 |  | cross-platform |  |
+| [E2B](https://learn.arm.com/install-guides/e2b/) | November 17, 2026 | November 21, 2026 | 4 | ACM | install-guides |  |
+| [Distrobox](https://learn.arm.com/install-guides/distrobox/) | November 17, 2026 | November 21, 2026 | 4 |  | install-guides |  |
 
 | Statistic | Value |
 |-----------|-------|
-| Number of Learning Paths published | 17 |
-| Number of ACM Learning Paths published | 3 |
+| Number of Learning Paths published | 21 |
+| Number of ACM Learning Paths published | 4 |
 | Average time to publish (days) | 8.5 |
 | Longest time to publish (days) | 28 |
-| Number in 'cross-platform' | 2 |
+| Number in 'cross-platform' | 3 |
 | Number in 'servers-and-cloud-computing' | 2 |
 | Number in 'laptops-and-desktops' | 2 |
-| Number in 'embedded-and-microcontrollers' | 3 |
-| Number in 'install-guides' | 7 |
+| Number in 'embedded-and-microcontrollers' | 4 |
+| Number in 'install-guides' | 9 |
 | Number in 'mobile-graphics-and-gaming' | 1 |
-| Number with Google Cloud tag | 0 |
-| Number with Microsoft Azure tag | 0 |
-| Number with AWS tag | 1 |
-| Number with Oracle tag | 0 |
 
 ## Planned Learning Paths
 | Title | Program | Created Date |
@@ -53,5 +53,5 @@
 Total planned Learning Paths: 7
 
 
-_Report generated on November 16, 2026 at 15:48:03 UTC_
+_Report generated on November 21, 2026 at 17:17:23 UTC_
 
